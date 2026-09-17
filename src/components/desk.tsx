@@ -6,7 +6,8 @@ import { CONSULT_URL } from "@/data/consult";
 import { askFromFeatured } from "@/data/goals";
 import { askDrPep } from "@/lib/ask-dr-pep";
 import { composeClarify, retrieveAsk, shouldClarify } from "@/lib/retrieve";
-import { useDesk } from "@/lib/desk-store";
+import { hydrateAdult, useDesk } from "@/lib/desk-store";
+import { AgeGate } from "@/components/age-gate";
 import { FeelPicker, HeardPills } from "@/components/feel";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";
@@ -48,6 +49,8 @@ const copy = {
 };
 
 export function Desk() {
+  const adult = useDesk((s) => s.adult);
+  const setAdult = useDesk((s) => s.setAdult);
   const lang = useDesk((s) => s.lang);
   const setLang = useDesk((s) => s.setLang);
   const messages = useDesk((s) => s.messages);
@@ -62,6 +65,10 @@ export function Desk() {
   const [mobileLib, setMobileLib] = useState(false);
   const logRef = useRef<HTMLDivElement>(null);
   const t = copy[lang];
+
+  useEffect(() => {
+    hydrateAdult();
+  }, []);
 
   useEffect(() => {
     logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: "smooth" });
@@ -115,6 +122,8 @@ export function Desk() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      {!adult ? <AgeGate onAdult={setAdult} /> : null}
+
       <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
           <Link to="/" className="flex items-center gap-2">
