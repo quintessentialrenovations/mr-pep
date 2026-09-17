@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Mr. Pep",
+      "hasCanvas": false,
+      "bodyTextLen": 1810,
+      "bodyTextHash": "a02305b98720af55e02ddea39e3d1d93470f9dbe5af098a7c68365e60ab1adc7",
+      "bodyTextPrefix": "AGE VERIFICATION Are you 18 or older? This guide compiles ISSCA ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Mr. Pep",
+      "hasCanvas": false,
+      "bodyTextLen": 1781,
+      "bodyTextHash": "84172861dc4ea8c4cc4aa5858adfd60342435f22653073c1548619241a6d0ebd",
+      "bodyTextPrefix": "AGE VERIFICATION Are you 18 or older? This guide compiles ISSCA ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

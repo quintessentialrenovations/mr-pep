@@ -1,0 +1,584 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/goals-JBdGIbH_.js
+/** Everyday language → ISSCA library. People do not need peptide names. */
+var GOALS = [
+	{
+		id: "weight",
+		title: "Overweight / body composition",
+		chip: {
+			en: "Overweight / diabetes",
+			es: "Sobrepeso / diabetes"
+		},
+		hint: {
+			en: "Labeled GLP-1s under a prescriber, plus protein and lifting",
+			es: "GLP-1 con receta, mas proteina y fuerza"
+		},
+		utterance: "I am overweight and I have diabetes or blood-sugar concerns",
+		plain: "If the main problem is extra weight, ISSCA’s metabolic chapter is about labeled GLP-1 medicines (semaglutide, tirzepatide, liraglutide) under a prescriber — not a research ‘fat peptide’ from a chat. Protein and lifting are mandatory so you do not melt muscle. Tesamorelin is a labeled GHRH analogue for visceral fat in a specific population, not a general weight-loss vial.",
+		keywords: [
+			"overweight",
+			"obese",
+			"obesity",
+			"lose weight",
+			"losing weight",
+			"weight loss",
+			"lose fat",
+			"fat loss",
+			"belly fat",
+			"belly",
+			"visceral",
+			"bmi",
+			"sobrepeso",
+			"adelgazar",
+			"bajar de peso",
+			"kilos de mas",
+			"plus size",
+			"im fat",
+			"i am fat",
+			"got fat",
+			"gained weight",
+			"get in shape",
+			"slim down",
+			"lose pounds",
+			"lose kilos",
+			"diet pill",
+			"ozempic",
+			"wegovy",
+			"mounjaro",
+			"zepbound",
+			"semaglutide",
+			"tirzepatide",
+			"diabetes",
+			"diabetic",
+			"blood sugar",
+			"a1c",
+			"insulin",
+			"prediabetes",
+			"pre-diabetes"
+		],
+		signals: [
+			"\\b(overweight|obes|sobrepeso|adelgazar|bajar de peso)\\b",
+			"\\b(lose|losing|lost|drop|gain|gained)\\b.{0,20}\\b(weight|pounds|lbs|kilos|kg|fat)\\b",
+			"\\b(extra|too much)\\b.{0,12}\\b(weight|fat|belly)\\b",
+			"\\b(im|i am)\\s+fat\\b",
+			"\\b(get in shape|slim down|cut fat|body comp)",
+			"\\b(ozempic|wegovy|mounjaro|zepbound|glp-?1)\\b",
+			"\\b(diabet|blood sugar|a1c|insulin|pre-?diabetes)\\b"
+		],
+		firstDo: [
+			"A clinician screens diabetes, pancreatitis history, MTC/MEN2, pregnancy, gastroparesis.",
+			"Protein ≥ 1.6 g/kg and resistance training ≥ 3×/week (Vol 2 metabolic rules) if a GLP-1 is even discussed.",
+			"No crash starvation. Weight loss is not the Vol 2 longevity objective — metabolic clarity is."
+		],
+		peptideIds: [
+			"glp1",
+			"tesamorelin-mito",
+			"cjc-ipam"
+		],
+		stackIds: ["longevity-4"],
+		protocolIds: ["glp-t2d", "metabolic-v2-1"],
+		sequence: "Prescriber + label first. GH secretagogues only later to protect lean mass once GLP-1 is tolerated — Vol 2 says avoid daytime GH during aggressive fat-loss phases.",
+		caution: "GLP-1s are prescription drugs. Research vials are not a substitute for a pen you were prescribed.",
+		source: "Vol 1 Ch.10; Vol 2 Ch.17; Vol 1 Ch.1 tesamorelin arsenal",
+		clarify: ["Are you already on a GLP-1, or is this the first conversation about one?", "Any history of pancreatitis, medullary thyroid cancer / MEN2, pregnancy, or severe gastroparesis?"]
+	},
+	{
+		id: "joints",
+		title: "Sore joints / joint pain",
+		chip: {
+			en: "Sore joints / joint pain",
+			es: "Dolor articular"
+		},
+		hint: {
+			en: "Load and rehab first, then local repair talk",
+			es: "Carga y rehabilitacion primero, luego reparacion"
+		},
+		utterance: "My joints hurt",
+		plain: "Sore joints and joint pain are a load-and-tissue problem first. ISSCA’s repair peptides (BPC-157 locally, TB-500 if the problem is widespread) are discussed for stalled tendon/ligament healing — not as a painkiller and not instead of rehab. If you also carry extra weight, unloading the joint (metabolic care) often matters as much as the peptide.",
+		keywords: [
+			"knee",
+			"knees",
+			"joint",
+			"joints",
+			"rodilla",
+			"rodillas",
+			"hip",
+			"hips",
+			"shoulder",
+			"arthrit",
+			"stiff",
+			"aching",
+			"hurting",
+			"sore knees",
+			"sore joints",
+			"joint pain",
+			"knee pain",
+			"dolor",
+			"duelen",
+			"duele",
+			"articular",
+			"meniscus",
+			"cartilage",
+			"creaky",
+			"clicking knee",
+			"swollen knee"
+		],
+		signals: [
+			"\\b(knee|knees|joint|joints|hip|hips|shoulder|rodilla|rodillas)\\b",
+			"\\b(hurt|hurts|hurting|pain|sore|stiff|ache|aching|swollen)\\b.{0,24}\\b(knee|joint|hip|shoulder|rodilla)",
+			"\\b(knee|joint|hip|shoulder|rodilla).{0,24}\\b(hurt|hurts|hurting|pain|sore|stiff|ache|swollen)",
+			"\\b(arthrit|meniscus|cartilage|osteo)"
+		],
+		firstDo: [
+			"Get the joint examined if it is hot, locked, unstable, or after a pop/twist — peptides do not replace imaging or a surgeon.",
+			"Rehab load is mandatory in Vol 2. Peptides without loading = protocol failure.",
+			"Pain ≤ 3/10 during loading is the book’s rule of thumb, not ‘train through it’."
+		],
+		peptideIds: [
+			"bpc-157",
+			"tb-500",
+			"kpv"
+		],
+		stackIds: ["injury-a", "injury-b"],
+		protocolIds: ["bpc-tendon", "tb-acute"],
+		sequence: "Local repair (BPC-157) for a stalled tendon/ligament. Add TB-500 when it is multi-site or systemic. Add KPV only if inflammation is blocking healing. Do not escalate milligrams because it still hurts at week 1.",
+		caution: "Active malignancy is a theoretical angiogenesis caution for BPC-157 and TB-500.",
+		source: "Vol 1 Ch.4–5; Vol 2 Ch.4 and Ch.13",
+		clarify: ["Is this one joint after a pop or twist, or a long-running ache in several joints?", "Any locking, giving-way, heat, or swelling that needs imaging first?"]
+	},
+	{
+		id: "injury",
+		title: "Injured / slow healing",
+		chip: {
+			en: "Slow healing",
+			es: "Sano lento"
+		},
+		hint: {
+			en: "Repair biology plus the load that actually remodels",
+			es: "Biologia de reparacion y la carga que remodela"
+		},
+		utterance: "I am injured and healing slowly",
+		plain: "ISSCA treats BPC-157 as the foundational repair peptide and TB-500 as systemic remodeling. They shorten the biology of healing when rehab is in place. They are not ‘make it not injured.’ Post-op timing in Vol 2 is usually after the acute inflammatory spike (often day 5–7+), and GH support is delayed.",
+		keywords: [
+			"injur",
+			"injured",
+			"injury",
+			"tear",
+			"torn",
+			"sprain",
+			"strain",
+			"healing",
+			"heal slowly",
+			"slow healing",
+			"lesion",
+			"lesionado",
+			"lesionada",
+			"surgery",
+			"post op",
+			"post-op",
+			"tendon",
+			"ligament",
+			"recovery from",
+			"hamstring",
+			"rotator",
+			"pulled muscle",
+			"acl",
+			"mcl",
+			"wound"
+		],
+		signals: [
+			"\\b(injur|injured|injury|lesion|lesionado|lesionada)\\b",
+			"\\b(tear|torn|sprain|strain|rupture|pulled)\\b",
+			"\\b(surgery|post-?op|operation|acl|mcl|rotator|hamstring|tendon|ligament)\\b",
+			"\\bheal(ing|s)?\\b.{0,16}\\bslow",
+			"\\bslow.{0,16}\\bheal"
+		],
+		firstDo: ["Name the tissue if you can (tendon vs muscle vs surgical wound).", "Keep the rehab your clinician set. The books are clear: load remodels tissue; peptides support the biology around that."],
+		peptideIds: [
+			"bpc-157",
+			"tb-500",
+			"kpv"
+		],
+		stackIds: [
+			"injury-a",
+			"injury-c",
+			"injury-v2-v",
+			"mag-muscle"
+		],
+		protocolIds: [
+			"bpc-tendon",
+			"bpc-postop",
+			"tb-acute"
+		],
+		sequence: "BPC-157 daily range → TB-500 if extensive → KPV if angry inflammation → GH-support only if recovery capacity is globally shot and sleep is already fixed. No GH in the first 2 weeks post-op (Vol 2).",
+		caution: "Not a substitute for rest, surgery, or physical therapy.",
+		source: "Vol 1 Ch.4–5; Vol 2 Ch.4, Ch.13",
+		clarify: ["Which tissue — tendon, muscle, ligament, or a surgical wound?", "How many weeks since the injury or operation?"]
+	},
+	{
+		id: "puffiness",
+		title: "Puffy face / morning swollen eyes",
+		chip: {
+			en: "Puffy face / swollen eyes",
+			es: "Cara hinchada / ojos hinchados"
+		},
+		hint: {
+			en: "Morning fluid, inflammation, and mitochondrial foundations",
+			es: "Liquido de manana, inflamacion y bases mitocondriales"
+		},
+		utterance: "I have a puffy face and swollen eyes in the morning",
+		plain: "Morning facial puff or swollen eyes is usually fluid, sleep, salt, alcohol, allergy, or thyroid. People do use appearance peptides here — a clinician can talk through stacking. The first map is still the body's ability to clear fluid and repair: sleep, protein, easy movement / zone-2, and quieting inflammatory noise when that is the driver. ISSCA's mitochondrial chapter (Vol 2 Ch.15) is that foundation, not an IV. GHK-Cu can enter if skin quality is also the goal. GH secretagogues can add edema, so they are a later conversation, not a morning-puff opener. This desk will not invent a MOTS-c or NAD milligram recipe.",
+		keywords: [
+			"puffy",
+			"puffiness",
+			"puffy face",
+			"puffy eyes",
+			"swollen eyes",
+			"swollen face",
+			"bags under",
+			"eye bags",
+			"under eye",
+			"under-eye",
+			"eyelid",
+			"eyelids",
+			"morning face",
+			"moon face",
+			"facial swelling",
+			"swollen lids",
+			"dark circles",
+			"hinchad",
+			"bolsas",
+			"ojos hinchados",
+			"cara hinchada"
+		],
+		signals: [
+			"\\b(puffy|puffiness|swollen|swelling|bags?|edema)\\b.{0,24}\\b(eye|eyes|face|facial|lid|lids)\\b",
+			"\\b(eye|eyes|face|facial|lid|lids)\\b.{0,24}\\b(puffy|puffiness|swollen|swelling|bags?|edema)\\b",
+			"\\b(morning).{0,20}\\b(puff|swell|bags|face|eyes)\\b",
+			"\\b(eye|eyes|face|facial)\\b.{0,32}\\b(morning|noon|afternoon)",
+			"\\b(facial).{0,20}\\b(puff|swell|morning)\\b",
+			"\\b(dark circles|under-?eye|moon face)\\b",
+			"\\b(ojos?|cara|parpados?).{0,16}\\b(hinchad|bolsas|inflam)"
+		],
+		firstDo: [
+			"If it is both sides, every morning, and it fades by afternoon, start with last night's salt, alcohol, sleep, and allergy — that is still the most common map.",
+			"One-sided, painful, or with vision change is a clinician visit, not a peptide.",
+			"Sleep, protein, and zone-2 / easy movement are what Volume 2 actually lists as mitochondrial support for the body's ability to heal."
+		],
+		peptideIds: [
+			"kpv",
+			"ghk-cu",
+			"cjc-ipam",
+			"mots-c"
+		],
+		stackIds: ["mito-foundations", "longevity-1"],
+		protocolIds: [],
+		sequence: "Foundations first (sleep, salt/alcohol, allergy, thyroid if it persists). Quiet inflammatory noise (KPV) if the tissue looks angry. Mitochondrial support in this library is lifestyle plus research literacy (MOTS-c, SS-31, NAD — no ISSCA milligram table). GHK-Cu if skin quality is also the goal. A clinician can phase into GH-support (CJC + ipamorelin) later if recovery or lean mass is part of looking better — flag edema, because that can worsen morning puff. People do stack these; talk stacking through with a clinician rather than opening everything on day one.",
+		caution: "GLP-1s can change facial volume; GH secretagogues can add edema. If you are already on either, say so before adding more. Research peptides are not approved drugs.",
+		source: "Vol 2 Ch.15 mitochondrial foundations; Vol 1 Ch.1 GHK-Cu arsenal; Vol 1 Ch.6 KPV; Vol 1 Ch.8 GH-support edema caution",
+		clarify: ["Is it both eyes, every morning, and does it fade by afternoon — or is it one-sided, painful, or new?", "Any allergy, thyroid issue, extra salt or alcohol, a new medicine, or are you already on a GLP-1 or GH secretagogue?"]
+	},
+	{
+		id: "skin",
+		title: "Tighter skin / appearance",
+		chip: {
+			en: "Glow / look better",
+			es: "Glow / verme mejor"
+		},
+		hint: {
+			en: "Skin quality, then GH-support if lean mass is part of it",
+			es: "Calidad de piel, luego GH si entra la masa magra"
+		},
+		utterance: "I want tighter skin and to improve the way that I look",
+		plain: "For skin quality, ISSCA lists GHK-Cu in the Volume 1 arsenal (1–2 mg daily in that quick-reference) as a copper peptide for skin and wound-adjacent talk — not a facelift. Looking better after weight change is mostly collagen time, protein, and lifting; a GLP-1 changes mass, it does not tighten skin by itself. People often combine “glow” peptides. That can be a clinician conversation. This desk sequences rather than scolds: mitochondrial foundations (sleep, protein, zone-2 — Vol 2 Ch.15) sit under the body’s ability to repair, then GHK-Cu, then GH-support (CJC + ipamorelin) if lean mass and recovery are part of how you want to look. MOTS-c / SS-31 / NAD are research literacy here — no ISSCA milligram table to quote.",
+		keywords: [
+			"skin",
+			"tighter",
+			"tight skin",
+			"tighter skin",
+			"sag",
+			"sagging",
+			"wrinkle",
+			"wrinkles",
+			"collagen",
+			"glow",
+			"glow peptides",
+			"appearance",
+			"look better",
+			"look younger",
+			"how i look",
+			"that i look",
+			"way i look",
+			"way that i look",
+			"improve how i look",
+			"improve the way",
+			"the way that i look",
+			"piel",
+			"flacida",
+			"anti aging skin",
+			"cellulite",
+			"firm up",
+			"cosmetic"
+		],
+		signals: [
+			"\\b(tighter|tight|firmer|firm)\\b.{0,12}\\bskin\\b",
+			"\\bskin\\b.{0,12}\\b(tight|tighter|firmer|sag|loose|glow)",
+			"\\b(look|looking)\\b.{0,16}\\b(better|younger|good|tighter)",
+			"\\bimprove.{0,28}\\b(look|appearance|skin)",
+			"\\b(way|how).{0,16}\\blook",
+			"\\b(wrinkle|sagging|collagen|glow|flacida|piel|cellulite)\\b"
+		],
+		firstDo: [
+			"Sleep, protein, and lifting still drive how skin looks after a body-composition change.",
+			"Sun and not starving matter more than an extra compound.",
+			"GHK-Cu is an arsenal adjunct. Indicated dermatology or surgery still wins if that is the actual job."
+		],
+		peptideIds: [
+			"ghk-cu",
+			"cjc-ipam",
+			"mots-c",
+			"ptd-dbm"
+		],
+		stackIds: [
+			"mito-foundations",
+			"longevity-1",
+			"longevity-2",
+			"mag-beauty"
+		],
+		protocolIds: [],
+		sequence: "Mitochondrial foundations first (sleep, protein, zone-2) because they are the body’s repair capacity. Then GHK-Cu for skin quality. If looking better includes lean mass or recovery, a clinician can phase into CJC + ipamorelin after those foundations. People do stack glow peptides — discuss the stack with a clinician rather than opening MOTS-c + NAD + GHK + GH on day one. MOTS-c / SS-31 / NAD stay literacy unless a clinician owns the dose.",
+		caution: "Cosmetic promises are not ISSCA endpoints. Research copper peptides are not approved skin drugs in this library.",
+		source: "Vol 1 Ch.1 arsenal (GHK-Cu); Vol 2 Ch.15 mitochondrial multiplier; Vol 1 Ch.8 GH-support; ISSCA Peptides Magazine beauty stack",
+		clarify: ["Is the goal skin quality, facial volume after weight change, or both?", "Are you already using a GLP-1, GHK-Cu, or any GH secretagogue?"]
+	},
+	{
+		id: "gut",
+		title: "Gut / bloating / barrier",
+		chip: {
+			en: "Gut is angry",
+			es: "El intestino esta mal"
+		},
+		hint: {
+			en: "Diet first. Then barrier / inflammation cards",
+			es: "Dieta primero. Luego barrera e inflamacion"
+		},
+		utterance: "My gut is inflamed, bloated, or irritated",
+		plain: "For gut irritation and barrier talk, ISSCA uses oral or SC BPC-157 (acid-stable) and KPV as the anti-inflammatory fragment. Diet still has to change. This is not a chatbot IBS drug.",
+		keywords: [
+			"gut",
+			"bloating",
+			"bloated",
+			"ibs",
+			"gastr",
+			"leaky",
+			"reflux",
+			"intestino",
+			"sibo",
+			"stomach",
+			"colon",
+			"constipation",
+			"diarrhea",
+			"nausea",
+			"heartburn"
+		],
+		signals: ["\\b(gut|bloating|bloated|ibs|gastr|leaky|reflux|intestino|sibo|stomach|colon)\\b", "\\b(constipat|diarrhea|heartburn|nausea)\\b"],
+		firstDo: ["Dietary correction is in the Vol 2 gut protocol — it sits alongside the peptides, not after them."],
+		peptideIds: ["bpc-157", "kpv"],
+		stackIds: ["gut-a"],
+		protocolIds: ["bpc-gut", "kpv-ibd"],
+		sequence: "Quiet inflammation (KPV) if the gut is volatile, then barrier repair (BPC-157). Vol 2: do not start barrier repair while immune noise is still wild.",
+		caution: "Not a substitute for GI workup (bleeding, obstruction, fever).",
+		source: "Vol 1 Ch.4 and Ch.6; Vol 2 Ch.4 Protocol 4, Ch.6",
+		clarify: ["How long has the gut been like this, and has diet already changed?", "Any bleeding, fever, or signs that need a GI workup first?"]
+	},
+	{
+		id: "recovery",
+		title: "Slow recovery / run-down",
+		chip: {
+			en: "Tired all the time",
+			es: "Cansado todo el tiempo"
+		},
+		hint: {
+			en: "Sleep first, then recovery and GH-support talk",
+			es: "Sueno primero, luego recuperacion y GH"
+		},
+		utterance: "I feel run-down and I recover slowly",
+		plain: "If you feel run-down, ISSCA looks at sleep-related GH pulses (CJC + ipamorelin), immune quieting (TA-1 / KPV), and the body’s repair capacity — in that order. Volume 2 treats mitochondrial support as a multiplier of those signals: sleep, protein, zone-2, then peptide talk. MOTS-c, SS-31, and NAD are research literacy in this library (no ISSCA milligram table). A clinician can combine them; we will not invent a day-one mito stack.",
+		keywords: [
+			"tired",
+			"fatigue",
+			"run down",
+			"run-down",
+			"recovery",
+			"recover",
+			"sleep",
+			"exhausted",
+			"energy",
+			"longevity",
+			"anti aging",
+			"anti-aging",
+			"burned out",
+			"burnt out",
+			"no energy",
+			"can't sleep",
+			"insomni",
+			"mitochondri",
+			"cellular energy",
+			"zone 2",
+			"zone-2"
+		],
+		signals: [
+			"\\b(tired|fatigue|exhausted|run-?down|burned out|burnt out)\\b",
+			"\\b(no|low)\\b.{0,8}\\benergy\\b",
+			"\\b(can't|cant|poor)\\b.{0,8}\\bsleep\\b",
+			"\\b(longevity|anti-?aging|recover(y|ing)? slow)",
+			"\\b(mitochondri|cellular energy|zone-?2)\\b"
+		],
+		firstDo: ["Protect sleep. Volume 2: poor sleep means poor GH and poor repair, whatever the dose."],
+		peptideIds: [
+			"cjc-ipam",
+			"ta-1",
+			"kpv",
+			"mots-c",
+			"epitalon",
+			"humanin"
+		],
+		stackIds: [
+			"mito-foundations",
+			"longevity-1",
+			"longevity-2",
+			"ghs-recovery",
+			"mag-longevity",
+			"mag-neuro",
+			"mag-immune",
+			"mag-terrain"
+		],
+		protocolIds: [],
+		sequence: "Mitochondrial foundations (sleep, protein, zone-2) sit under everything. Then Class I quiet inflammation, then Class II GH-support. MOTS-c / SS-31 / NAD stay literacy unless a clinician owns the dose. People do combine these — discuss the stack rather than opening everything at once.",
+		caution: "GH secretagogues need a working pituitary and are contraindicated in active cancer talk. Faculty magazine: do not sell peptides as magic; lifestyle is still the foundation.",
+		source: "Vol 1 Ch.8; Vol 2 Ch.8 and Ch.15; ISSCA Peptides Magazine longevity/neuro/immune stacks",
+		clarify: ["How is your sleep, in hours and quality?", "Is the main complaint energy, recovery after training, or getting sick often?"]
+	}
+];
+var GOAL_PRIORITY = [
+	"injury",
+	"joints",
+	"gut",
+	"puffiness",
+	"weight",
+	"recovery",
+	"skin"
+];
+/** Homepage talking points — what people actually complain about. Puffiness stays matchable, not featured. */
+var FEATURED = [
+	{
+		id: "weight",
+		goalId: "weight",
+		chip: {
+			en: "Overweight / diabetes",
+			es: "Sobrepeso / diabetes"
+		},
+		hint: {
+			en: "Labeled GLP-1s, protein, and lifting",
+			es: "GLP-1 con receta, proteina y fuerza"
+		},
+		utterance: "I am overweight and I have diabetes or blood-sugar concerns"
+	},
+	{
+		id: "tired",
+		goalId: "recovery",
+		chip: {
+			en: "Tired all the time",
+			es: "Cansado todo el tiempo"
+		},
+		hint: {
+			en: "Sleep, recovery, then GH-support if it fits",
+			es: "Sueno, recuperacion, luego GH si aplica"
+		},
+		utterance: "I am tired all the time and I recover slowly"
+	},
+	{
+		id: "joints",
+		goalId: "joints",
+		chip: {
+			en: "Sore joints / joint pain",
+			es: "Dolor articular"
+		},
+		hint: {
+			en: "Load and rehab, then local repair talk",
+			es: "Carga y rehab, luego reparacion"
+		},
+		utterance: "My joints hurt"
+	},
+	{
+		id: "injury",
+		goalId: "injury",
+		chip: {
+			en: "Slow healing",
+			es: "Sano lento"
+		},
+		hint: {
+			en: "Repair biology plus the load that remodels",
+			es: "Reparacion y la carga que remodela"
+		},
+		utterance: "I am injured and healing slowly"
+	},
+	{
+		id: "glow",
+		goalId: "skin",
+		chip: {
+			en: "Glow / look better",
+			es: "Glow / verme mejor"
+		},
+		hint: {
+			en: "Skin quality, foundations, then GH-support",
+			es: "Piel, bases, luego GH"
+		},
+		utterance: "I want more glow and to look better"
+	},
+	{
+		id: "longevity",
+		goalId: "recovery",
+		chip: {
+			en: "Longevity",
+			es: "Longevidad"
+		},
+		hint: {
+			en: "Mitochondrial foundations, then sequenced support",
+			es: "Bases mitocondriales, luego apoyo en orden"
+		},
+		utterance: "I want longevity and to age better"
+	},
+	{
+		id: "gut",
+		goalId: "gut",
+		chip: {
+			en: "Gut is off",
+			es: "El intestino esta mal"
+		},
+		hint: {
+			en: "Diet, then barrier and inflammation cards",
+			es: "Dieta, luego barrera e inflamacion"
+		},
+		utterance: "My gut is inflamed, bloated, or irritated"
+	},
+	{
+		id: "mito",
+		goalId: "recovery",
+		chip: {
+			en: "Mitochondrial support",
+			es: "Apoyo mitocondrial"
+		},
+		hint: {
+			en: "Sleep, protein, zone-2 — then research literacy",
+			es: "Sueno, proteina, zona-2, luego la literatura"
+		},
+		utterance: "I want mitochondrial support and better cellular energy"
+	}
+];
+function askFromFeatured(chipIds) {
+	const picked = FEATURED.filter((f) => chipIds.includes(f.id));
+	if (!picked.length) return "";
+	return `${picked.map((f) => f.utterance).join(". ")}. I don't know peptide names. Ask your clarifying questions first. After I answer, sequence what the books would discuss, including mitochondrial support.`;
+}
+//#endregion
+export { askFromFeatured as i, GOALS as n, GOAL_PRIORITY as r, FEATURED as t };

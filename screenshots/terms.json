@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/terms",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Mr. Pep",
+      "hasCanvas": false,
+      "bodyTextLen": 3459,
+      "bodyTextHash": "8475117dc5fc95ab67a63f5a3483ae3e4b74386bbc1f5171860ff28513fe98db",
+      "bodyTextPrefix": "Terms Back to Mr. Pep LEGAL Terms & Disclaimers Mr. Pep is an ed",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/terms.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Mr. Pep",
+      "hasCanvas": false,
+      "bodyTextLen": 3459,
+      "bodyTextHash": "8475117dc5fc95ab67a63f5a3483ae3e4b74386bbc1f5171860ff28513fe98db",
+      "bodyTextPrefix": "Terms Back to Mr. Pep LEGAL Terms & Disclaimers Mr. Pep is an ed",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/terms-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/terms.json"
+}
