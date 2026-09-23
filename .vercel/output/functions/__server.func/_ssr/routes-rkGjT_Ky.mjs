@@ -2,13 +2,14 @@ import { i as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TSS_SERVER_FUNCTION, r as getServerFnById, t as createServerFn } from "./ssr.mjs";
-import { t as kb } from "./kb-Cf7MQEII.mjs";
+import { t as kb } from "./kb-DMTCCrYb.mjs";
 import { i as askFromFeatured, t as FEATURED } from "./goals-JBdGIbH_.mjs";
-import { a as shouldClarify, i as retrieveAsk, r as matchGoals, t as composeClarify } from "./retrieve-O75Xofb3.mjs";
-import { n as Button, r as CopyNote, s as RetrievedViews, t as Badge, u as cn } from "./library-cards-Daq-R0x-.mjs";
-import { a as ScanFace, c as Moon, d as HeartPulse, f as FlaskConical, h as Bandage, i as Send, l as LoaderCircle, m as Bone, o as Scale, p as Calendar, r as ShieldAlert, s as Salad, t as Zap, u as Library } from "../_libs/lucide-react.mjs";
+import { a as shouldClarify, i as retrieveAsk, r as matchGoals, t as composeClarify } from "./retrieve-lVfeK4DQ.mjs";
+import { i as SiteFooter, o as cn, t as Button } from "./site-footer-BXPk4NRR.mjs";
+import { n as CopyNote, o as RetrievedViews, t as Badge } from "./library-cards-jRUQ7W6D.mjs";
+import { a as ScanFace, c as Moon, d as HeartPulse, f as FlaskConical, g as Bandage, h as Bone, i as Send, l as LoaderCircle, m as Calendar, o as Scale, p as ClipboardList, r as ShieldAlert, s as Salad, t as Zap, u as Library } from "../_libs/lucide-react.mjs";
 import { t as create } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DZCNADMR.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-rkGjT_Ky.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var createSsrRpc = (functionId) => {
@@ -71,20 +72,33 @@ function AgeGate({ onAdult }) {
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-3 text-sm leading-relaxed text-muted",
-					children: "This guide quotes ISSCA textbooks. It is educational, not a prescription. Research peptides are not approved drugs — not a consumer treatment plan."
+					children: "This guide compiles ISSCA publications for education. It is not a prescription, not affiliated with ISSCA, and takes no liability. Research peptides are not approved drugs."
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mt-6 flex flex-col gap-2",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 						className: "w-full",
 						onClick: onAdult,
-						children: "Yes, I am 18 or older"
+						children: "Yes, I am 18+ and I agree to the Terms"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 						variant: "outline",
 						className: "w-full",
 						type: "button",
 						children: "No"
 					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+					className: "mt-4 text-xs leading-relaxed text-muted",
+					children: [
+						"By continuing you accept the",
+						" ",
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/terms",
+							className: "font-semibold text-primary",
+							children: "Terms & Disclaimers"
+						}),
+						", including no medical advice and no liability."
+					]
 				})
 			]
 		})
@@ -193,7 +207,7 @@ var copy = {
 		titleB: "What questions do you have around health, longevity, peptides, mitochondrial support?",
 		lede: "Tap how you feel below, or type it in your words. We'll ask a couple of questions, then sequence what the books discuss, including mitochondrial support. A clinician decides what you actually use.",
 		status: "ISSCA-grounded",
-		banner: "Educational only — not a prescription. Approved GLP-1s follow the label. Research peptides are not interchangeable with approved drugs. Talk anything you use through with a clinician.",
+		banner: "Educational only — not a prescription. Not affiliated with ISSCA or any clinic. No liability. Approved GLP-1s follow the label. Research peptides are not approved drugs. A clinician decides.",
 		ask: "Conversation",
 		ph: "I'm tired, my joints hurt, I want more energy…",
 		send: "Ask",
@@ -207,7 +221,7 @@ var copy = {
 		titleB: "Que preguntas tienes sobre salud, longevidad, peptidos, apoyo mitocondrial?",
 		lede: "Toca como te sientes, o escribelo. Primero unas preguntas, luego la secuencia de los libros, incluido el apoyo mitocondrial. Un clinico decide que usas.",
 		status: "Basado en ISSCA",
-		banner: "Solo educativo. Los GLP-1 aprobados siguen la ficha tecnica. Los peptidos de investigacion no son medicamentos aprobados. Habla con un clinico antes de usar nada.",
+		banner: "Solo educativo. No estamos afiliados a ISSCA ni a ninguna clinica. Sin responsabilidad. Los GLP-1 aprobados siguen la ficha tecnica. Un clinico decide.",
 		ask: "Conversacion",
 		ph: "Estoy cansado, me duelen las articulaciones, quiero mas energia…",
 		send: "Preguntar",
@@ -326,6 +340,24 @@ function Desk() {
 									variant: "ghost",
 									size: "sm",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FlaskConical, { className: "size-4" }), "Mitochondria"]
+								})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+								to: "/protocols",
+								className: "hidden sm:block",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+									variant: "ghost",
+									size: "sm",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ClipboardList, { className: "size-4" }), "Protocols"]
+								})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+								to: "/terms",
+								className: "hidden sm:block",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+									variant: "ghost",
+									size: "sm",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "size-4" }), "Terms"]
 								})
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -527,7 +559,8 @@ function Desk() {
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(RetrievedViews, { items: pinned })]
 				})
-			}) : null
+			}) : null,
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteFooter, {})
 		]
 	});
 }

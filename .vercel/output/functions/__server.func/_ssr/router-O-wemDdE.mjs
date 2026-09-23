@@ -3,8 +3,8 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { f as createRouter, g as createRootRoute, h as createFileRoute, l as Scripts, m as lazyRouteComponent, p as Outlet, u as HeadContent, v as useRouter, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CGfJgfLz.js
-var router_CGfJgfLz_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-O-wemDdE.js
+var router_O_wemDdE_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -298,9 +298,9 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-D9tYlq83.css";
+var styles_default = "/assets/styles-DGa0BErA.css";
 var APP_NAME = "Mr. Pep";
-var Route$3 = createRootRoute({
+var Route$5 = createRootRoute({
 	head: () => ({
 		meta: [
 			{ charSet: "utf-8" },
@@ -362,30 +362,44 @@ var Route$3 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$2 = () => import("./routes-DZCNADMR.mjs");
-var Route$2 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./library-BVN03ewB.mjs");
-var Route$1 = createFileRoute("/library")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./mito-B_tS3dlD.mjs");
-var Route = createFileRoute("/mito")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
+var $$splitComponentImporter$4 = () => import("./routes-rkGjT_Ky.mjs");
+var Route$4 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$4, "component") });
+var $$splitComponentImporter$3 = () => import("./library-B23A7rSn.mjs");
+var Route$3 = createFileRoute("/library")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
+var $$splitComponentImporter$2 = () => import("./mito-CcrGGM98.mjs");
+var Route$2 = createFileRoute("/mito")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
+var $$splitComponentImporter$1 = () => import("./protocols-D9xFcPtM.mjs");
+var Route$1 = createFileRoute("/protocols")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
+var $$splitComponentImporter = () => import("./terms-CBckkGql.mjs");
+var Route = createFileRoute("/terms")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var rootRouteChildren = {
-	IndexRoute: Route$2.update({
+	IndexRoute: Route$4.update({
 		id: "/",
 		path: "/",
-		getParentRoute: () => Route$3
+		getParentRoute: () => Route$5
 	}),
-	LibraryRoute: Route$1.update({
+	LibraryRoute: Route$3.update({
 		id: "/library",
 		path: "/library",
-		getParentRoute: () => Route$3
+		getParentRoute: () => Route$5
 	}),
-	MitoRoute: Route.update({
+	MitoRoute: Route$2.update({
 		id: "/mito",
 		path: "/mito",
-		getParentRoute: () => Route$3
+		getParentRoute: () => Route$5
+	}),
+	ProtocolsRoute: Route$1.update({
+		id: "/protocols",
+		path: "/protocols",
+		getParentRoute: () => Route$5
+	}),
+	TermsRoute: Route.update({
+		id: "/terms",
+		path: "/terms",
+		getParentRoute: () => Route$5
 	})
 };
-var routeTree = Route$3._addFileChildren(rootRouteChildren)._addFileTypes();
+var routeTree = Route$5._addFileChildren(rootRouteChildren)._addFileTypes();
 function getRouter() {
 	return createRouter({
 		routeTree,
@@ -393,4 +407,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router_CGfJgfLz_exports as t };
+export { getRouter, router_O_wemDdE_exports as t };

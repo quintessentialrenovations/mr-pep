@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/kb-Cf7MQEII.js
+//#region node_modules/.nitro/vite/services/ssr/assets/kb-DMTCCrYb.js
 var protocols_default = {
 	meta: {
 		"title": "ISSCA Peptide Educational Knowledge Base",
@@ -15,14 +15,15 @@ var protocols_default = {
 			"year": 2026
 		}],
 		"legal": {
-			"short": "Educational information from ISSCA textbooks. Not medical advice, not a prescription, not a substitute for evaluation by a licensed clinician.",
-			"full": "The information in this assistant is drawn from ISSCA educational textbooks written for clinicians. It is intended for education only. It does not constitute medical advice, a diagnosis, or a prescription. Dosing figures are published common-practice ranges and protocol examples from those books, not instructions for self-administration. Many peptides discussed are not FDA-approved for the uses described in research or clinic protocols. Approved prescription medicines (for example branded GLP-1 receptor agonists) must be used only under a licensed prescriber, according to the product label. Compounded or research peptides carry quality, legality, and safety variability. Do not start, stop, or change any therapy based on this chat. Talk with a qualified clinician who can examine you, review labs, and take responsibility for care."
+			"short": "Educational compilation of ISSCA publications. Not medical advice, not a prescription, not affiliated with ISSCA or any clinic, pharmacy, or manufacturer. No liability.",
+			"full": "Mr. Pep is an independent educational compilation of ISSCA publications (Volumes 1–2 as primary sources; faculty magazines as extra context only). It is not affiliated with, endorsed by, or an official product of ISSCA, any ISSCA faculty author, any clinic, compounding pharmacy, peptide manufacturer, or government agency. It does not constitute medical advice, a diagnosis, a prescription, or a clinician–patient relationship. Dosing figures are published common-practice ranges and protocol examples from those works, not instructions for self-administration. Many peptides discussed are not FDA-approved for the uses described. Approved prescription medicines (for example branded GLP-1 receptor agonists) must be used only under a licensed prescriber, according to the product label. Compounded or research peptides carry quality, legality, and safety variability. You use this information at your own risk. The operator of Mr. Pep takes no liability for any decision, purchase, injection, or outcome that follows from this site. Do not start, stop, or change any therapy based on this chat. Talk with a qualified clinician who can examine you, review labs, and take responsibility for care."
 		}
 	},
 	disclaimers: {
 		"always": [
 			"Educational only — not a prescription and not personal medical advice.",
-			"Ranges below are common-practice figures published in ISSCA Volumes 1–2, cited by chapter.",
+			"Not affiliated with ISSCA or any clinic, pharmacy, or manufacturer. No liability.",
+			"Ranges below are common-practice figures published in ISSCA Volumes 1–2, cited by chapter. Magazines are extra context only.",
 			"A licensed clinician must individualize dose, route, labs, and monitoring.",
 			"Do not buy research chemicals and self-inject from this chat."
 		],
@@ -1677,7 +1678,7 @@ var mitoStacks = [{
 	use_when: "Someone asks for a ‘mito stack’ or ‘anti-aging everything’. Sequence beats addition. If benefits vanish in washout, the protocol compensated rather than restored (Vol 2 Ch.15).",
 	source: "Vol 2 Ch.15 pp.117–118"
 }];
-/** ISSCA faculty magazines from BPX8 — quote as magazine protocols, not Vol 1/2 tables. Sexual-health chapter is not ingested. */
+/** ISSCA faculty magazines from BPX8. Books (Vol 1–2) take precedence; these add context. Sexual-health chapter is not ingested. */
 var magazineSources = [{
 	id: "mag-pep",
 	name: "ISSCA Regenerative Medicine Magazine — Peptides Edition Vol 1",

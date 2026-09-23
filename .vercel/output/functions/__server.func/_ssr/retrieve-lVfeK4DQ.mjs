@@ -1,6 +1,6 @@
-import { t as kb } from "./kb-Cf7MQEII.mjs";
+import { t as kb } from "./kb-DMTCCrYb.mjs";
 import { n as GOALS, r as GOAL_PRIORITY } from "./goals-JBdGIbH_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/retrieve-O75Xofb3.js
+//#region node_modules/.nitro/vite/services/ssr/assets/retrieve-lVfeK4DQ.js
 var STOP = /* @__PURE__ */ new Set([
 	"i",
 	"im",
@@ -369,7 +369,7 @@ function composeGoalAnswer(goals) {
 			`(${g.source})`
 		].filter(Boolean).join("\n"));
 	});
-	parts.push("Share this with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Approved GLP-1s follow the label.");
+	parts.push("Share this with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Approved GLP-1s follow the label. Volumes 1–2 take precedence; magazine faculty stacks are extra context. Mr. Pep is not affiliated with ISSCA. No liability — educational compilation only.");
 	return parts.join("\n\n");
 }
 function composeClarify(goals) {

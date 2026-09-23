@@ -1,7 +1,7 @@
 import { n as TSS_SERVER_FUNCTION, t as createServerFn } from "./ssr.mjs";
-import { t as kb } from "./kb-Cf7MQEII.mjs";
-import { a as shouldClarify, i as retrieveAsk, n as emptyInvite, t as composeClarify } from "./retrieve-O75Xofb3.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ask-dr-pep-XsJ6ngoV.js
+import { t as kb } from "./kb-DMTCCrYb.mjs";
+import { a as shouldClarify, i as retrieveAsk, n as emptyInvite, t as composeClarify } from "./retrieve-lVfeK4DQ.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/ask-dr-pep-DPZyeVEC.js
 var createServerRpc = (serverFnMeta, splitImportFn) => {
 	const url = "/_serverFn/" + serverFnMeta.id;
 	return Object.assign(splitImportFn, {
@@ -18,7 +18,7 @@ This turn is the PROTOCOL turn. Clarifying questions were already asked and they
 - People do stack appearance peptides. Do not scold. Sequence, then: a clinician can combine them. Phasing into GH-support (CJC + ipamorelin) after foundations is reasonable if lean mass / recovery is part of looking better.
 - Mitochondrial support belongs here: sleep, protein, zone-2 are what Volume 2 lists as the body's ability to heal. MOTS-c, SS-31, NAD are research literacy — no ISSCA milligram table. Do not hide them.
 - Name 1–2 options per goal, each with one cited range.
-- ISSCA faculty magazines are extra sources. If a magazine range and a Volume 1/2 table disagree, print BOTH and say a clinician chooses. Never average them.
+- ISSCA Volumes 1–2 take precedence. Faculty magazines and slide decks are extra context and clarity — not a second textbook. Lead with the book range. If a magazine adds a stack or a faculty range the books do not have, label it as magazine context. If they disagree, the book wins; mention the magazine only as additional faculty context. Never average them.
 - Do not write sexual coaching. Skip magazine sexual-health / libido stacks even if the user hints.
 
 Rules you cannot break:
@@ -31,7 +31,7 @@ Rules you cannot break:
 - Refuse minors, pregnancy peptide starts, and active-cancer self-treatment.
 - Do not write sexual coaching.
 - English unless the user wrote in Spanish.
-- End with: talk this through with a clinician; do not self-prescribe.
+- End with: talk this through with a clinician; do not self-prescribe. Not affiliated with ISSCA. Educational compilation only — no liability.
 - Soft language. Do not say "before a vial."`;
 var askDrPep_createServerFn_handler = createServerRpc({
 	id: "f9bf58ef79744b0f4e6ca52833f518815c60f7f3b9ae8d209c8657568b8bde92",

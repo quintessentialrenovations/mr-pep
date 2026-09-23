@@ -1,42 +1,8 @@
-import { y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-Cf7MQEII.mjs";
-import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
-import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
-import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/library-cards-Daq-R0x-.js
+import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { t as kb } from "./kb-DMTCCrYb.mjs";
+import { n as DISCLAIMER_POINTS, o as cn, t as Button } from "./site-footer-BXPk4NRR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/library-cards-jRUQ7W6D.js
 var import_jsx_runtime = require_jsx_runtime();
-function cn(...inputs) {
-	return twMerge(clsx(inputs));
-}
-var buttonVariants = cva("inline-flex items-center justify-center gap-2 rounded-md font-semibold transition-transform transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 active:scale-[0.98]", {
-	variants: {
-		variant: {
-			default: "bg-primary text-primary-foreground hover:bg-primary/90",
-			navy: "bg-navy text-navy-foreground hover:bg-navy/90",
-			outline: "bg-card text-foreground shadow-[var(--shadow-border)] hover:bg-accent",
-			ghost: "bg-transparent text-muted hover:bg-accent hover:text-foreground"
-		},
-		size: {
-			default: "h-11 min-h-11 px-4 text-sm",
-			sm: "h-9 min-h-9 px-3 text-xs",
-			lg: "h-12 min-h-12 px-5 text-sm",
-			icon: "size-11 min-h-11 min-w-11"
-		}
-	},
-	defaultVariants: {
-		variant: "default",
-		size: "default"
-	}
-});
-function Button({ className, variant, size, asChild, ...props }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(asChild ? Slot : "button", {
-		className: cn(buttonVariants({
-			variant,
-			size
-		}), className),
-		...props
-	});
-}
 function Badge({ className, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 		className: cn("inline-flex items-center rounded-full bg-accent px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-navy", className),
@@ -227,6 +193,30 @@ function SafetyView() {
 				children: kb.meta.legal.full
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "grid gap-3 sm:grid-cols-2",
+				children: DISCLAIMER_POINTS.map((d) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "list-none rounded-lg bg-accent p-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "font-semibold",
+						children: d.title
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-1 text-muted",
+						children: d.body
+					})]
+				}, d.title))
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+				"Full",
+				" ",
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+					to: "/terms",
+					className: "font-semibold text-primary",
+					children: "Terms & Disclaimers"
+				}),
+				" ",
+				"— not affiliated, no liability, books take precedence."
+			] }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
 				className: "list-disc pl-5",
 				children: s.universal_avoid.map((x) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: x }, x))
 			}),
@@ -344,11 +334,11 @@ function CopyNote({ text }) {
 		size: "sm",
 		type: "button",
 		onClick: () => {
-			const payload = `Mr. Pep — educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs.`;
+			const payload = `Mr. Pep — educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Not affiliated with ISSCA. No liability.`;
 			navigator.clipboard.writeText(payload);
 		},
 		children: "Copy"
 	});
 }
 //#endregion
-export { PeptideView as a, SafetyView as c, peptideSkim as d, GoalView as i, StackView as l, Button as n, ProtocolView as o, CopyNote as r, RetrievedViews as s, Badge as t, cn as u };
+export { ProtocolView as a, StackView as c, PeptideView as i, peptideSkim as l, CopyNote as n, RetrievedViews as o, GoalView as r, SafetyView as s, Badge as t };
