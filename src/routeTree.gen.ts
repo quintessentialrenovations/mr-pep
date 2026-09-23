@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as MitoRouteImport } from './routes/mito'
+import { Route as ProtocolsRouteImport } from './routes/protocols'
 import { Route as TermsRouteImport } from './routes/terms'
 
 const IndexRoute = IndexRouteImport.update({
@@ -29,6 +30,11 @@ const MitoRoute = MitoRouteImport.update({
   path: '/mito',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ProtocolsRoute = ProtocolsRouteImport.update({
+  id: '/protocols',
+  path: '/protocols',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
@@ -39,12 +45,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/library': typeof LibraryRoute
   '/mito': typeof MitoRoute
+  '/protocols': typeof ProtocolsRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/library': typeof LibraryRoute
   '/mito': typeof MitoRoute
+  '/protocols': typeof ProtocolsRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesById {
@@ -52,20 +60,22 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/library': typeof LibraryRoute
   '/mito': typeof MitoRoute
+  '/protocols': typeof ProtocolsRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/library' | '/mito' | '/terms'
+  fullPaths: '/' | '/library' | '/mito' | '/protocols' | '/terms'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/library' | '/mito' | '/terms'
-  id: '__root__' | '/' | '/library' | '/mito' | '/terms'
+  to: '/' | '/library' | '/mito' | '/protocols' | '/terms'
+  id: '__root__' | '/' | '/library' | '/mito' | '/protocols' | '/terms'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LibraryRoute: typeof LibraryRoute
   MitoRoute: typeof MitoRoute
+  ProtocolsRoute: typeof ProtocolsRoute
   TermsRoute: typeof TermsRoute
 }
 
@@ -92,6 +102,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MitoRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/protocols': {
+      id: '/protocols'
+      path: '/protocols'
+      fullPath: '/protocols'
+      preLoaderRoute: typeof ProtocolsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/terms': {
       id: '/terms'
       path: '/terms'
@@ -106,6 +123,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LibraryRoute: LibraryRoute,
   MitoRoute: MitoRoute,
+  ProtocolsRoute: ProtocolsRoute,
   TermsRoute: TermsRoute,
 }
 export const routeTree = rootRouteImport

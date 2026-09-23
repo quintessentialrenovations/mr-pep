@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { Calendar, FlaskConical, Library, LoaderCircle, Scale, Send, ShieldAlert } from "lucide-react";
+import { Calendar, ClipboardList, FlaskConical, Library, LoaderCircle, Scale, Send, ShieldAlert } from "lucide-react";
 import { kb } from "@/data/kb";
 import { CONSULT_URL } from "@/data/consult";
 import { askFromFeatured } from "@/data/goals";
@@ -143,6 +143,12 @@ export function Desk() {
               <Button variant="ghost" size="sm">
                 <FlaskConical className="size-4" />
                 Mitochondria
+              </Button>
+            </Link>
+            <Link to="/protocols" className="hidden sm:block">
+              <Button variant="ghost" size="sm">
+                <ClipboardList className="size-4" />
+                Protocols
               </Button>
             </Link>
             <Link to="/terms" className="hidden sm:block">
