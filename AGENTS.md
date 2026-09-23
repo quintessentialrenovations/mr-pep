@@ -263,6 +263,15 @@ changes. Revive, reboot-wipe and the `startup.sh` worked example:
    terminals**, and do step 7 against the dev server while they run — the
    critical path is max(build, browser QA), not the sum. Both must pass before
    you finish.
+   **The deploy is prebuilt: `.vercel/output/` is committed to the repo (only
+   `node_modules/` is gitignored) and Vercel serves those artifacts as-is.** So
+   any source change that must ship — a new route, a nav link, edited UI —
+   **only deploys if you re-run `npm run build` and commit the regenerated
+   `.vercel/output/` (and `src/routeTree.gen.ts`) alongside the source.** Commit
+   source without the rebuilt output and production runs the stale bundle: a new
+   route 404s in prod even though it works in dev and typechecks. When in doubt,
+   `rm src/routeTree.gen.ts && npm run build` to force a clean regen, then commit
+   everything the build touched.
 6. **Brand-asset pass — a subagent, never waited for.** Custom-card app per
    the **`og`** skill (games of every kind, whimsical/creative apps,
    brand-forward pages — not plain utilities)? Launch a `task` subagent the
