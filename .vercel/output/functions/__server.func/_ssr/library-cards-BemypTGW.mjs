@@ -1,4 +1,4 @@
-import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { x as require_jsx_runtime, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as kb } from "./kb-DDN-pANJ.mjs";
 import { n as DISCLAIMER_POINTS, o as cn, t as Button } from "./site-footer-B6lUeUrh.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/library-cards-BemypTGW.js

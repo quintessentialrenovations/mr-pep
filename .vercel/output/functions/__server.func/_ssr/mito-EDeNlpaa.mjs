@@ -1,4 +1,4 @@
-import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { x as require_jsx_runtime, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as kb } from "./kb-DDN-pANJ.mjs";
 import { i as SiteFooter, t as Button } from "./site-footer-B6lUeUrh.mjs";
 import { c as StackView, i as PeptideView } from "./library-cards-BemypTGW.mjs";

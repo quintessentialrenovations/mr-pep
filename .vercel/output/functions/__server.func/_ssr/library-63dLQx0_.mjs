@@ -1,6 +1,6 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
-import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { x as require_jsx_runtime, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as kb } from "./kb-DDN-pANJ.mjs";
 import { n as GOALS } from "./goals-Be778w73.mjs";
 import { i as SiteFooter, o as cn, t as Button } from "./site-footer-B6lUeUrh.mjs";
