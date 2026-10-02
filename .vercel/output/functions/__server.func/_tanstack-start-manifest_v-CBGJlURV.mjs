@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CRrb_EOv.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CBGJlURV.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/home/user/mr-pep/src/routes/__root.tsx",
@@ -9,59 +9,59 @@ var tsrStartManifest = () => ({ routes: {
 			"/protocols",
 			"/terms"
 		],
-		preloads: ["/assets/index-BV9ZvT4z.js"],
+		preloads: ["/assets/index-pIVYXw0q.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-BV9ZvT4z.js"
+			src: "/assets/index-pIVYXw0q.js"
 		} }]
 	},
 	"/": {
 		filePath: "/home/user/mr-pep/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-CVRfMDmZ.js",
-			"/assets/scale-DwGbxE-4.js",
-			"/assets/site-footer-K-uhfGtP.js",
+			"/assets/routes-kYeT8XkJ.js",
+			"/assets/scale-1MJ4GV0h.js",
+			"/assets/site-footer-A-e8L0zz.js",
 			"/assets/goals-LVclF6xZ.js",
-			"/assets/library-cards-CUfJHeBu.js"
+			"/assets/library-cards-BvDD-aey.js"
 		]
 	},
 	"/library": {
 		filePath: "/home/user/mr-pep/src/routes/library.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/library-dHrznQt4.js",
-			"/assets/site-footer-K-uhfGtP.js",
+			"/assets/library-5_TGKtAt.js",
+			"/assets/site-footer-A-e8L0zz.js",
 			"/assets/goals-LVclF6xZ.js",
-			"/assets/library-cards-CUfJHeBu.js"
+			"/assets/library-cards-BvDD-aey.js"
 		]
 	},
 	"/mito": {
 		filePath: "/home/user/mr-pep/src/routes/mito.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/mito-hja0_Dn7.js",
-			"/assets/site-footer-K-uhfGtP.js",
-			"/assets/library-cards-CUfJHeBu.js"
+			"/assets/mito-C82xCbzj.js",
+			"/assets/site-footer-A-e8L0zz.js",
+			"/assets/library-cards-BvDD-aey.js"
 		]
 	},
 	"/protocols": {
 		filePath: "/home/user/mr-pep/src/routes/protocols.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/protocols-DAVr7_ao.js",
-			"/assets/site-footer-K-uhfGtP.js",
-			"/assets/library-cards-CUfJHeBu.js"
+			"/assets/protocols-DMWoXnlG.js",
+			"/assets/site-footer-A-e8L0zz.js",
+			"/assets/library-cards-BvDD-aey.js"
 		]
 	},
 	"/terms": {
 		filePath: "/home/user/mr-pep/src/routes/terms.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/terms-CzEp-iOe.js",
-			"/assets/scale-DwGbxE-4.js",
-			"/assets/site-footer-K-uhfGtP.js"
+			"/assets/terms-DJbSMWs2.js",
+			"/assets/scale-1MJ4GV0h.js",
+			"/assets/site-footer-A-e8L0zz.js"
 		]
 	}
 } });

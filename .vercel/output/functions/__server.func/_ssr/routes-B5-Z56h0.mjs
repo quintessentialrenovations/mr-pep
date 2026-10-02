@@ -9,7 +9,7 @@ import { i as SiteFooter, o as cn, t as Button } from "./site-footer-B6lUeUrh.mj
 import { n as CopyNote, o as RetrievedViews, t as Badge } from "./library-cards-BemypTGW.mjs";
 import { _ as Bandage, a as ScanFace, c as Moon, d as HeartPulse, f as FlaskConical, g as Bone, i as Send, l as LoaderCircle, m as Calendar, o as Scale, p as ClipboardList, r as ShieldAlert, s as Salad, t as Zap, u as Library } from "../_libs/lucide-react.mjs";
 import { t as create } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-B7GWQ33K.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-B5-Z56h0.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var createSsrRpc = (functionId) => {
@@ -306,9 +306,9 @@ function Desk() {
 		className: "min-h-screen bg-background text-foreground",
 		children: [
 			!adult ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AgeGate, { onAdult: setAdult }) : null,
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
 				className: "sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 						to: "/",
@@ -386,7 +386,47 @@ function Desk() {
 							})
 						]
 					})]
-				})
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
+					className: "mx-auto flex max-w-6xl gap-1 overflow-x-auto px-3 pb-2 sm:hidden",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/library",
+							className: "shrink-0",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								variant: "ghost",
+								size: "sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Library, { className: "size-4" }), "Library"]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/mito",
+							className: "shrink-0",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								variant: "ghost",
+								size: "sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FlaskConical, { className: "size-4" }), "Mitochondria"]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/protocols",
+							className: "shrink-0",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								variant: "ghost",
+								size: "sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ClipboardList, { className: "size-4" }), "Protocols"]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+							to: "/terms",
+							className: "shrink-0",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								variant: "ghost",
+								size: "sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "size-4" }), "Terms"]
+							})
+						})
+					]
+				})]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
 				className: "mx-auto max-w-6xl px-4 py-6 pb-24 sm:pb-10",

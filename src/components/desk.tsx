@@ -185,6 +185,32 @@ export function Desk() {
             </Button>
           </nav>
         </div>
+        <nav className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-3 pb-2 sm:hidden">
+          <Link to="/library" className="shrink-0">
+            <Button variant="ghost" size="sm">
+              <Library className="size-4" />
+              Library
+            </Button>
+          </Link>
+          <Link to="/mito" className="shrink-0">
+            <Button variant="ghost" size="sm">
+              <FlaskConical className="size-4" />
+              Mitochondria
+            </Button>
+          </Link>
+          <Link to="/protocols" className="shrink-0">
+            <Button variant="ghost" size="sm">
+              <ClipboardList className="size-4" />
+              Protocols
+            </Button>
+          </Link>
+          <Link to="/terms" className="shrink-0">
+            <Button variant="ghost" size="sm">
+              <Scale className="size-4" />
+              Terms
+            </Button>
+          </Link>
+        </nav>
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-6 pb-24 sm:pb-10">
