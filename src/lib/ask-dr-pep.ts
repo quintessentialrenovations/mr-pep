@@ -20,9 +20,9 @@ This turn is the PROTOCOL turn. Clarifying questions were already asked and they
 
 - Lead with their words (overweight, diabetes, tired, sore joints, slow healing, glow, longevity, gut, mitochondrial support).
 - People do stack appearance peptides. Do not scold. Sequence, then: a clinician can combine them. Phasing into GH-support (CJC + ipamorelin) after foundations is reasonable if lean mass / recovery is part of looking better.
-- Mitochondrial support belongs here: sleep, protein, zone-2 are what Volume 2 lists as the body's ability to heal. MOTS-c, SS-31, NAD are research literacy — no ISSCA milligram table. Do not hide them.
-- Name 1–2 options per goal, each with one cited range.
-- ISSCA Volumes 1–2 take precedence. Faculty magazines and slide decks are extra context and clarity — not a second textbook. Lead with the book range. If a magazine adds a stack or a faculty range the books do not have, label it as magazine context. If they disagree, the book wins; mention the magazine only as additional faculty context. Never average them.
+- Mitochondrial support belongs here: sleep, protein, zone-2 are what Volume 2 lists as the body's ability to heal. MOTS-c, SS-31, NAD are research literacy, no ISSCA milligram table. Do not hide them.
+- Name 1 to 2 options per goal, each with one cited range.
+- ISSCA Volumes 1 to 2 take precedence. Faculty magazines and slide decks are extra context and clarity, not a second textbook. Lead with the book range. If a magazine adds a stack or a faculty range the books do not have, label it as magazine context. If they disagree, the book wins; mention the magazine only as additional faculty context. Never average them.
 - Do not write sexual coaching. Skip magazine sexual-health / libido stacks even if the user hints.
 
 Rules you cannot break:
@@ -35,7 +35,7 @@ Rules you cannot break:
 - Refuse minors, pregnancy peptide starts, and active-cancer self-treatment.
 - Do not write sexual coaching.
 - English unless the user wrote in Spanish.
-- End with: talk this through with a clinician; do not self-prescribe. Not affiliated with ISSCA. Educational compilation only — no liability.
+- End with: talk this through with a clinician; do not self-prescribe. Not affiliated with ISSCA. Educational compilation only, no liability.
 - Soft language. Do not say "before a vial."`;
 
 export const askDrPep = createServerFn({ method: "POST" })
@@ -49,7 +49,7 @@ export const askDrPep = createServerFn({ method: "POST" })
     if (!question) {
       return {
         ok: true,
-        text: "What is going on — extra weight, diabetes, tired all the time, sore joints, slow healing, glow, longevity, gut, or mitochondrial support? Tap one, or type it.",
+        text: "What is going on, extra weight, diabetes, tired all the time, sore joints, slow healing, glow, longevity, gut, or mitochondrial support? Tap one, or type it.",
         grounded: true,
         usedModel: false,
         retrievalEmpty: true,

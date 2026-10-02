@@ -246,7 +246,7 @@ function combinedGoal(goals: GoalGuide[]): GoalGuide {
   const ids = goals.map((g) => g.id).join("+");
   const titles = goals.map((g) => g.title).join(" · ");
   const sequence = [
-    "You named more than one thing. We'll sequence them so a clinician can choose — not open everything on day one.",
+    "You named more than one thing. We'll sequence them so a clinician can choose, not open everything on day one.",
     goals.map((g, i) => `${i + 1}. ${g.title}: ${g.sequence}`).join(" "),
     "Typical order here: protect function (injury / joints) → quiet fluid or gut inflammation → extra weight with a labeled medicine if a prescriber agrees → appearance last. Sleep, protein, and movement sit under all of it. Mitochondrial support in the books is that foundation, not an extra glow vial.",
   ].join(" ");
@@ -370,7 +370,7 @@ export function composeGoalAnswer(goals: GoalGuide[]): string {
   if (!goals.length) return "";
   const parts: string[] = [];
   parts.push(
-    "Here is a working map from the books — educational, not a prescription. A clinician decides what you actually use.",
+    "Here is a working map from the books, educational, not a prescription. A clinician decides what you actually use.",
   );
   if (goals.length > 1) {
     parts.push(
@@ -385,7 +385,7 @@ export function composeGoalAnswer(goals: GoalGuide[]): string {
     const doseBits = named.map((p) => {
       const d = p.dosing[0];
       const dose = d ? `${d.label}: ${d.text} (${d.source} ${d.chapter} p.${d.pages})` : "No ISSCA dosing table on this card.";
-      return `- ${p.name} — ${p.regulatory.split(".")[0]}. ${dose}`;
+      return `- ${p.name}, ${p.regulatory.split(".")[0]}. ${dose}`;
     });
     parts.push(
       [
@@ -402,7 +402,7 @@ export function composeGoalAnswer(goals: GoalGuide[]): string {
     );
   });
   parts.push(
-    "Share this with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Approved GLP-1s follow the label. Volumes 1–2 take precedence; magazine faculty stacks are extra context. Mr. Pep is not affiliated with ISSCA. No liability — educational compilation only.",
+    "Share this with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Approved GLP-1s follow the label. Volumes 1 to 2 take precedence; magazine faculty stacks are extra context. Mr. Pep is not affiliated with ISSCA. No liability, educational compilation only.",
   );
   return parts.join("\n\n");
 }
@@ -430,7 +430,7 @@ export function shouldClarify(goals: GoalGuide[], assistantTurns: number) {
 
 export function emptyInvite(_q: string): string {
   return [
-    "I heard you. Two things that change the protocol — answer these, then I will build it:",
+    "I heard you. Two things that change the protocol, answer these, then I will build it:",
     "1. Is this mainly extra weight / diabetes, tiredness, sore joints, slow healing, glow, longevity, gut, or mitochondrial support?",
     "2. How long has it been going on, and are you already on a GLP-1, peptide, or other medicine for this?",
     "You can also tap overweight, tired, sore joints, slow healing, glow, longevity, gut, or mitochondrial support.",
@@ -455,7 +455,7 @@ function formatContext(items: Retrieved[], hardStop: HardStop | null, goals: Goa
   if (goals.length) {
     bits.push(
       [
-        "GOAL TRIAGE — they already described a body complaint. Never say 'tell me in everyday words'.",
+        "GOAL TRIAGE, they already described a body complaint. Never say 'tell me in everyday words'.",
         `Matched goals: ${goals.map((g) => g.id).join(", ")}`,
         "This is the PROTOCOL turn. They already answered clarifying questions. Do NOT re-ask. Build the sequenced protocol now.",
         "People do stack appearance peptides. Do not scold. Sequence + discuss stacking with a clinician. Phasing into GH-support (CJC + ipamorelin) after foundations can be reasonable. Flag edema if puffiness is in play.",
@@ -500,7 +500,7 @@ function formatContext(items: Retrieved[], hardStop: HardStop | null, goals: Goa
       bits.push(`PROTOCOL ${it.card.name}\n${it.card.steps.join("\n")}\nTimeline: ${it.card.timeline}\n${it.card.source}`);
     } else if (it.kind === "compare") {
       bits.push(
-        "COMPARE BPC-157 vs TB-500 (Vol 1 Ch.5 p.72): BPC VEGF/NO, 15aa, t½ 4–6h, oral possible, 250–500 mcg daily in that table, GI/local tendon, onset 1–2 wks. TB-500 actin/migration, 43aa, t½ 8–12h, injection, 2–5 mg twice weekly with 4–6 mg/week load, systemic/muscle, onset 2–4 wks. Complementary. Vol 2 Stack A: BPC 500 mcg/day + TB-500 2–5 mg/week 4–6 weeks.",
+        "COMPARE BPC-157 vs TB-500 (Vol 1 Ch.5 p.72): BPC VEGF/NO, 15aa, t½ 4 to 6h, oral possible, 250 to 500 mcg daily in that table, GI/local tendon, onset 1 to 2 wks. TB-500 actin/migration, 43aa, t½ 8 to 12h, injection, 2 to 5 mg twice weekly with 4 to 6 mg/week load, systemic/muscle, onset 2 to 4 wks. Complementary. Vol 2 Stack A: BPC 500 mcg/day + TB-500 2 to 5 mg/week 4 to 6 weeks.",
       );
     } else if (it.kind === "safety") {
       bits.push(

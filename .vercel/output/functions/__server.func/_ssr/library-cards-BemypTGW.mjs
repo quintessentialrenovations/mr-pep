@@ -1,7 +1,7 @@
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { n as DISCLAIMER_POINTS, o as cn, t as Button } from "./site-footer-BXPk4NRR.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/library-cards-jRUQ7W6D.js
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { n as DISCLAIMER_POINTS, o as cn, t as Button } from "./site-footer-B6lUeUrh.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/library-cards-BemypTGW.js
 var import_jsx_runtime = require_jsx_runtime();
 function Badge({ className, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
@@ -11,31 +11,31 @@ function Badge({ className, ...props }) {
 }
 /** One-line “what it does” for library skimming. Everyday language, not mechanism. */
 var PEPTIDE_SKIM = {
-	"bpc-157": "Repair peptide for stalled tendons, gut lining, and slow healing — not a painkiller.",
+	"bpc-157": "Repair peptide for stalled tendons, gut lining, and slow healing, not a painkiller.",
 	"tb-500": "Systemic remodeler for multi-site or muscle injury when local repair is not enough.",
 	kpv: "Quiets gut and tissue inflammation that can block healing. Not a tanning peptide.",
-	"ta-1": "Immune coordinator (T-cell / NK support) — not a crude immune booster.",
+	"ta-1": "Immune coordinator (T-cell / NK support), not a crude immune booster.",
 	"cjc-ipam": "Nighttime GH-pulse support for recovery and lean mass. Needs a working pituitary.",
-	glp1: "Labeled medicines for diabetes and weight — prescription, not a research fat vial.",
+	glp1: "Labeled medicines for diabetes and weight, prescription, not a research fat vial.",
 	melanocortin: "Pigmentation and metabolic-signaling family. Lowest-dose titration in the books.",
-	hcg: "LH-receptor hormone for axis / fertility support under a specialist — not a crash diet drug.",
+	hcg: "LH-receptor hormone for axis / fertility support under a specialist, not a crash diet drug.",
 	"ll-37": "Antimicrobial / biofilm adjunct for sinus, wound, and gut-dysbiosis clinic talk.",
 	"ghrp-others": "Older GH secretagogues. ISSCA prefers ipamorelin for most people.",
-	"support-peptides": "Arsenal extras (GHK-Cu, AOD-9604, Selank, Semax) — one-liners, not core protocols.",
+	"support-peptides": "Arsenal extras (GHK-Cu, AOD-9604, Selank, Semax), one-liners, not core protocols.",
 	"mots-c": "Mitochondrial research peptide studied as a metabolic signal. No ISSCA dose table.",
 	"ss-31": "Cardiolipin-targeted mitochondrial research (elamipretide). Literacy, not a starter stack.",
 	humanin: "Mitochondrial-derived peptide in magazine longevity/immune stacks. Textbook has no milligram table.",
 	"nad-support": "Cofactor / sirtuin talk, not a peptide protocol. Sleep and training sit underneath.",
-	"tesamorelin-mito": "Labeled GHRH analogue for visceral fat in a specific population — prescription.",
+	"tesamorelin-mito": "Labeled GHRH analogue for visceral fat in a specific population, prescription.",
 	"ghk-cu": "Copper peptide for skin quality and wound-adjacent talk. Arsenal line, not a facelift.",
-	epitalon: "Magazine longevity peptide (10–20 day cycles). Not a Volume 1/2 textbook table.",
+	epitalon: "Magazine longevity peptide (10 to 20 day cycles). Not a Volume 1/2 textbook table.",
 	cerebrolysin: "Neurotrophic mixture in the magazine brain stack. Not a DIY concussion protocol.",
 	"pe-22-28": "Magazine neuro-stack adjunct. Faculty protocol, not a textbook card.",
 	fgl: "Magazine neuro-stack (NCAM mimetic). Faculty protocol, not a textbook card.",
 	"ptd-dbm": "Topical scalp peptide in the magazine beauty stack. Not an approved hair drug.",
 	"ara-290": "Magazine immune-stack peptide for nerve/immune literacy. Medical-grade, not DIY.",
 	dsip: "Magazine sleep/recovery adjunct. Timing printed; milligrams were not.",
-	"peg-mgf": "Magazine rest-day muscle signal. Milligrams not printed — not invented here.",
+	"peg-mgf": "Magazine rest-day muscle signal. Milligrams not printed, not invented here.",
 	"igf-lr3": "Magazine post-training IGF analogue. Short cycle; milligrams not printed.",
 	"vip-peptide": "Magazine immune-stack circulation peptide. Not sexual coaching."
 };
@@ -97,7 +97,7 @@ function PeptideView({ card }) {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mb-2 text-xs font-semibold uppercase tracking-wide text-primary",
-				children: "Common-practice ranges — not a personal dose"
+				children: "Common-practice ranges, not a personal dose"
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(DoseList, { card })] }),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 				className: "text-sm",
@@ -214,7 +214,7 @@ function SafetyView() {
 					children: "Terms & Disclaimers"
 				}),
 				" ",
-				"— not affiliated, no liability, books take precedence."
+				", not affiliated, no liability, books take precedence."
 			] }),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
 				className: "list-disc pl-5",
@@ -303,9 +303,9 @@ function CompareView() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 				className: "list-disc pl-5",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "BPC-157" }), " — VEGF / NO, 15 aa, half-life 4–6 h, oral possible, 250–500 mcg daily in that table, GI and localized tendon, onset 1–2 weeks."] }),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "TB-500" }), " — actin / cell migration, 43 aa, half-life 8–12 h, injection, 2–5 mg twice weekly with a 4–6 mg/week load, systemic / muscle / multi-site, onset 2–4 weeks."] }),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Complementary, not redundant. Vol 2 injury Stack A: BPC-157 500 mcg/day + TB-500 2–5 mg/week for 4–6 weeks." })
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "BPC-157" }), ", VEGF / NO, 15 aa, half-life 4 to 6 h, oral possible, 250 to 500 mcg daily in that table, GI and localized tendon, onset 1 to 2 weeks."] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "TB-500" }), ", actin / cell migration, 43 aa, half-life 8 to 12 h, injection, 2 to 5 mg twice weekly with a 4 to 6 mg/week load, systemic / muscle / multi-site, onset 2 to 4 weeks."] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Complementary, not redundant. Vol 2 injury Stack A: BPC-157 500 mcg/day + TB-500 2 to 5 mg/week for 4 to 6 weeks." })
 				]
 			})
 		]
@@ -334,7 +334,7 @@ function CopyNote({ text }) {
 		size: "sm",
 		type: "button",
 		onClick: () => {
-			const payload = `Mr. Pep — educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Not affiliated with ISSCA. No liability.`;
+			const payload = `Mr. Pep, educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Not affiliated with ISSCA. No liability.`;
 			navigator.clipboard.writeText(payload);
 		},
 		children: "Copy"

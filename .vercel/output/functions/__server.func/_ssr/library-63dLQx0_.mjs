@@ -1,11 +1,11 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { n as GOALS } from "./goals-JBdGIbH_.mjs";
-import { i as SiteFooter, o as cn, t as Button } from "./site-footer-BXPk4NRR.mjs";
-import { a as ProtocolView, c as StackView, i as PeptideView, l as peptideSkim, r as GoalView, s as SafetyView, t as Badge } from "./library-cards-jRUQ7W6D.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/library-B23A7rSn.js
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { n as GOALS } from "./goals-Be778w73.mjs";
+import { i as SiteFooter, o as cn, t as Button } from "./site-footer-B6lUeUrh.mjs";
+import { a as ProtocolView, c as StackView, i as PeptideView, l as peptideSkim, r as GoalView, s as SafetyView, t as Badge } from "./library-cards-BemypTGW.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/library-63dLQx0_.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var TABS = [
@@ -56,7 +56,7 @@ function LibraryPage() {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("aside", { children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mb-3 text-center text-sm leading-relaxed text-muted",
-						children: "Skim what it does in plain language. Open a card for ranges, cycling, and cautions — not a shopping list."
+						children: "Skim what it does in plain language. Open a card for ranges, cycling, and cautions, not a shopping list."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "mb-3 flex flex-wrap justify-center gap-1",

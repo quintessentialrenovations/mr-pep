@@ -33,7 +33,7 @@ export function PeptideView({ card }: { card: PeptideCard }) {
       <p className="text-sm leading-relaxed">{card.what_it_is}</p>
       <div>
         <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-primary">
-          Common-practice ranges — not a personal dose
+          Common-practice ranges, not a personal dose
         </p>
         <DoseList card={card} />
       </div>
@@ -110,7 +110,7 @@ export function SafetyView() {
         <Link to="/terms" className="font-semibold text-primary">
           Terms & Disclaimers
         </Link>{" "}
-        — not affiliated, no liability, books take precedence.
+, not affiliated, no liability, books take precedence.
       </p>
       <ul className="list-disc pl-5">
         {s.universal_avoid.map((x) => (
@@ -175,14 +175,14 @@ function CompareView() {
       <p>Volume 1 Chapter 5 comparison table (p.72):</p>
       <ul className="list-disc pl-5">
         <li>
-          <strong>BPC-157</strong> — VEGF / NO, 15 aa, half-life 4–6 h, oral possible, 250–500 mcg daily in that table,
-          GI and localized tendon, onset 1–2 weeks.
+          <strong>BPC-157</strong>, VEGF / NO, 15 aa, half-life 4 to 6 h, oral possible, 250 to 500 mcg daily in that table,
+          GI and localized tendon, onset 1 to 2 weeks.
         </li>
         <li>
-          <strong>TB-500</strong> — actin / cell migration, 43 aa, half-life 8–12 h, injection, 2–5 mg twice weekly with
-          a 4–6 mg/week load, systemic / muscle / multi-site, onset 2–4 weeks.
+          <strong>TB-500</strong>, actin / cell migration, 43 aa, half-life 8 to 12 h, injection, 2 to 5 mg twice weekly with
+          a 4 to 6 mg/week load, systemic / muscle / multi-site, onset 2 to 4 weeks.
         </li>
-        <li>Complementary, not redundant. Vol 2 injury Stack A: BPC-157 500 mcg/day + TB-500 2–5 mg/week for 4–6 weeks.</li>
+        <li>Complementary, not redundant. Vol 2 injury Stack A: BPC-157 500 mcg/day + TB-500 2 to 5 mg/week for 4 to 6 weeks.</li>
       </ul>
     </article>
   );
@@ -211,7 +211,7 @@ export function CopyNote({ text }: { text: string }) {
       size="sm"
       type="button"
       onClick={() => {
-        const payload = `Mr. Pep — educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Not affiliated with ISSCA. No liability.`;
+        const payload = `Mr. Pep, educational (not medical advice)\n\n${text}\n\nTalk this through with a clinician. Do not self-prescribe. Research peptides are not approved drugs. Not affiliated with ISSCA. No liability.`;
         navigator.clipboard.writeText(payload);
       }}
     >

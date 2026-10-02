@@ -23,7 +23,7 @@ const copy = {
     lede: "Tap how you feel below, or type it in your words. We'll ask a couple of questions, then sequence what the books discuss, including mitochondrial support. A clinician decides what you actually use.",
     status: "ISSCA-grounded",
     banner:
-      "Educational only — not a prescription. Not affiliated with ISSCA or any clinic. No liability. Approved GLP-1s follow the label. Research peptides are not approved drugs. A clinician decides.",
+      "Educational only, not a prescription. Not affiliated with ISSCA or any clinic. No liability. Approved GLP-1s follow the label. Research peptides are not approved drugs. A clinician decides.",
     ask: "Conversation",
     ph: "I'm tired, my joints hurt, I want more energy…",
     send: "Ask",

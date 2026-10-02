@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Educational peptide and mitochondrial desk grounded in ISSCA Volumes 1–2. Not a prescription.",
+          "Educational peptide and mitochondrial desk grounded in ISSCA Volumes 1 to 2. Not a prescription.",
       },
     ],
     links: [

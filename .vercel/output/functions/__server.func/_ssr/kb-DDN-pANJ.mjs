@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/kb-DMTCCrYb.js
+//#region node_modules/.nitro/vite/services/ssr/assets/kb-DDN-pANJ.js
 var protocols_default = {
 	meta: {
 		"title": "ISSCA Peptide Educational Knowledge Base",
@@ -10,20 +10,20 @@ var protocols_default = {
 			"year": 2026
 		}, {
 			"id": "vol2",
-			"name": "The Ultimate Guide to Peptide Medicine, Volume 2 — A Practical Clinical & Applied Guide",
+			"name": "The Ultimate Guide to Peptide Medicine, Volume 2, A Practical Clinical & Applied Guide",
 			"publisher": "ISSCA",
 			"year": 2026
 		}],
 		"legal": {
 			"short": "Educational compilation of ISSCA publications. Not medical advice, not a prescription, not affiliated with ISSCA or any clinic, pharmacy, or manufacturer. No liability.",
-			"full": "Mr. Pep is an independent educational compilation of ISSCA publications (Volumes 1–2 as primary sources; faculty magazines as extra context only). It is not affiliated with, endorsed by, or an official product of ISSCA, any ISSCA faculty author, any clinic, compounding pharmacy, peptide manufacturer, or government agency. It does not constitute medical advice, a diagnosis, a prescription, or a clinician–patient relationship. Dosing figures are published common-practice ranges and protocol examples from those works, not instructions for self-administration. Many peptides discussed are not FDA-approved for the uses described. Approved prescription medicines (for example branded GLP-1 receptor agonists) must be used only under a licensed prescriber, according to the product label. Compounded or research peptides carry quality, legality, and safety variability. You use this information at your own risk. The operator of Mr. Pep takes no liability for any decision, purchase, injection, or outcome that follows from this site. Do not start, stop, or change any therapy based on this chat. Talk with a qualified clinician who can examine you, review labs, and take responsibility for care."
+			"full": "Mr. Pep is an independent educational compilation of ISSCA publications (Volumes 1 to 2 as primary sources; faculty magazines as extra context only). It is not affiliated with, endorsed by, or an official product of ISSCA, any ISSCA faculty author, any clinic, compounding pharmacy, peptide manufacturer, or government agency. It does not constitute medical advice, a diagnosis, a prescription, or a clinician-patient relationship. Dosing figures are published common-practice ranges and protocol examples from those works, not instructions for self-administration. Many peptides discussed are not FDA-approved for the uses described. Approved prescription medicines (for example branded GLP-1 receptor agonists) must be used only under a licensed prescriber, according to the product label. Compounded or research peptides carry quality, legality, and safety variability. You use this information at your own risk. The operator of Mr. Pep takes no liability for any decision, purchase, injection, or outcome that follows from this site. Do not start, stop, or change any therapy based on this chat. Talk with a qualified clinician who can examine you, review labs, and take responsibility for care."
 		}
 	},
 	disclaimers: {
 		"always": [
-			"Educational only — not a prescription and not personal medical advice.",
+			"Educational only, not a prescription and not personal medical advice.",
 			"Not affiliated with ISSCA or any clinic, pharmacy, or manufacturer. No liability.",
-			"Ranges below are common-practice figures published in ISSCA Volumes 1–2, cited by chapter. Magazines are extra context only.",
+			"Ranges below are common-practice figures published in ISSCA Volumes 1 to 2, cited by chapter. Magazines are extra context only.",
 			"A licensed clinician must individualize dose, route, labs, and monitoring.",
 			"Do not buy research chemicals and self-inject from this chat."
 		],
@@ -61,7 +61,7 @@ var protocols_default = {
 				"malignancy",
 				"chemotherapy peptide"
 			],
-			"reply": "ISSCA flags active malignancy as a hard caution for angiogenesis-related peptides (BPC-157, TB-500) and IGF-1–raising GH secretagogues. Oncology-adjacent use of thymosin alpha-1 is described only as clinician-coordinated adjuvant care. Do not self-treat cancer with peptides."
+			"reply": "ISSCA flags active malignancy as a hard caution for angiogenesis-related peptides (BPC-157, TB-500) and IGF-1-raising GH secretagogues. Oncology-adjacent use of thymosin alpha-1 is described only as clinician-coordinated adjuvant care. Do not self-treat cancer with peptides."
 		},
 		{
 			"id": "minor",
@@ -105,42 +105,42 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Quick-reference (Vol 1 Ch.1 arsenal)",
-					"text": "250–500 mcg twice daily for gut, tendon, ligament, and muscle repair.",
+					"text": "250 to 500 mcg twice daily for gut, tendon, ligament, and muscle repair.",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "12"
 				},
 				{
 					"label": "Systemic SC / IM (Vol 1 Ch.4)",
-					"text": "Standard 200–500 µg daily, split into 1–2 injections. Duration 2–4 weeks acute, 6–8 weeks chronic. Rotate abdomen and thighs. Start 200–250 µg.",
+					"text": "Standard 200 to 500 µg daily, split into 1 to 2 injections. Duration 2 to 4 weeks acute, 6 to 8 weeks chronic. Rotate abdomen and thighs. Start 200 to 250 µg.",
 					"source": "vol1",
 					"chapter": "Chapter 4",
-					"pages": "45–46"
+					"pages": "45 to 46"
 				},
 				{
 					"label": "Localized peri-lesional (Vol 1 Ch.4)",
-					"text": "100–200 µg per injection, 2–3 times weekly, 4–6 weeks, into or around target tissue.",
+					"text": "100 to 200 µg per injection, 2 to 3 times weekly, 4 to 6 weeks, into or around target tissue.",
 					"source": "vol1",
 					"chapter": "Chapter 4",
 					"pages": "45"
 				},
 				{
 					"label": "Oral GI focus (Vol 1 Ch.4)",
-					"text": "500 µg to 2 mg daily on an empty stomach, 4–8 weeks, capsule or oral solution (higher because of partial absorption).",
+					"text": "500 µg to 2 mg daily on an empty stomach, 4 to 8 weeks, capsule or oral solution (higher because of partial absorption).",
 					"source": "vol1",
 					"chapter": "Chapter 4",
 					"pages": "46"
 				},
 				{
 					"label": "Practical daily range used in Vol 2 protocols",
-					"text": "250–500 mcg/day SC once daily or divided BID. Localized injury 250–500 mcg/day near (not into) tissue. GI: 250–500 mcg/day oral or SC. Clinical note: going above 500–750 mcg/day rarely helps and may rebound inflammation.",
+					"text": "250 to 500 mcg/day SC once daily or divided BID. Localized injury 250 to 500 mcg/day near (not into) tissue. GI: 250 to 500 mcg/day oral or SC. Clinical note: going above 500 to 750 mcg/day rarely helps and may rebound inflammation.",
 					"source": "vol2",
 					"chapter": "Chapter 4",
-					"pages": "25–26"
+					"pages": "25 to 26"
 				}
 			],
-			"reconstitution": "Bacteriostatic water. Typical 250–500 µg/mL. Refrigerate reconstituted 2–8°C. Use within 30–60 days. Protect from light.",
-			"cycle": "Vol 2: typical 4–6 weeks, up to 8 weeks chronic, washout 2–4 weeks. Re-cycle only if structural recovery is incomplete. If plateaued, do not escalate dose — reassess rehab, inflammation, or stacking.",
+			"reconstitution": "Bacteriostatic water. Typical 250 to 500 µg/mL. Refrigerate reconstituted 2 to 8°C. Use within 30 to 60 days. Protect from light.",
+			"cycle": "Vol 2: typical 4 to 6 weeks, up to 8 weeks chronic, washout 2 to 4 weeks. Re-cycle only if structural recovery is incomplete. If plateaued, do not escalate dose, reassess rehab, inflammation, or stacking.",
 			"stacks_with": [
 				"tb-500",
 				"kpv",
@@ -156,7 +156,7 @@ var protocols_default = {
 				"Pain / load-tolerance scores",
 				"Range of motion",
 				"Injection-site integrity",
-				"Rehab progression — peptides without load are considered protocol failure in Vol 2"
+				"Rehab progression, peptides without load are considered protocol failure in Vol 2"
 			],
 			"side_effects": [
 				"Usually well tolerated",
@@ -164,9 +164,9 @@ var protocols_default = {
 				"Occasional mild headache"
 			],
 			"citations": [
-				"Vol 1 Ch.1 pp.12–13",
-				"Vol 1 Ch.4 pp.43–55",
-				"Vol 2 Ch.4 pp.21–28"
+				"Vol 1 Ch.1 pp.12 to 13",
+				"Vol 1 Ch.4 pp.43 to 55",
+				"Vol 2 Ch.4 pp.21 to 28"
 			]
 		},
 		{
@@ -180,9 +180,9 @@ var protocols_default = {
 				"tb4",
 				"tβ4"
 			],
-			"class_name": "Systemic repair — synthetic thymosin beta-4 fragment",
-			"regulatory": "Research / compounded. Not FDA-approved for musculoskeletal repair. Anti-doping status changes — athletes must verify current WADA/league rules.",
-			"what_it_is": "Synthetic 43-aa peptide mimicking thymosin beta-4. Regulates actin, cell migration, and multi-tissue remodeling. Longer half-life (8–12 hours) than BPC-157, so it is dosed a few times per week rather than daily. Works systemically more than locally.",
+			"class_name": "Systemic repair, synthetic thymosin beta-4 fragment",
+			"regulatory": "Research / compounded. Not FDA-approved for musculoskeletal repair. Anti-doping status changes, athletes must verify current WADA/league rules.",
+			"what_it_is": "Synthetic 43-aa peptide mimicking thymosin beta-4. Regulates actin, cell migration, and multi-tissue remodeling. Longer half-life (8 to 12 hours) than BPC-157, so it is dosed a few times per week rather than daily. Works systemically more than locally.",
 			"good_for": [
 				"Diffuse or multi-site soft-tissue injury",
 				"Muscle injury and systemic recovery",
@@ -199,56 +199,56 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Quick-reference (Vol 1 Ch.1)",
-					"text": "2–2.5 mg twice weekly for systemic tissue regeneration.",
+					"text": "2 to 2.5 mg twice weekly for systemic tissue regeneration.",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "12"
 				},
 				{
 					"label": "Standard practice (Vol 1 Ch.5)",
-					"text": "2–2.5 mg per injection, 2–3 times weekly.",
+					"text": "2 to 2.5 mg per injection, 2 to 3 times weekly.",
 					"source": "vol1",
 					"chapter": "Chapter 5",
 					"pages": "63"
 				},
 				{
 					"label": "Acute loading (Vol 1 Ch.5)",
-					"text": "4–6 mg per week divided into 2 doses for 2–4 weeks (example: 2.5 mg every 3 days or 2 mg three times weekly).",
+					"text": "4 to 6 mg per week divided into 2 doses for 2 to 4 weeks (example: 2.5 mg every 3 days or 2 mg three times weekly).",
 					"source": "vol1",
 					"chapter": "Chapter 5",
 					"pages": "63"
 				},
 				{
 					"label": "Maintenance (Vol 1 Ch.5)",
-					"text": "2–4 mg per week for 4–8 weeks (2 mg twice weekly or 2.5 mg every 3–4 days).",
+					"text": "2 to 4 mg per week for 4 to 8 weeks (2 mg twice weekly or 2.5 mg every 3 to 4 days).",
 					"source": "vol1",
 					"chapter": "Chapter 5",
 					"pages": "64"
 				},
 				{
 					"label": "Chronic pattern (Vol 1 Ch.5)",
-					"text": "4 mg/week for 4 weeks, then 2 mg weekly for 4–8 weeks, reassess every 4–8 weeks with treatment breaks. Weekly ceiling 10 mg — higher rarely adds benefit.",
+					"text": "4 mg/week for 4 weeks, then 2 mg weekly for 4 to 8 weeks, reassess every 4 to 8 weeks with treatment breaks. Weekly ceiling 10 mg, higher rarely adds benefit.",
 					"source": "vol1",
 					"chapter": "Chapter 5",
 					"pages": "64"
 				},
 				{
 					"label": "Comparison table (Vol 1 Ch.5)",
-					"text": "Standard range listed as 2–5 mg twice weekly; loading 4–6 mg weekly for 2–4 weeks. Onset 2–4 weeks, peak 8–12 weeks.",
+					"text": "Standard range listed as 2 to 5 mg twice weekly; loading 4 to 6 mg weekly for 2 to 4 weeks. Onset 2 to 4 weeks, peak 8 to 12 weeks.",
 					"source": "vol1",
 					"chapter": "Chapter 5",
 					"pages": "72"
 				},
 				{
 					"label": "Vol 2 injury stacks",
-					"text": "Common stack doses: 2 mg twice weekly, or 2–5 mg/week depending on protocol class.",
+					"text": "Common stack doses: 2 mg twice weekly, or 2 to 5 mg/week depending on protocol class.",
 					"source": "vol2",
 					"chapter": "Chapters 5 and 13",
-					"pages": "36, 100–101"
+					"pages": "36, 100 to 101"
 				}
 			],
-			"reconstitution": "1–2 mL bacteriostatic water per 5 mg vial; swirl, do not shake. Refrigerate 2–8°C up to 8–12 weeks. Typical 2–5 mg/mL.",
-			"cycle": "Loading 2–4 weeks then maintenance 4–8 weeks. Chronic: build in 4-week treatment-free intervals. Vol 2 washout often 4 weeks.",
+			"reconstitution": "1 to 2 mL bacteriostatic water per 5 mg vial; swirl, do not shake. Refrigerate 2 to 8°C up to 8 to 12 weeks. Typical 2 to 5 mg/mL.",
+			"cycle": "Loading 2 to 4 weeks then maintenance 4 to 8 weeks. Chronic: build in 4-week treatment-free intervals. Vol 2 washout often 4 weeks.",
 			"stacks_with": [
 				"bpc-157",
 				"kpv",
@@ -270,7 +270,7 @@ var protocols_default = {
 				"Theoretical angiogenesis concern in cancer history"
 			],
 			"citations": [
-				"Vol 1 Ch.5 pp.60–72",
+				"Vol 1 Ch.5 pp.60 to 72",
 				"Vol 2 Ch.5",
 				"Vol 2 Ch.13"
 			]
@@ -301,7 +301,7 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Quick-reference (Vol 1 Ch.1)",
-					"text": "200–500 mcg daily for mucosal inflammation and autoimmune support.",
+					"text": "200 to 500 mcg daily for mucosal inflammation and autoimmune support.",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "13"
@@ -315,35 +315,35 @@ var protocols_default = {
 				},
 				{
 					"label": "Topical (Vol 1 Ch.6)",
-					"text": "0.1% to 1% cream or gel, 2–3 times daily on clean dry skin. Start low.",
+					"text": "0.1% to 1% cream or gel, 2 to 3 times daily on clean dry skin. Start low.",
 					"source": "vol1",
 					"chapter": "Chapter 6",
 					"pages": "76"
 				},
 				{
 					"label": "Rectal (Vol 1 Ch.6)",
-					"text": "1–2 mg suppositories, usually bedtime, for distal colonic disease.",
+					"text": "1 to 2 mg suppositories, usually bedtime, for distal colonic disease.",
 					"source": "vol1",
 					"chapter": "Chapter 6",
 					"pages": "77"
 				},
 				{
 					"label": "Duration (Vol 1 Ch.6)",
-					"text": "Acute 2–4 weeks. Chronic 8–12 weeks then reassess. Then lower-dose or less-frequent maintenance.",
+					"text": "Acute 2 to 4 weeks. Chronic 8 to 12 weeks then reassess. Then lower-dose or less-frequent maintenance.",
 					"source": "vol1",
 					"chapter": "Chapter 6",
 					"pages": "77"
 				},
 				{
 					"label": "Vol 2 protocol doses (most stacks)",
-					"text": "200 mcg/day, or 200–300 mcg/day in inflammatory-blockade and gut-repair stacks. Gut repair stack example: KPV 300 mcg/day + BPC-157 250–500 mcg/day for 4–6 weeks.",
+					"text": "200 mcg/day, or 200 to 300 mcg/day in inflammatory-blockade and gut-repair stacks. Gut repair stack example: KPV 300 mcg/day + BPC-157 250 to 500 mcg/day for 4 to 6 weeks.",
 					"source": "vol2",
 					"chapter": "Chapter 6 / 14",
-					"pages": "43–44, 108"
+					"pages": "43 to 44, 108"
 				}
 			],
 			"reconstitution": "Compounded product dependent. Follow the dispensing clinic. Start at the low end of the published range.",
-			"cycle": "Vol 2 often 4–6 weeks (gut) or 6–8 weeks (autoimmune-adjacent), then reassess. Stability over intensity.",
+			"cycle": "Vol 2 often 4 to 6 weeks (gut) or 6 to 8 weeks (autoimmune-adjacent), then reassess. Stability over intensity.",
 			"stacks_with": [
 				"bpc-157",
 				"ta-1",
@@ -361,7 +361,7 @@ var protocols_default = {
 			],
 			"side_effects": ["Generally described as well tolerated", "Route-specific local irritation"],
 			"citations": [
-				"Vol 1 Ch.6 pp.73–83",
+				"Vol 1 Ch.6 pp.73 to 83",
 				"Vol 1 Ch.1 p.13",
 				"Vol 2 Ch.6 and Ch.14"
 			]
@@ -378,7 +378,7 @@ var protocols_default = {
 			],
 			"class_name": "Immune-modulating thymic peptide",
 			"regulatory": "Pharmaceutical thymalfasin (Zadaxin) is approved in multiple countries for hepatitis B and as a cancer adjuvant; it is not a general US OTC immune booster. Compounded TA-1 is used off-label in integrative clinics.",
-			"what_it_is": "28-aa peptide (thymalfasin), active fragment of prothymosin α. Immune modulator — T-cell maturation, cytokine balance, NK and dendritic-cell support — not a crude 'immune booster.' Peak ~30–60 min after SC, plasma half-life ~2 hours, downstream immune effects days to weeks.",
+			"what_it_is": "28-aa peptide (thymalfasin), active fragment of prothymosin α. Immune modulator, T-cell maturation, cytokine balance, NK and dendritic-cell support, not a crude 'immune booster.' Peak ~30 to 60 min after SC, plasma half-life ~2 hours, downstream immune effects days to weeks.",
 			"good_for": [
 				"Immune competence after viral illness / long-COVID-pattern fatigue (as discussed in ISSCA)",
 				"Age-related immune decline (adults >50, quarterly cycles in the book)",
@@ -401,28 +401,28 @@ var protocols_default = {
 				},
 				{
 					"label": "Standard intensive (Vol 1 Ch.7)",
-					"text": "1.6 mg SC twice weekly (often Monday/Thursday). 8 weeks intensive, then 1.6 mg once weekly for 4–8 weeks maintenance. Cited applications include hepatitis B/C and persistent EBV/CMV patterns under clinical care.",
+					"text": "1.6 mg SC twice weekly (often Monday/Thursday). 8 weeks intensive, then 1.6 mg once weekly for 4 to 8 weeks maintenance. Cited applications include hepatitis B/C and persistent EBV/CMV patterns under clinical care.",
 					"source": "vol1",
 					"chapter": "Chapter 7",
 					"pages": "87"
 				},
 				{
-					"label": "Cancer adjuvant (Vol 1 Ch.7 — clinician + oncology only)",
-					"text": "1.6 mg SC twice weekly throughout other treatment, continue 4–6 weeks after, coordinated with the oncology team.",
+					"label": "Cancer adjuvant (Vol 1 Ch.7, clinician + oncology only)",
+					"text": "1.6 mg SC twice weekly throughout other treatment, continue 4 to 6 weeks after, coordinated with the oncology team.",
 					"source": "vol1",
 					"chapter": "Chapter 7",
 					"pages": "87"
 				},
 				{
 					"label": "Post-viral (Vol 1 Ch.7)",
-					"text": "1.6 mg once weekly for 6–8 weeks initial trial. Reassess energy, cognition, NK activity ~every 4 weeks.",
+					"text": "1.6 mg once weekly for 6 to 8 weeks initial trial. Reassess energy, cognition, NK activity ~every 4 weeks.",
 					"source": "vol1",
 					"chapter": "Chapter 7",
 					"pages": "88"
 				},
 				{
 					"label": "Healthy-adult optimization (Vol 1 Ch.7)",
-					"text": "1.6 mg once weekly for 4–6 weeks, quarterly cycles, adults over 50.",
+					"text": "1.6 mg once weekly for 4 to 6 weeks, quarterly cycles, adults over 50.",
 					"source": "vol1",
 					"chapter": "Chapter 7",
 					"pages": "88"
@@ -435,7 +435,7 @@ var protocols_default = {
 					"pages": "88"
 				},
 				{
-					"label": "Severe immunodeficiency (Vol 1 Ch.7 — specialist)",
+					"label": "Severe immunodeficiency (Vol 1 Ch.7, specialist)",
 					"text": "Up to 6.4 mg weekly divided or single dose, close immune-function supervision only.",
 					"source": "vol1",
 					"chapter": "Chapter 7",
@@ -443,14 +443,14 @@ var protocols_default = {
 				},
 				{
 					"label": "Vol 2 immune stacks",
-					"text": "1.6 mg SC twice weekly for 6–8 weeks in immune-coordination and immune-resilient longevity stacks. Washout 4–6 weeks in Class III longevity stack.",
+					"text": "1.6 mg SC twice weekly for 6 to 8 weeks in immune-coordination and immune-resilient longevity stacks. Washout 4 to 6 weeks in Class III longevity stack.",
 					"source": "vol2",
 					"chapter": "Chapters 7 and 15",
-					"pages": "52–53, 117"
+					"pages": "52 to 53, 117"
 				}
 			],
 			"reconstitution": "Typical pharmaceutical presentation is already a measured SC dose. Compounded vials follow clinic SOP. Start with the standard 1.6 mg to assess tolerance.",
-			"cycle": "Intensive twice-weekly 6–8 weeks, then weekly maintenance or a washout. Quarterly pulses for age-related support. Not framed as indefinite daily therapy.",
+			"cycle": "Intensive twice-weekly 6 to 8 weeks, then weekly maintenance or a washout. Quarterly pulses for age-related support. Not framed as indefinite daily therapy.",
 			"stacks_with": ["kpv", "bpc-157"],
 			"contraindications": [
 				"Unsupervised use in active cancer",
@@ -461,7 +461,7 @@ var protocols_default = {
 				"Infection frequency and recovery time",
 				"Energy / sleep",
 				"Oncology or hepatitis labs when used in those labeled contexts",
-				"Reassess every 4–8 weeks"
+				"Reassess every 4 to 8 weeks"
 			],
 			"side_effects": [
 				"Transient initial fatigue is described as a possible early response",
@@ -469,7 +469,7 @@ var protocols_default = {
 				"Otherwise extensive historical safety literature in approved markets"
 			],
 			"citations": [
-				"Vol 1 Ch.7 pp.84–95",
+				"Vol 1 Ch.7 pp.84 to 95",
 				"Vol 2 Ch.7",
 				"Vol 2 Ch.15"
 			]
@@ -493,7 +493,7 @@ var protocols_default = {
 			],
 			"class_name": "GHRH analogue + GH secretagogue (ghrelin-receptor agonist)",
 			"regulatory": "Sermorelin was previously an FDA-approved GHRH analogue (later discontinued as a brand). Tesamorelin is FDA-approved for HIV-associated lipodystrophy. CJC-1295 and ipamorelin used in clinics are typically compounded / research peptides, not approved GH-replacement drugs.",
-			"what_it_is": "Dual-pathway stimulation of physiologic GH pulses: a GHRH analogue (CJC-1295 no-DAC / Mod GRF 1-29 or sermorelin) plus a ghrelin-receptor agonist (ipamorelin preferred in ISSCA for selectivity). Requires a working pituitary. Benefits accrue over 8–12 weeks. Night / empty-stomach timing is emphasized.",
+			"what_it_is": "Dual-pathway stimulation of physiologic GH pulses: a GHRH analogue (CJC-1295 no-DAC / Mod GRF 1-29 or sermorelin) plus a ghrelin-receptor agonist (ipamorelin preferred in ISSCA for selectivity). Requires a working pituitary. Benefits accrue over 8 to 12 weeks. Night / empty-stomach timing is emphasized.",
 			"good_for": [
 				"Sleep-related GH pulse support",
 				"Recovery capacity and lean-mass preservation",
@@ -517,70 +517,70 @@ var protocols_default = {
 				},
 				{
 					"label": "CJC-1295 without DAC (Vol 1 Ch.8)",
-					"text": "100–300 μg per injection, 2–3 times weekly, before bed or 2–3 hours post-meal. Preferred for pulsatile pattern.",
+					"text": "100 to 300 μg per injection, 2 to 3 times weekly, before bed or 2 to 3 hours post-meal. Preferred for pulsatile pattern.",
 					"source": "vol1",
 					"chapter": "Chapter 8",
 					"pages": "99"
 				},
 				{
 					"label": "CJC-1295 with DAC (Vol 1 Ch.8)",
-					"text": "1–2 mg once weekly. More convenient, less physiologic, faster desensitization risk. Vol 1 Ch.9 lists 2–3 mg weekly.",
+					"text": "1 to 2 mg once weekly. More convenient, less physiologic, faster desensitization risk. Vol 1 Ch.9 lists 2 to 3 mg weekly.",
 					"source": "vol1",
-					"chapter": "Chapters 8–9",
+					"chapter": "Chapters 8 to 9",
 					"pages": "100, 113"
 				},
 				{
 					"label": "Ipamorelin (Vol 1 Ch.8)",
-					"text": "200–300 μg once daily before bed, 30–60 minutes before sleep. Selective, fewer side effects.",
+					"text": "200 to 300 μg once daily before bed, 30 to 60 minutes before sleep. Selective, fewer side effects.",
 					"source": "vol1",
 					"chapter": "Chapter 8",
 					"pages": "100"
 				},
 				{
 					"label": "Gold-standard combination (Vol 1 Ch.8)",
-					"text": "CJC-1295 no-DAC 100–200 μg + ipamorelin 200–300 μg together before bed, 5 days/week. Cycle 12 weeks on / 4 weeks off.",
+					"text": "CJC-1295 no-DAC 100 to 200 μg + ipamorelin 200 to 300 μg together before bed, 5 days/week. Cycle 12 weeks on / 4 weeks off.",
 					"source": "vol1",
 					"chapter": "Chapter 8",
 					"pages": "101"
 				},
 				{
 					"label": "Sermorelin (Vol 1 Ch.9)",
-					"text": "200–500 μg SC before bed, 5–6 nights weekly, empty stomach, 3–6 month cycles.",
+					"text": "200 to 500 μg SC before bed, 5 to 6 nights weekly, empty stomach, 3 to 6 month cycles.",
 					"source": "vol1",
 					"chapter": "Chapter 9",
 					"pages": "112"
 				},
 				{
 					"label": "Mod GRF 1-29 (Vol 1 Ch.9)",
-					"text": "100–300 μg, 1–3 times daily on empty stomach (pre-meal, post-workout, or bedtime).",
+					"text": "100 to 300 μg, 1 to 3 times daily on empty stomach (pre-meal, post-workout, or bedtime).",
 					"source": "vol1",
 					"chapter": "Chapter 9",
 					"pages": "113"
 				},
 				{
 					"label": "Hexarelin (advanced only)",
-					"text": "Vol 1: 100–200 μg 1–2x daily with mandatory cycling. Vol 2: 100–200 μg once daily max, pre-sleep only, ≤4 week cycles. Highest desensitization risk.",
+					"text": "Vol 1: 100 to 200 μg 1 to 2x daily with mandatory cycling. Vol 2: 100 to 200 μg once daily max, pre-sleep only, ≤4 week cycles. Highest desensitization risk.",
 					"source": "vol1+vol2",
 					"chapter": "Vol 1 Ch.8; Vol 2 Ch.8",
-					"pages": "100; 59–60"
+					"pages": "100; 59 to 60"
 				},
 				{
 					"label": "Tesamorelin (labeled / arsenal)",
-					"text": "2 mg nightly in the Vol 1 quick-reference for visceral fat / metabolic enhancement. This is the FDA-labeled analogue family for HIV lipodystrophy — prescribe only to label.",
+					"text": "2 mg nightly in the Vol 1 quick-reference for visceral fat / metabolic enhancement. This is the FDA-labeled analogue family for HIV lipodystrophy, prescribe only to label.",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "12"
 				},
 				{
 					"label": "Vol 2 preferred clinic pattern",
-					"text": "CJC-1295 no-DAC 100–200 mcg SC 1–2x daily, pre-sleep mandatory. Ipamorelin 100–300 mcg SC 1–3x daily, pre-sleep ± post-training. Standard restoration protocol: CJC 100 mcg + ipamorelin 200 mcg pre-sleep for 8–12 weeks.",
+					"text": "CJC-1295 no-DAC 100 to 200 mcg SC 1 to 2x daily, pre-sleep mandatory. Ipamorelin 100 to 300 mcg SC 1 to 3x daily, pre-sleep ± post-training. Standard restoration protocol: CJC 100 mcg + ipamorelin 200 mcg pre-sleep for 8 to 12 weeks.",
 					"source": "vol2",
 					"chapter": "Chapter 8",
-					"pages": "59–60"
+					"pages": "59 to 60"
 				}
 			],
-			"reconstitution": "Bacteriostatic water, insulin syringe, SC abdomen or thigh. Empty stomach: 2–3 hours after last meal, 30–60 minutes before food or sleep.",
-			"cycle": "Vol 1 gold standard 12 on / 4 off. Vol 2 standard 8–12 weeks, washout 4–6 weeks. Hexarelin ≤4 weeks. Continuous use without breaks → receptor fatigue.",
+			"reconstitution": "Bacteriostatic water, insulin syringe, SC abdomen or thigh. Empty stomach: 2 to 3 hours after last meal, 30 to 60 minutes before food or sleep.",
+			"cycle": "Vol 1 gold standard 12 on / 4 off. Vol 2 standard 8 to 12 weeks, washout 4 to 6 weeks. Hexarelin ≤4 weeks. Continuous use without breaks → receptor fatigue.",
 			"stacks_with": [
 				"bpc-157",
 				"tb-500",
@@ -594,8 +594,8 @@ var protocols_default = {
 				"Daytime GH stacking that interferes with insulin during aggressive fat-loss phases (Vol 2)"
 			],
 			"monitoring": [
-				"Sleep depth by weeks 2–3",
-				"Recovery by weeks 4–6",
+				"Sleep depth by weeks 2 to 3",
+				"Recovery by weeks 4 to 6",
 				"Lean mass by week 8+",
 				"Glucose tolerance",
 				"IGF-1 as context, not a vanity target"
@@ -607,8 +607,8 @@ var protocols_default = {
 			],
 			"citations": [
 				"Vol 1 Ch.1 p.12",
-				"Vol 1 Ch.8–9 pp.96–119",
-				"Vol 2 Ch.8 pp.59–60"
+				"Vol 1 Ch.8 to 9 pp.96 to 119",
+				"Vol 2 Ch.8 pp.59 to 60"
 			]
 		},
 		{
@@ -629,7 +629,7 @@ var protocols_default = {
 				"victoza",
 				"incretin"
 			],
-			"class_name": "Incretin / dual GIP-GLP-1 receptor agonists — prescription metabolic drugs",
+			"class_name": "Incretin / dual GIP-GLP-1 receptor agonists, prescription metabolic drugs",
 			"regulatory": "FDA-approved prescription medicines for type 2 diabetes and/or chronic weight management when labeled criteria are met. This is not a research peptide class. Compounded copies raise quality and legal issues; branded products have a boxed warning for thyroid C-cell tumors in rodents.",
 			"what_it_is": "Medicines that mimic GLP-1 (tirzepatide also agonizes GIP). Glucose-dependent insulin secretion, glucagon suppression, delayed gastric emptying, central appetite reduction. ISSCA also discusses longevity / NAFLD / CV-risk framing, but labeled indications and REMS/label warnings still govern real-world prescribing.",
 			"good_for": [
@@ -649,21 +649,21 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Quick-reference (Vol 1 Ch.1)",
-					"text": "Semaglutide 0.25–2.4 mg weekly. Tirzepatide 2.5–15 mg weekly.",
+					"text": "Semaglutide 0.25 to 2.4 mg weekly. Tirzepatide 2.5 to 15 mg weekly.",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "13"
 				},
 				{
 					"label": "Liraglutide (Vol 1 Ch.10)",
-					"text": "Start 0.6 mg SC daily, increase 0.6 mg weekly as tolerated, maintenance 1.2–3.0 mg daily (higher end for weight). Same time each day. Book notes 1.8 mg daily in a CV-protection protocol example.",
+					"text": "Start 0.6 mg SC daily, increase 0.6 mg weekly as tolerated, maintenance 1.2 to 3.0 mg daily (higher end for weight). Same time each day. Book notes 1.8 mg daily in a CV-protection protocol example.",
 					"source": "vol1",
 					"chapter": "Chapter 10",
 					"pages": "123, 126"
 				},
 				{
 					"label": "Semaglutide injectable (Vol 1 Ch.10)",
-					"text": "Start 0.25 mg SC weekly. Titrate every 4 weeks: 0.25 → 0.5 → 1.0 → 2.4 mg. Maintenance 0.5–2.4 mg depending on indication. Same day each week.",
+					"text": "Start 0.25 mg SC weekly. Titrate every 4 weeks: 0.25 → 0.5 → 1.0 → 2.4 mg. Maintenance 0.5 to 2.4 mg depending on indication. Same day each week.",
 					"source": "vol1",
 					"chapter": "Chapter 10",
 					"pages": "124"
@@ -677,14 +677,14 @@ var protocols_default = {
 				},
 				{
 					"label": "Tirzepatide (Vol 1 Ch.10)",
-					"text": "Start 2.5 mg SC weekly. Increase 2.5 mg every 4 weeks as tolerated. Maintenance 5–15 mg. Max 15 mg for weight management.",
+					"text": "Start 2.5 mg SC weekly. Increase 2.5 mg every 4 weeks as tolerated. Maintenance 5 to 15 mg. Max 15 mg for weight management.",
 					"source": "vol1",
 					"chapter": "Chapter 10",
 					"pages": "124"
 				},
 				{
 					"label": "Vol 2 metabolic protocol classes (conservative clinic style)",
-					"text": "Many Vol 2 cards use 'GLP-1 peptide 0.25–0.5 mg weekly' as a low-and-slow educational pattern, escalate to 0.5 mg only if appetite suppression plateaus, 12-week minimum. Aggressive short-term class: 0.5–1.0 mg weekly for 8–10 weeks max then mandatory washout. These are protocol-class examples, not a substitute for the FDA titration schedule on the pen you were prescribed.",
+					"text": "Many Vol 2 cards use 'GLP-1 peptide 0.25 to 0.5 mg weekly' as a low-and-slow educational pattern, escalate to 0.5 mg only if appetite suppression plateaus, 12-week minimum. Aggressive short-term class: 0.5 to 1.0 mg weekly for 8 to 10 weeks max then mandatory washout. These are protocol-class examples, not a substitute for the FDA titration schedule on the pen you were prescribed.",
 					"source": "vol2",
 					"chapter": "Chapter 17",
 					"pages": "135"
@@ -702,23 +702,23 @@ var protocols_default = {
 				"MEN2",
 				"Pregnancy",
 				"Severe gastroparesis",
-				"Pancreatitis history — specialist decision"
+				"Pancreatitis history, specialist decision"
 			],
 			"monitoring": [
 				"GI tolerance every titration step",
 				"Weight and body composition (not scale alone)",
 				"HbA1c / glucose",
-				"Muscle: protein 1.2–1.6 g/kg (Vol 1) or ≥1.6 g/kg (Vol 2) plus resistance training 3–4x/week",
+				"Muscle: protein 1.2 to 1.6 g/kg (Vol 1) or ≥1.6 g/kg (Vol 2) plus resistance training 3 to 4x/week",
 				"Gallbladder symptoms, hydration, constipation"
 			],
 			"side_effects": [
-				"Nausea, vomiting, constipation or diarrhea — the reason titration exists",
+				"Nausea, vomiting, constipation or diarrhea, the reason titration exists",
 				"Gallbladder events",
 				"Rare pancreatitis",
 				"Lean-mass loss if protein and lifting are skipped"
 			],
 			"citations": [
-				"Vol 1 Ch.10 pp.120–131",
+				"Vol 1 Ch.10 pp.120 to 131",
 				"Vol 1 Ch.1 p.13",
 				"Vol 2 Ch.17"
 			]
@@ -741,9 +741,9 @@ var protocols_default = {
 				"tanning peptide",
 				"libido peptide"
 			],
-			"class_name": "α-MSH analogues — MC1R / MC3R / MC4R / MC5R",
+			"class_name": "α-MSH analogues, MC1R / MC3R / MC4R / MC5R",
 			"regulatory": "Bremelanotide (Vyleesi) is FDA-approved for premenopausal acquired, generalized hypoactive sexual desire disorder. Setmelanotide (Imcivree) is FDA-approved for specific genetic obesity disorders. Melanotan II is not FDA-approved; tanning use is unapproved and carries melanoma-history cautions in ISSCA.",
-			"what_it_is": "Synthetic α-MSH analogues. Receptor map: MC1R pigmentation, MC3R/MC4R energy and sexual signaling, MC5R inflammatory tone. Effects are central and variable — ISSCA insists on lowest-dose titration because sensitivity differs dramatically.",
+			"what_it_is": "Synthetic α-MSH analogues. Receptor map: MC1R pigmentation, MC3R/MC4R energy and sexual signaling, MC5R inflammatory tone. Effects are central and variable, ISSCA insists on lowest-dose titration because sensitivity differs dramatically.",
 			"good_for": [
 				"Labeled bremelanotide use for qualifying female HSDD",
 				"Labeled setmelanotide use in rare genetic obesity",
@@ -759,42 +759,42 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Melanotan II initiation (Vol 1 Ch.11)",
-					"text": "Start 0.25–0.5 mg SC every other day. Assess 1–2 weeks before any increase. Some patients respond at this floor.",
+					"text": "Start 0.25 to 0.5 mg SC every other day. Assess 1 to 2 weeks before any increase. Some patients respond at this floor.",
 					"source": "vol1",
 					"chapter": "Chapter 11",
 					"pages": "135"
 				},
 				{
 					"label": "Melanotan II maintenance (Vol 1 Ch.11)",
-					"text": "Sexual function: 0.5–1.0 mg 2–3x weekly. Tanning: 0.5 mg daily 1–2 weeks loading, then 0.5–1.0 mg 2–3x weekly. Appetite: 0.25–0.5 mg every other day.",
+					"text": "Sexual function: 0.5 to 1.0 mg 2 to 3x weekly. Tanning: 0.5 mg daily 1 to 2 weeks loading, then 0.5 to 1.0 mg 2 to 3x weekly. Appetite: 0.25 to 0.5 mg every other day.",
 					"source": "vol1",
 					"chapter": "Chapter 11",
 					"pages": "135"
 				},
 				{
-					"label": "Bremelanotide / PT-141 (Vol 1 Ch.11 — labeled product is 1.75 mg)",
-					"text": "1.75 mg SC as needed, 45 minutes before activity. Maximum once daily and no more than 8 doses per month. Sensitive patients 1.0–1.25 mg.",
+					"label": "Bremelanotide / PT-141 (Vol 1 Ch.11, labeled product is 1.75 mg)",
+					"text": "1.75 mg SC as needed, 45 minutes before activity. Maximum once daily and no more than 8 doses per month. Sensitive patients 1.0 to 1.25 mg.",
 					"source": "vol1",
 					"chapter": "Chapter 11",
 					"pages": "136"
 				},
 				{
-					"label": "Setmelanotide (Vol 1 Ch.11 — specialist / labeled)",
-					"text": "Adults start 2 mg daily, titrate weekly 0.5–1 mg; maintenance 2–3 mg daily. Pediatrics start 1 mg daily. Only for indicated genetic obesity under a specialist.",
+					"label": "Setmelanotide (Vol 1 Ch.11, specialist / labeled)",
+					"text": "Adults start 2 mg daily, titrate weekly 0.5 to 1 mg; maintenance 2 to 3 mg daily. Pediatrics start 1 mg daily. Only for indicated genetic obesity under a specialist.",
 					"source": "vol1",
 					"chapter": "Chapter 11",
 					"pages": "136"
 				},
 				{
 					"label": "Cycling principle",
-					"text": "4–12 weeks active then breaks to limit receptor desensitization. Escalate conservatively to avoid severe nausea and drop-out.",
+					"text": "4 to 12 weeks active then breaks to limit receptor desensitization. Escalate conservatively to avoid severe nausea and drop-out.",
 					"source": "vol1",
 					"chapter": "Chapter 11",
 					"pages": "136"
 				}
 			],
 			"reconstitution": "Approved pens for Vyleesi / Imcivree. MT-II if encountered in research settings is not a recommended consumer product.",
-			"cycle": "4–12 weeks then a break for unapproved MT-II-style clinic use. Approved bremelanotide is on-demand with a monthly cap.",
+			"cycle": "4 to 12 weeks then a break for unapproved MT-II-style clinic use. Approved bremelanotide is on-demand with a monthly cap.",
 			"stacks_with": [],
 			"contraindications": [
 				"Uncontrolled HTN",
@@ -815,7 +815,7 @@ var protocols_default = {
 				"Pigmentation and mole darkening with MT-II",
 				"Blood-pressure changes"
 			],
-			"citations": ["Vol 1 Ch.11 pp.132–145"]
+			"citations": ["Vol 1 Ch.11 pp.132 to 145"]
 		},
 		{
 			"id": "hcg",
@@ -846,28 +846,28 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "Testosterone-support combination (Vol 1 Ch.12)",
-					"text": "hCG 500–1500 IU SC 2–3 times weekly, with reduced testosterone 100–150 mg weekly instead of 200 mg, to keep therapeutic levels while preserving testicular function.",
+					"text": "hCG 500 to 1500 IU SC 2 to 3 times weekly, with reduced testosterone 100 to 150 mg weekly instead of 200 mg, to keep therapeutic levels while preserving testicular function.",
 					"source": "vol1",
 					"chapter": "Chapter 12",
 					"pages": "149"
 				},
 				{
 					"label": "Male fertility (Vol 1 Ch.12)",
-					"text": "1000–1500 IU SC every other day or three times weekly (e.g., M/W/F) for a minimum 3–6 months. Spermatogenesis ~74 days; do not judge at week 4–6.",
+					"text": "1000 to 1500 IU SC every other day or three times weekly (e.g., M/W/F) for a minimum 3 to 6 months. Spermatogenesis ~74 days; do not judge at week 4 to 6.",
 					"source": "vol1",
 					"chapter": "Chapter 12",
 					"pages": "150"
 				},
 				{
 					"label": "Post-cycle style recovery (Vol 1 Ch.12)",
-					"text": "Phase 1: 1000–2000 IU every other day for 2–3 weeks. Phase 2: clomiphene 50 mg daily or tamoxifen 20 mg daily for 4–6 weeks. This is a specialist protocol, not a DIY PCT kit.",
+					"text": "Phase 1: 1000 to 2000 IU every other day for 2 to 3 weeks. Phase 2: clomiphene 50 mg daily or tamoxifen 20 mg daily for 4 to 6 weeks. This is a specialist protocol, not a DIY PCT kit.",
 					"source": "vol1",
 					"chapter": "Chapter 12",
 					"pages": "150"
 				},
 				{
 					"label": "Female ovulation trigger (specialist only)",
-					"text": "Single 5000–10000 IU IM as a final follicle-maturation signal.",
+					"text": "Single 5000 to 10000 IU IM as a final follicle-maturation signal.",
 					"source": "vol1",
 					"chapter": "Chapter 12",
 					"pages": "150"
@@ -895,7 +895,7 @@ var protocols_default = {
 				"Injection-site irritation",
 				"Ovarian hyperstimulation in female specialist protocols"
 			],
-			"citations": ["Vol 1 Ch.12 pp.146–161", "Vol 2 Ch.12"]
+			"citations": ["Vol 1 Ch.12 pp.146 to 161", "Vol 2 Ch.12"]
 		},
 		{
 			"id": "ll-37",
@@ -928,40 +928,40 @@ var protocols_default = {
 				},
 				{
 					"label": "Systemic (Vol 1 Ch.13)",
-					"text": "200–500 mcg SC daily or every other day. Higher end reserved for severe immunocompromise / systemic infection contexts under a clinician.",
+					"text": "200 to 500 mcg SC daily or every other day. Higher end reserved for severe immunocompromise / systemic infection contexts under a clinician.",
 					"source": "vol1",
 					"chapter": "Chapter 13",
 					"pages": "166"
 				},
 				{
 					"label": "Nasal irrigation (Vol 1 Ch.13)",
-					"text": "200 mcg in 10 mL sterile saline twice daily for 4–8 weeks, or 100–300 mcg in 10–15 mL, mix fresh each use.",
+					"text": "200 mcg in 10 mL sterile saline twice daily for 4 to 8 weeks, or 100 to 300 mcg in 10 to 15 mL, mix fresh each use.",
 					"source": "vol1",
 					"chapter": "Chapter 13",
 					"pages": "166"
 				},
 				{
 					"label": "Wound (Vol 1 Ch.13)",
-					"text": "200–300 mcg in sterile solution applied twice daily with standard wound care.",
+					"text": "200 to 300 mcg in sterile solution applied twice daily with standard wound care.",
 					"source": "vol1",
 					"chapter": "Chapter 13",
 					"pages": "167"
 				},
 				{
 					"label": "Oral / gut (Vol 1 Ch.13)",
-					"text": "500 mcg to 1 mg daily empty stomach. SIBO-pattern example: 500 mcg twice daily. IBD-pattern example: 500–1000 mcg daily. 30–60 minutes before food.",
+					"text": "500 mcg to 1 mg daily empty stomach. SIBO-pattern example: 500 mcg twice daily. IBD-pattern example: 500 to 1000 mcg daily. 30 to 60 minutes before food.",
 					"source": "vol1",
 					"chapter": "Chapter 13",
 					"pages": "167"
 				}
 			],
 			"reconstitution": "Fresh saline mixes for irrigation. Parenteral product per compounding SOP.",
-			"cycle": "Acute 2–8 weeks. Biofilm discussion 3–6 months in the book. A 5-on / 2-off pattern is mentioned with limited evidence.",
+			"cycle": "Acute 2 to 8 weeks. Biofilm discussion 3 to 6 months in the book. A 5-on / 2-off pattern is mentioned with limited evidence.",
 			"stacks_with": ["kpv", "ta-1"],
 			"contraindications": ["Delaying emergency care for infection", "Pregnancy / lactation without specialist input"],
-			"monitoring": ["Infection trajectory — if worse, escalate to standard care immediately", "Sinus / wound appearance"],
+			"monitoring": ["Infection trajectory, if worse, escalate to standard care immediately", "Sinus / wound appearance"],
 			"side_effects": ["Local irritation", "Systemic flu-like feelings possible with immune-active peptides"],
-			"citations": ["Vol 1 Ch.13 pp.162–178", "Vol 1 Ch.1 p.13"]
+			"citations": ["Vol 1 Ch.13 pp.162 to 178", "Vol 1 Ch.1 p.13"]
 		},
 		{
 			"id": "ghrp-others",
@@ -1022,7 +1022,7 @@ var protocols_default = {
 			"dosing": [
 				{
 					"label": "GHK-Cu",
-					"text": "1–2 mg daily for skin, wound healing, and anti-aging effects (arsenal line).",
+					"text": "1 to 2 mg daily for skin, wound healing, and anti-aging effects (arsenal line).",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "12"
@@ -1036,7 +1036,7 @@ var protocols_default = {
 				},
 				{
 					"label": "5-Amino-1MQ",
-					"text": "50–150 mg daily (arsenal line).",
+					"text": "50 to 150 mg daily (arsenal line).",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "13"
@@ -1050,14 +1050,14 @@ var protocols_default = {
 				},
 				{
 					"label": "Semax",
-					"text": "500–1000 mcg intranasal daily (arsenal). Concussion protocol uses 500 mcg IN daily.",
+					"text": "500 to 1000 mcg intranasal daily (arsenal). Concussion protocol uses 500 mcg IN daily.",
 					"source": "vol1",
 					"chapter": "Chapters 1 and 4",
 					"pages": "13, 55"
 				},
 				{
 					"label": "Dihexa",
-					"text": "10–20 mg oral daily (arsenal line).",
+					"text": "10 to 20 mg oral daily (arsenal line).",
 					"source": "vol1",
 					"chapter": "Chapter 1",
 					"pages": "13"
@@ -1071,12 +1071,12 @@ var protocols_default = {
 				}
 			],
 			"reconstitution": "Product-specific.",
-			"cycle": "Not independently specified in the arsenal table — treat as adjunct lines, not core protocols.",
+			"cycle": "Not independently specified in the arsenal table, treat as adjunct lines, not core protocols.",
 			"stacks_with": ["bpc-157"],
 			"contraindications": ["Pregnancy", "Self-directed nootropic stacking"],
 			"monitoring": ["Indication-specific"],
-			"side_effects": ["Insufficient book detail to catalog — clinician supervision required"],
-			"citations": ["Vol 1 Ch.1 pp.12–13", "Vol 1 Ch.4 p.55"]
+			"side_effects": ["Insufficient book detail to catalog, clinician supervision required"],
+			"citations": ["Vol 1 Ch.1 pp.12 to 13", "Vol 1 Ch.4 p.55"]
 		}
 	],
 	stacks: [
@@ -1084,8 +1084,8 @@ var protocols_default = {
 			"id": "injury-a",
 			"name": "Advanced injury repair (Vol 2 Stack A)",
 			"category": "injury",
-			"items": ["BPC-157 500 mcg/day", "TB-500 2–5 mg/week"],
-			"duration": "4–6 weeks",
+			"items": ["BPC-157 500 mcg/day", "TB-500 2 to 5 mg/week"],
+			"duration": "4 to 6 weeks",
 			"use_when": "Multi-tissue injury, chronic/recurrent damage, post-surgical recovery",
 			"source": "Vol 2 Ch.4 p.27"
 		},
@@ -1093,8 +1093,8 @@ var protocols_default = {
 			"id": "injury-b",
 			"name": "Inflammatory injury (Vol 2 Stack B)",
 			"category": "injury",
-			"items": ["BPC-157 500 mcg/day", "KPV 200–300 mcg/day"],
-			"duration": "4–6 weeks",
+			"items": ["BPC-157 500 mcg/day", "KPV 200 to 300 mcg/day"],
+			"duration": "4 to 6 weeks",
 			"use_when": "Healing blocked by inflammation",
 			"source": "Vol 2 Ch.4 p.27"
 		},
@@ -1103,7 +1103,7 @@ var protocols_default = {
 			"name": "GH-supported repair (Vol 2 Stack C)",
 			"category": "injury",
 			"items": ["BPC-157 500 mcg/day", "CJC-1295 + Ipamorelin standard night protocol"],
-			"duration": "6–8 weeks",
+			"duration": "6 to 8 weeks",
 			"use_when": "Recovery capacity globally impaired. Vol 2 post-op rule: no GH support in first 2 weeks.",
 			"source": "Vol 2 Ch.4 p.27 and Ch.13"
 		},
@@ -1113,20 +1113,20 @@ var protocols_default = {
 			"category": "injury",
 			"items": [
 				"BPC-157 500 mcg/day",
-				"TB-500 2–4 mg/week",
+				"TB-500 2 to 4 mg/week",
 				"CJC-1295 100 mcg pre-sleep",
 				"Ipamorelin 100 mcg pre-sleep"
 			],
 			"duration": "8 weeks",
-			"use_when": "Slow healing despite correct rehab; aging, high stress, poor sleep — only if sleep is first corrected.",
-			"source": "Vol 2 Ch.13 pp.100–101"
+			"use_when": "Slow healing despite correct rehab; aging, high stress, poor sleep, only if sleep is first corrected.",
+			"source": "Vol 2 Ch.13 pp.100 to 101"
 		},
 		{
 			"id": "gut-a",
 			"name": "Gut repair stack",
 			"category": "gut",
-			"items": ["KPV 300 mcg/day", "BPC-157 250–500 mcg/day"],
-			"duration": "4–6 weeks",
+			"items": ["KPV 300 mcg/day", "BPC-157 250 to 500 mcg/day"],
+			"duration": "4 to 6 weeks",
 			"use_when": "Barrier dysfunction after diet is addressed",
 			"source": "Vol 2 Ch.6 p.43"
 		},
@@ -1135,22 +1135,22 @@ var protocols_default = {
 			"name": "Immune coordination",
 			"category": "immune",
 			"items": ["Thymosin Alpha-1 1.6 mg SC 2×/week", "KPV 200 mcg/day"],
-			"duration": "6–8 weeks",
+			"duration": "6 to 8 weeks",
 			"use_when": "Recurrent flares, immune exhaustion, poor infection recovery. Do not escalate.",
 			"source": "Vol 2 Ch.14 p.108"
 		},
 		{
 			"id": "longevity-1",
-			"name": "Longevity Class I — quiet inflammation",
+			"name": "Longevity Class I, quiet inflammation",
 			"category": "longevity",
-			"items": ["BPC-157 250–500 mcg/day", "KPV 200 mcg/day"],
+			"items": ["BPC-157 250 to 500 mcg/day", "KPV 200 mcg/day"],
 			"duration": "6 weeks",
 			"use_when": "First longevity move. No GH or immune stimulation at this stage.",
 			"source": "Vol 2 Ch.15 p.117"
 		},
 		{
 			"id": "longevity-2",
-			"name": "Longevity Class II — repair + endocrine preservation",
+			"name": "Longevity Class II, repair + endocrine preservation",
 			"category": "longevity",
 			"items": [
 				"BPC-157 500 mcg/day",
@@ -1164,29 +1164,29 @@ var protocols_default = {
 		},
 		{
 			"id": "longevity-3",
-			"name": "Longevity Class III — immune-resilient",
+			"name": "Longevity Class III, immune-resilient",
 			"category": "longevity",
 			"items": ["TA-1 1.6 mg 2×/week", "KPV 200 mcg/day"],
-			"duration": "8 weeks + 4–6 week washout",
+			"duration": "8 weeks + 4 to 6 week washout",
 			"use_when": "Inflammatory aging, immune volatility. No repair peptides until immune noise falls.",
 			"source": "Vol 2 Ch.15 p.117"
 		},
 		{
 			"id": "longevity-4",
-			"name": "Longevity Class IV — metabolic",
+			"name": "Longevity Class IV, metabolic",
 			"category": "longevity",
 			"items": [
-				"GLP-1 0.25–0.5 mg weekly (example class dose)",
+				"GLP-1 0.25 to 0.5 mg weekly (example class dose)",
 				"CJC-1295 100 mcg pre-sleep",
 				"Ipamorelin 100 mcg pre-sleep"
 			],
 			"duration": "12 weeks",
-			"use_when": "Visceral fat, insulin resistance. Protein ≥1.6 g/kg, lifting mandatory, no starvation. Weight loss is not the stated objective — metabolic clarity is.",
+			"use_when": "Visceral fat, insulin resistance. Protein ≥1.6 g/kg, lifting mandatory, no starvation. Weight loss is not the stated objective, metabolic clarity is.",
 			"source": "Vol 2 Ch.15 p.118"
 		},
 		{
 			"id": "longevity-5",
-			"name": "Longevity Class V — advanced (disciplined only)",
+			"name": "Longevity Class V, advanced (disciplined only)",
 			"category": "longevity",
 			"items": [
 				"BPC-157 250 mcg/day",
@@ -1206,9 +1206,9 @@ var protocols_default = {
 			"items": [
 				"CJC-1295 100 mcg/night",
 				"Ipamorelin 200 mcg/night",
-				"TB-500 2–4 mg/week"
+				"TB-500 2 to 4 mg/week"
 			],
-			"duration": "8–12 weeks",
+			"duration": "8 to 12 weeks",
 			"use_when": "Recovery-limited patients",
 			"source": "Vol 2 Ch.8 p.60"
 		},
@@ -1217,8 +1217,8 @@ var protocols_default = {
 			"name": "Vol 1 gold-standard GH combo",
 			"category": "recovery",
 			"items": [
-				"CJC-1295 no-DAC 100–200 μg",
-				"Ipamorelin 200–300 μg",
+				"CJC-1295 no-DAC 100 to 200 μg",
+				"Ipamorelin 200 to 300 μg",
 				"Together pre-bed 5 days/week"
 			],
 			"duration": "12 weeks on / 4 off",
@@ -1233,11 +1233,11 @@ var protocols_default = {
 			"peptide_ids": ["bpc-157"],
 			"steps": [
 				"BPC-157 500 mcg/day SC",
-				"Duration 4–6 weeks",
+				"Duration 4 to 6 weeks",
 				"Progressive loading mandatory",
 				"Physical therapy"
 			],
-			"timeline": "Week 1–2 reduced irritation; week 3–4 improved load tolerance; week 5–6 structural resilience",
+			"timeline": "Week 1 to 2 reduced irritation; week 3 to 4 improved load tolerance; week 5 to 6 structural resilience",
 			"source": "Vol 2 Ch.4 Protocol 1 p.26"
 		},
 		{
@@ -1245,8 +1245,8 @@ var protocols_default = {
 			"name": "BPC-157 gut barrier",
 			"peptide_ids": ["bpc-157"],
 			"steps": [
-				"BPC-157 250–500 mcg/day oral or SC",
-				"4–6 weeks",
+				"BPC-157 250 to 500 mcg/day oral or SC",
+				"4 to 6 weeks",
 				"Dietary correction required"
 			],
 			"timeline": "Facilitates repair; not a standalone IBS drug",
@@ -1257,10 +1257,10 @@ var protocols_default = {
 			"name": "BPC-157 post-surgical (Vol 2)",
 			"peptide_ids": ["bpc-157", "tb-500"],
 			"steps": [
-				"Start day 5–7 post-op after acute inflammation (Vol 2) or day 7–10 in Class IV",
+				"Start day 5 to 7 post-op after acute inflammation (Vol 2) or day 7 to 10 in Class IV",
 				"BPC-157 500 mcg/day",
 				"Optional TB-500 2 mg/week",
-				"4–8 weeks",
+				"4 to 8 weeks",
 				"No GH in first 2 weeks"
 			],
 			"timeline": "Remodeling and angiogenesis support, not day-of-surgery analgesia",
@@ -1271,12 +1271,12 @@ var protocols_default = {
 			"name": "BPC-157 peri-operative (Vol 1 more aggressive)",
 			"peptide_ids": ["bpc-157", "tb-500"],
 			"steps": [
-				"Pre-op 1–2 weeks: 250 mcg BID",
-				"Immediate post-op days 1–14: 500 mcg BID SC (avoid oral if GI surgery)",
+				"Pre-op 1 to 2 weeks: 250 mcg BID",
+				"Immediate post-op days 1 to 14: 500 mcg BID SC (avoid oral if GI surgery)",
 				"Add TB-500 2.5 mg twice weekly starting day 3",
-				"Weeks 3–8: 500 mcg BID through week 4, then 250 mcg BID weeks 5–8"
+				"Weeks 3 to 8: 500 mcg BID through week 4, then 250 mcg BID weeks 5 to 8"
 			],
-			"timeline": "Book claims accelerated recovery vs standard healing — still surgeon-directed",
+			"timeline": "Book claims accelerated recovery vs standard healing, still surgeon-directed",
 			"source": "Vol 1 Ch.4 p.54"
 		},
 		{
@@ -1284,8 +1284,8 @@ var protocols_default = {
 			"name": "TB-500 acute tendon protocol",
 			"peptide_ids": ["tb-500"],
 			"steps": [
-				"Weeks 1–2: 2.5 mg every 3 days (5–7.5 mg/week)",
-				"Weeks 3–6: 2 mg twice weekly",
+				"Weeks 1 to 2: 2.5 mg every 3 days (5 to 7.5 mg/week)",
+				"Weeks 3 to 6: 2 mg twice weekly",
 				"Evaluate at week 6",
 				"Coordinate PT"
 			],
@@ -1298,8 +1298,8 @@ var protocols_default = {
 			"peptide_ids": ["kpv"],
 			"steps": [
 				"Oral KPV 500 µg daily with meals",
-				"Titrate toward 1–2 mg daily",
-				"Consider rectal 1–2 mg nightly for distal disease",
+				"Titrate toward 1 to 2 mg daily",
+				"Consider rectal 1 to 2 mg nightly for distal disease",
 				"Support: L-glutamine, zinc carnosine as listed in the chapter"
 			],
 			"timeline": "Anti-inflammatory healing, not instant analgesia",
@@ -1315,8 +1315,8 @@ var protocols_default = {
 				"Reassess HbA1c ~3 months",
 				"Lifestyle still required"
 			],
-			"timeline": "Days for appetite; 8–12 weeks for fuller metabolic effect (Vol 1 Ch.1 framing)",
-			"source": "Vol 1 Ch.10 pp.123–126"
+			"timeline": "Days for appetite; 8 to 12 weeks for fuller metabolic effect (Vol 1 Ch.1 framing)",
+			"source": "Vol 1 Ch.10 pp.123 to 126"
 		},
 		{
 			"id": "metabolic-v2-1",
@@ -1339,24 +1339,24 @@ var protocols_default = {
 			"Pregnancy and lactation (insufficient data almost across the library)",
 			"Active malignancy for BPC-157, TB-500, and GH/IGF-1-raising secretagogues",
 			"Buying unlabeled research vials and dosing off a chatbot",
-			"Stacking everything at once — Vol 2 repeatedly says escalation usually means bad sequencing, not a low dose"
+			"Stacking everything at once, Vol 2 repeatedly says escalation usually means bad sequencing, not a low dose"
 		],
 		"glp1_boxed_style": [
-			"MTC personal or family history — do not use",
-			"MEN2 — do not use",
-			"Pancreatitis history — specialist only",
-			"Severe gastroparesis — do not use"
+			"MTC personal or family history, do not use",
+			"MEN2, do not use",
+			"Pancreatitis history, specialist only",
+			"Severe gastroparesis, do not use"
 		],
-		"monitoring_chapter": "Vol 1 Chapter 21 (Safety, Monitoring & Troubleshooting, pp.274–294) and Vol 2 Chapter 19.",
+		"monitoring_chapter": "Vol 1 Chapter 21 (Safety, Monitoring & Troubleshooting, pp.274 to 294) and Vol 2 Chapter 19.",
 		"nonresponse_tree": [
-			"Confirm the actual dose, route, reconstitution, and refrigeration (2–8°C, not frozen)",
+			"Confirm the actual dose, route, reconstitution, and refrigeration (2 to 8°C, not frozen)",
 			"Confirm product quality / source",
-			"Give the published window (often 4–6 weeks) before declaring failure",
+			"Give the published window (often 4 to 6 weeks) before declaring failure",
 			"Fix sleep, protein, rehab load, and ongoing inflammatory triggers",
 			"Do not escalate first",
-			"Stop if no benefit by 8–12 weeks (Vol 1 Ch.21 decision tree)"
+			"Stop if no benefit by 8 to 12 weeks (Vol 1 Ch.21 decision tree)"
 		],
-		"storage": "Reconstituted peptides: refrigerate 2–8°C, protect from light, respect beyond-use dating (BPC 30–60 days; TB-500 up to 8–12 weeks in Vol 1). Powders generally cooler and dry.",
+		"storage": "Reconstituted peptides: refrigerate 2 to 8°C, protect from light, respect beyond-use dating (BPC 30 to 60 days; TB-500 up to 8 to 12 weeks in Vol 1). Powders generally cooler and dry.",
 		"quality": "ISSCA repeatedly flags source, sterility, and certificate of analysis. Counterfeit or degraded product is a listed cause of 'non-response.'"
 	},
 	intents: [
@@ -1450,7 +1450,7 @@ var mitoPeptides = [
 		class_name: "Mitochondrial-derived peptide (12S rRNA ORF)",
 		desk: "mito",
 		regulatory: "Research peptide. Not FDA-approved. Not in ISSCA Volume 1 core peptide chapters as a dosed protocol. This desk will not invent a clinic dose.",
-		what_it_is: "A 16-amino-acid peptide encoded in the mitochondrial genome. In published research it is studied as a metabolic signal (AMPK-related, exercise-mimetic, insulin-sensitivity literature) rather than as a tissue-repair peptide like BPC-157. ISSCA’s longevity chapter treats mitochondrial support as a multiplier of repair signaling — not as a license to stack unlisted injectables.",
+		what_it_is: "A 16-amino-acid peptide encoded in the mitochondrial genome. In published research it is studied as a metabolic signal (AMPK-related, exercise-mimetic, insulin-sensitivity literature) rather than as a tissue-repair peptide like BPC-157. ISSCA’s longevity chapter treats mitochondrial support as a multiplier of repair signaling, not as a license to stack unlisted injectables.",
 		good_for: ["Educational discussion of mitochondrial-derived peptides (MDPs)", "Metabolic / exercise-signaling literature review with a clinician"],
 		not_for: [
 			"A substitute for zone-2 training, sleep, or protein",
@@ -1459,10 +1459,10 @@ var mitoPeptides = [
 		],
 		dosing: [{
 			label: "ISSCA dosing table",
-			text: "None in Volume 1 Chapters 4–13 or Volume 2 protocol cards extracted for this library. If a clinician uses MOTS-c, the dose is theirs — not this desk’s.",
+			text: "None in Volume 1 Chapters 4 to 13 or Volume 2 protocol cards extracted for this library. If a clinician uses MOTS-c, the dose is theirs, not this desk’s.",
 			source: "library",
 			chapter: "Not a core ISSCA protocol card",
-			pages: "—"
+			pages: "-"
 		}],
 		reconstitution: "Research-compound handling is clinic/lab SOP. Not a consumer reconstitution guide.",
 		cycle: "No ISSCA cycle. Do not run continuous unmonitored courses.",
@@ -1473,8 +1473,8 @@ var mitoPeptides = [
 			"Active malignancy discussions without oncology input"
 		],
 		monitoring: ["Clinician-directed metabolic labs if used at all", "Do not chase energy as a titration target"],
-		side_effects: ["Insufficient ISSCA safety table — treat as unknown in this library"],
-		citations: ["Vol 2 Ch.15 (mitochondrial support as longevity multiplier — conceptual)", "Research-literature framing only"]
+		side_effects: ["Insufficient ISSCA safety table, treat as unknown in this library"],
+		citations: ["Vol 2 Ch.15 (mitochondrial support as longevity multiplier, conceptual)", "Research-literature framing only"]
 	},
 	{
 		id: "ss-31",
@@ -1489,7 +1489,7 @@ var mitoPeptides = [
 		class_name: "Mitochondrial inner-membrane tetrapeptide",
 		desk: "mito",
 		regulatory: "Investigational (elamipretide has been studied in clinical trials for mitochondrial and cardiac indications). Not an ISSCA core protocol peptide in this library. Not a catalog ‘pin tonight’ compound.",
-		what_it_is: "A small tetrapeptide that associates with cardiolipin on the inner mitochondrial membrane. Research focus: electron-transport efficiency, ROS at complex I/III, and tissues with high ATP demand (heart, kidney, muscle). This is mitochondrial medicine literature — distinct from gastric repair peptides.",
+		what_it_is: "A small tetrapeptide that associates with cardiolipin on the inner mitochondrial membrane. Research focus: electron-transport efficiency, ROS at complex I/III, and tissues with high ATP demand (heart, kidney, muscle). This is mitochondrial medicine literature, distinct from gastric repair peptides.",
 		good_for: ["Understanding cardiolipin-targeted mitochondrial research", "Specialist discussion of trial-stage mitochondrial therapeutics"],
 		not_for: ["DIY ‘mito stack’ with MOTS-c + NAD+ + SS-31", "Replacing indicated heart-failure or mitochondrial-disease care"],
 		dosing: [{
@@ -1497,15 +1497,15 @@ var mitoPeptides = [
 			text: "None in this library. Trial doses are protocol-specific and are not converted into a common-practice range here.",
 			source: "library",
 			chapter: "Not a core ISSCA protocol card",
-			pages: "—"
+			pages: "-"
 		}],
-		reconstitution: "If encountered as a research material, handling is lab/clinic SOP — not this chat.",
+		reconstitution: "If encountered as a research material, handling is lab/clinic SOP, not this chat.",
 		cycle: "No ISSCA cycle.",
 		stacks_with: [],
 		contraindications: ["Pregnancy", "Unsupervised cardiac self-treatment"],
 		monitoring: ["Specialist only"],
 		side_effects: ["Trial literature is not restated as a consumer side-effect list here"],
-		citations: ["Vol 2 Ch.15 conceptual mitochondrial multiplier", "Investigational / trial-class — not ISSCA-dosed"]
+		citations: ["Vol 2 Ch.15 conceptual mitochondrial multiplier", "Investigational / trial-class, not ISSCA-dosed"]
 	},
 	{
 		id: "humanin",
@@ -1517,25 +1517,25 @@ var mitoPeptides = [
 		],
 		class_name: "Mitochondrial-derived cytoprotective peptide",
 		desk: "mito",
-		regulatory: "Research. Volume 1–2 textbooks in this library have no milligram table. ISSCA peptides magazine faculty published a range.",
+		regulatory: "Research. Volume 1 to 2 textbooks in this library have no milligram table. ISSCA peptides magazine faculty published a range.",
 		what_it_is: "A mitochondrial-derived peptide discussed for cytoprotection, metabolic stress, and healthspan literacy. Grouped with MOTS-c as an MDP. Magazine longevity and immune articles include it in faculty stacks.",
 		good_for: ["MDP family literacy", "Magazine longevity / immune-stack talk under a clinician"],
 		not_for: ["Anti-aging injections off a chat window"],
 		dosing: [{
-			label: "Volume 1–2 textbook table",
+			label: "Volume 1 to 2 textbook table",
 			text: "None in the extracted ISSCA textbook chapters.",
 			source: "vol2",
 			chapter: "Not a core textbook protocol card",
-			pages: "—"
+			pages: "-"
 		}, {
 			label: "Magazine faculty (Lapeire / Moya)",
-			text: "0.04 mg/kg SC daily — about 3.2 mg for an 80 kg adult; immune article also writes 3.2–4 mg SC daily. Not a Volume 1/2 table. A clinician chooses.",
+			text: "0.04 mg/kg SC daily, about 3.2 mg for an 80 kg adult; immune article also writes 3.2 to 4 mg SC daily. Not a Volume 1/2 table. A clinician chooses.",
 			source: "mag-pep",
 			chapter: "Longevity stack p.10; Immune stack p.26",
 			pages: "10, 26"
 		}],
-		reconstitution: "If encountered as a research material, handling is lab/clinic SOP — not this chat.",
-		cycle: "Magazine longevity: during the 10–20 day Epitalon window. Immune article: up to 12 weeks then 1 month off.",
+		reconstitution: "If encountered as a research material, handling is lab/clinic SOP, not this chat.",
+		cycle: "Magazine longevity: during the 10 to 20 day Epitalon window. Immune article: up to 12 weeks then 1 month off.",
 		stacks_with: [
 			"epitalon",
 			"bpc-157",
@@ -1558,10 +1558,10 @@ var mitoPeptides = [
 			"nicotinamide",
 			"nadh"
 		],
-		class_name: "Redox cofactor — adjacent to mitochondrial peptides",
+		class_name: "Redox cofactor, adjacent to mitochondrial peptides",
 		desk: "mito",
 		regulatory: "NAD+ is a cofactor, not a signaling peptide. IV NAD clinics and research vials are not ISSCA peptide-protocol cards. Oral NR/NMN supplements are a different regulatory bucket than injectable peptides.",
-		what_it_is: "ISSCA Volume 2 frames mitochondrial support as a longevity multiplier around repair, immune quieting, and endocrine preservation — not as an IV cocktail. NAD biology (sirtuins, PARPs, redox) is real; this desk will not turn that into an infusion recipe.",
+		what_it_is: "ISSCA Volume 2 frames mitochondrial support as a longevity multiplier around repair, immune quieting, and endocrine preservation, not as an IV cocktail. NAD biology (sirtuins, PARPs, redox) is real; this desk will not turn that into an infusion recipe.",
 		good_for: ["Understanding why sleep, zone-2, and protein sit underneath peptide stacks", "Separating cofactor talk from peptide protocol cards"],
 		not_for: ["Chat-designed NAD IV drip", "Stacking NAD + GH + GLP-1 because a forum said so"],
 		dosing: [{
@@ -1569,13 +1569,13 @@ var mitoPeptides = [
 			text: "No NAD infusion protocol in the extracted ISSCA peptide chapters. Lifestyle load (sleep, resistance training, protein) is the book’s actual mitochondrial chapter, not a gram-per-hour drip.",
 			source: "vol2",
 			chapter: "Chapter 15",
-			pages: "conceptual — mitochondrial support as multiplier"
+			pages: "conceptual, mitochondrial support as multiplier"
 		}],
 		reconstitution: "Not a peptide reconstitution card.",
-		cycle: "Foundations are ongoing. Peptide stacks still wash out (Vol 2: 4–6 weeks typical).",
+		cycle: "Foundations are ongoing. Peptide stacks still wash out (Vol 2: 4 to 6 weeks typical).",
 		stacks_with: [],
 		contraindications: ["Unsupervised IV self-administration"],
-		monitoring: ["If a clinic infuses NAD, that is their protocol and monitoring — not this library"],
+		monitoring: ["If a clinic infuses NAD, that is their protocol and monitoring, not this library"],
 		side_effects: ["Flushing and GI effects are commonly reported with NAD-related products; not an ISSCA table"],
 		citations: ["Vol 2 Ch.15"]
 	},
@@ -1583,7 +1583,7 @@ var mitoPeptides = [
 		id: "tesamorelin-mito",
 		name: "Tesamorelin (visceral fat / GHRH analogue)",
 		aliases: ["tesamorelin", "egrifta"],
-		class_name: "FDA-labeled GHRH analogue — metabolic / VAT",
+		class_name: "FDA-labeled GHRH analogue, metabolic / VAT",
 		desk: "approved",
 		regulatory: "Tesamorelin is FDA-approved for HIV-associated lipodystrophy (visceral adipose reduction). ISSCA lists 2 mg nightly in the Volume 1 arsenal for visceral fat / metabolic enhancement. Labeled use is a prescription, not a research vial.",
 		what_it_is: "A stabilized GHRH analogue. Distinct from CJC-1295/ipamorelin compounding. The labeled indication is reduction of excess abdominal fat in HIV lipodystrophy. Off-label metabolic use is clinician territory.",
@@ -1595,13 +1595,13 @@ var mitoPeptides = [
 		],
 		dosing: [{
 			label: "ISSCA arsenal (Vol 1 Ch.1)",
-			text: "2 mg nightly for visceral fat reduction and metabolic enhancement — arsenal line. Follow the labeled product when a branded pen exists.",
+			text: "2 mg nightly for visceral fat reduction and metabolic enhancement, arsenal line. Follow the labeled product when a branded pen exists.",
 			source: "vol1",
 			chapter: "Chapter 1",
 			pages: "12"
 		}],
 		reconstitution: "Use the approved product as labeled when prescribed.",
-		cycle: "Labeled courses are prescriber-directed. Secretagogue cycling rules in Ch.8–9 do not automatically map onto branded tesamorelin.",
+		cycle: "Labeled courses are prescriber-directed. Secretagogue cycling rules in Ch.8 to 9 do not automatically map onto branded tesamorelin.",
 		stacks_with: [],
 		contraindications: [
 			"Active malignancy",
@@ -1613,7 +1613,7 @@ var mitoPeptides = [
 			"Glucose",
 			"VAT / waist as the labeled target"
 		],
-		side_effects: ["GH-axis: edema, glucose drift — label governs"],
+		side_effects: ["GH-axis: edema, glucose drift, label governs"],
 		citations: ["Vol 1 Ch.1 p.12"]
 	},
 	{
@@ -1626,7 +1626,7 @@ var mitoPeptides = [
 			"copper tripeptide",
 			"skin peptide"
 		],
-		class_name: "Copper tripeptide — skin / wound arsenal line",
+		class_name: "Copper tripeptide, skin / wound arsenal line",
 		desk: "adjunct",
 		regulatory: "Cosmetic / research copper peptide. Not an FDA-approved skin drug in this library. ISSCA lists it in the Volume 1 quick-reference arsenal, not as a core chapter protocol like BPC-157.",
 		what_it_is: "GHK-Cu is listed in ISSCA Vol 1 Chapter 1 for skin, wound healing, and anti-aging-adjacent effects. It is an adjunct appearance/repair signal, not a facelift and not a substitute for protein, lifting, or dermatology.",
@@ -1638,19 +1638,19 @@ var mitoPeptides = [
 		],
 		dosing: [{
 			label: "Quick-reference (Vol 1 Ch.1 arsenal)",
-			text: "1–2 mg daily for skin, wound healing, and anti-aging effects (arsenal line).",
+			text: "1 to 2 mg daily for skin, wound healing, and anti-aging effects (arsenal line).",
 			source: "vol1",
 			chapter: "Chapter 1",
 			pages: "12"
 		}, {
 			label: "Magazine faculty (beauty stack)",
-			text: "1–2 mg SC daily, 6-week cycles, 3–4×/year, plus topical after shower or microneedling.",
+			text: "1 to 2 mg SC daily, 6-week cycles, 3 to 4×/year, plus topical after shower or microneedling.",
 			source: "mag-pep",
 			chapter: "Aesthetic & Skin Regeneration Peptide Stacks",
 			pages: "20"
 		}],
 		reconstitution: "Product-specific. Follow the dispensing clinic. Not a consumer recipe.",
-		cycle: "Arsenal table is thin. Magazine beauty stack: 6-week SC pulses, 3–4×/year.",
+		cycle: "Arsenal table is thin. Magazine beauty stack: 6-week SC pulses, 3 to 4×/year.",
 		stacks_with: [
 			"bpc-157",
 			"ptd-dbm",
@@ -1658,39 +1658,39 @@ var mitoPeptides = [
 		],
 		contraindications: ["Pregnancy", "Self-directed cosmetic stacking"],
 		monitoring: ["Skin irritation", "Whether the actual goal is mass change vs skin quality"],
-		side_effects: ["Local irritation possible; the arsenal line is thin — clinician supervision required"],
+		side_effects: ["Local irritation possible; the arsenal line is thin, clinician supervision required"],
 		citations: ["Vol 1 Ch.1 p.12", "ISSCA Peptides Magazine p.20"]
 	}
 ];
 var mitoStacks = [{
 	id: "mito-foundations",
-	name: "Mitochondrial foundations (Vol 2 — before peptides)",
+	name: "Mitochondrial foundations (Vol 2, before peptides)",
 	category: "mito",
 	items: [
-		"Sleep first — Vol 2: poor sleep means poor GH and poor repair, whatever the dose",
+		"Sleep first, Vol 2: poor sleep means poor GH and poor repair, whatever the dose",
 		"Protein ≥ 1.6 g/kg when metabolic peptides are in play (Vol 2)",
 		"Resistance training in longevity Class II / IV",
 		"Quiet inflammation (Class I: BPC-157 + KPV) before GH or immune stimulation",
-		"MOTS-c / SS-31 / NAD have no ISSCA milligram table here — a clinician can discuss them after foundations",
-		"ISSCA synergies magazine: NAD+ / glutathione IVs, HBOT, PEMF are clinic adjuncts — not a chat recipe"
+		"MOTS-c / SS-31 / NAD have no ISSCA milligram table here, a clinician can discuss them after foundations",
+		"ISSCA synergies magazine: NAD+ / glutathione IVs, HBOT, PEMF are clinic adjuncts, not a chat recipe"
 	],
-	duration: "Ongoing — peptides still cycle 6–8 or 8–12 weeks with washout",
+	duration: "Ongoing, peptides still cycle 6 to 8 or 8 to 12 weeks with washout",
 	use_when: "Someone asks for a ‘mito stack’ or ‘anti-aging everything’. Sequence beats addition. If benefits vanish in washout, the protocol compensated rather than restored (Vol 2 Ch.15).",
-	source: "Vol 2 Ch.15 pp.117–118"
+	source: "Vol 2 Ch.15 pp.117 to 118"
 }];
-/** ISSCA faculty magazines from BPX8. Books (Vol 1–2) take precedence; these add context. Sexual-health chapter is not ingested. */
+/** ISSCA faculty magazines from BPX8. Books (Vol 1 to 2) take precedence; these add context. Sexual-health chapter is not ingested. */
 var magazineSources = [{
 	id: "mag-pep",
-	name: "ISSCA Regenerative Medicine Magazine — Peptides Edition Vol 1",
+	name: "ISSCA Regenerative Medicine Magazine, Peptides Edition Vol 1",
 	publisher: "ISSCA",
 	year: 2026
 }, {
 	id: "mag-syn",
-	name: "ISSCA Regenerative Medicine Magazine — Regenerative Synergies",
+	name: "ISSCA Regenerative Medicine Magazine, Regenerative Synergies",
 	publisher: "ISSCA",
 	year: 2026
 }];
-var mag = "Faculty magazine protocol — not a Volume 1/2 textbook table. A clinician chooses. Do not self-administer.";
+var mag = "Faculty magazine protocol, not a Volume 1/2 textbook table. A clinician chooses. Do not self-administer.";
 var magazinePeptides = [
 	{
 		id: "epitalon",
@@ -1703,18 +1703,18 @@ var magazinePeptides = [
 		class_name: "Synthetic pineal / telomerase-signaling tetrapeptide",
 		desk: "adjunct",
 		regulatory: "Research. Not FDA-approved. Magazine faculty protocol, not a labeled drug.",
-		what_it_is: "ISSCA magazine longevity article (Dr. Andrea Lapeire) describes Epitalon as a synthetic epithalamin analogue discussed for telomerase / pineal signaling. Volume 1–2 core chapters in this library do not carry a textbook milligram table for it.",
+		what_it_is: "ISSCA magazine longevity article (Dr. Andrea Lapeire) describes Epitalon as a synthetic epithalamin analogue discussed for telomerase / pineal signaling. Volume 1 to 2 core chapters in this library do not carry a textbook milligram table for it.",
 		good_for: ["Longevity-stack literacy as published in the ISSCA peptides magazine"],
 		not_for: ["A once-a-year anti-aging shot from a chat", "Pregnancy"],
 		dosing: [{
 			label: "Magazine faculty (Lapeire longevity stack)",
-			text: "5–10 mg daily, subcutaneous, for 10–20 days, 1–2× per year.",
+			text: "5 to 10 mg daily, subcutaneous, for 10 to 20 days, 1 to 2× per year.",
 			source: "mag-pep",
 			chapter: "Longevity & Anti-Aging Peptide Stacks",
 			pages: "10"
 		}],
 		reconstitution: mag,
-		cycle: "10–20 day core cycle; magazine says the stack may be repeated 1–2× per year as a “system reboot.”",
+		cycle: "10 to 20 day core cycle; magazine says the stack may be repeated 1 to 2× per year as a “system reboot.”",
 		stacks_with: [
 			"bpc-157",
 			"tb-500",
@@ -1729,8 +1729,8 @@ var magazinePeptides = [
 			"Active malignancy discussions without oncology"
 		],
 		monitoring: ["Clinician-directed; magazine frames this as a supervised reboot, not DIY"],
-		side_effects: ["Magazine does not print a full adverse-event table — treat as unknown without a clinician"],
-		citations: ["ISSCA Peptides Magazine pp.7–10 (Lapeire)"]
+		side_effects: ["Magazine does not print a full adverse-event table, treat as unknown without a clinician"],
+		citations: ["ISSCA Peptides Magazine pp.7 to 10 (Lapeire)"]
 	},
 	{
 		id: "cerebrolysin",
@@ -1744,7 +1744,7 @@ var magazinePeptides = [
 		not_for: ["Self-injection after a concussion instead of emergency/TBI care"],
 		dosing: [{
 			label: "Magazine faculty (Navarro neuro stack)",
-			text: "5–10 ml SC (215 mg/ml).",
+			text: "5 to 10 ml SC (215 mg/ml).",
 			source: "mag-pep",
 			chapter: "Brain Function & Cognitive Regeneration Peptide Stacks",
 			pages: "14"
@@ -1760,7 +1760,7 @@ var magazinePeptides = [
 		contraindications: ["Pregnancy", "Unsupervised post-stroke self-treatment"],
 		monitoring: ["Neurologic follow-up belongs with a clinician, not this chat"],
 		side_effects: ["Magazine does not catalog a consumer side-effect list"],
-		citations: ["ISSCA Peptides Magazine pp.11–15 (Navarro)"]
+		citations: ["ISSCA Peptides Magazine pp.11 to 15 (Navarro)"]
 	},
 	{
 		id: "pe-22-28",
@@ -1770,7 +1770,7 @@ var magazinePeptides = [
 			"pe 22 28",
 			"fradin peptide"
 		],
-		class_name: "TREK-1–related synthetic peptide (magazine neuro stack)",
+		class_name: "TREK-1-related synthetic peptide (magazine neuro stack)",
 		desk: "adjunct",
 		regulatory: "Research. Not FDA-approved. Magazine faculty only.",
 		what_it_is: "ISSCA magazine neuro article lists PE-22-28 as a Fradin-derived peptide discussed for TREK-1 / mood and stress-tolerance literacy. No Volume 1 textbook table.",
@@ -1799,7 +1799,7 @@ var magazinePeptides = [
 			"fgll",
 			"ncam mimetic"
 		],
-		class_name: "NCAM-mimetic fibroblast-growth-factor–related peptide",
+		class_name: "NCAM-mimetic fibroblast-growth-factor-related peptide",
 		desk: "adjunct",
 		regulatory: "Research. Magazine faculty protocol.",
 		what_it_is: "ISSCA magazine neuro article describes FGL(L) as an NCAM mimetic discussed for neuronal growth/plasticity literacy. Not a Volume 1 core card.",
@@ -1807,7 +1807,7 @@ var magazinePeptides = [
 		not_for: ["A DIY Alzheimer’s protocol"],
 		dosing: [{
 			label: "Magazine faculty (Navarro)",
-			text: "1–2 mg SC (lower dose for younger patients, per the article).",
+			text: "1 to 2 mg SC (lower dose for younger patients, per the article).",
 			source: "mag-pep",
 			chapter: "Brain Function & Cognitive Regeneration Peptide Stacks",
 			pages: "14"
@@ -1836,7 +1836,7 @@ var magazinePeptides = [
 		not_for: ["Replacing indicated dermatology"],
 		dosing: [{
 			label: "Magazine faculty (beauty stack)",
-			text: "Spray 1–2×/week to scalp (0.001% solution). Magazine also mentions combining valproic acid topically — that is a clinician decision, not a chat recipe.",
+			text: "Spray 1 to 2×/week to scalp (0.001% solution). Magazine also mentions combining valproic acid topically, that is a clinician decision, not a chat recipe.",
 			source: "mag-pep",
 			chapter: "Aesthetic & Skin Regeneration Peptide Stacks",
 			pages: "20"
@@ -1851,7 +1851,7 @@ var magazinePeptides = [
 		contraindications: ["Pregnancy", "Broken scalp without a clinician"],
 		monitoring: ["Scalp irritation"],
 		side_effects: ["Local irritation possible; magazine table is thin"],
-		citations: ["ISSCA Peptides Magazine pp.17–20"]
+		citations: ["ISSCA Peptides Magazine pp.17 to 20"]
 	},
 	{
 		id: "ara-290",
@@ -1885,7 +1885,7 @@ var magazinePeptides = [
 		contraindications: ["Pregnancy", "Unsupervised immune self-treatment"],
 		monitoring: ["Clinician-directed; magazine calls this a medical-grade protocol, not DIY"],
 		side_effects: ["Insufficient magazine safety table"],
-		citations: ["ISSCA Peptides Magazine pp.23–27 (Moya)"]
+		citations: ["ISSCA Peptides Magazine pp.23 to 27 (Moya)"]
 	},
 	{
 		id: "dsip",
@@ -1894,23 +1894,23 @@ var magazinePeptides = [
 		class_name: "Sleep-architecture peptide (magazine muscle/recovery stack)",
 		desk: "adjunct",
 		regulatory: "Research. Magazine faculty protocol.",
-		what_it_is: "ISSCA magazine muscle article (Dr. Christopher Walker) describes DSIP as supporting slow-wave sleep rather than a knockout hypnotic. Volume 2 still says poor sleep means poor GH — DSIP is not a substitute for sleep hygiene.",
+		what_it_is: "ISSCA magazine muscle article (Dr. Christopher Walker) describes DSIP as supporting slow-wave sleep rather than a knockout hypnotic. Volume 2 still says poor sleep means poor GH, DSIP is not a substitute for sleep hygiene.",
 		good_for: ["Magazine recovery-stack literacy when sleep is the bottleneck"],
 		not_for: ["A sleeping-pill replacement", "Minors"],
 		dosing: [{
 			label: "Magazine faculty (Walker muscle stack)",
-			text: "SC, 2–3 hours before bed. The magazine prints timing, not a milligram table for DSIP — this library will not invent milligrams.",
+			text: "SC, 2 to 3 hours before bed. The magazine prints timing, not a milligram table for DSIP, this library will not invent milligrams.",
 			source: "mag-pep",
 			chapter: "Muscle Growth & Recovery Peptide Stacks",
 			pages: "38"
 		}],
 		reconstitution: mag,
-		cycle: "Magazine: titrate down as sleep normalizes; stack 10–12 weeks on, 4–8 weeks off.",
+		cycle: "Magazine: titrate down as sleep normalizes; stack 10 to 12 weeks on, 4 to 8 weeks off.",
 		stacks_with: ["cjc-ipam", "bpc-157"],
 		contraindications: ["Pregnancy", "Untreated sleep apnea as the only intervention"],
 		monitoring: ["Sleep quality; do not chase sedation"],
 		side_effects: ["Insufficient milligram and AE table in the magazine"],
-		citations: ["ISSCA Peptides Magazine pp.35–39 (Walker)"]
+		citations: ["ISSCA Peptides Magazine pp.35 to 39 (Walker)"]
 	},
 	{
 		id: "peg-mgf",
@@ -1922,19 +1922,19 @@ var magazinePeptides = [
 		],
 		class_name: "PEGylated mechano growth factor (magazine muscle stack)",
 		desk: "adjunct",
-		regulatory: "Research. Anabolic-adjacent. Magazine faculty — no milligram table printed.",
+		regulatory: "Research. Anabolic-adjacent. Magazine faculty, no milligram table printed.",
 		what_it_is: "ISSCA magazine muscle article describes PEG-MGF for satellite-cell recruitment on rest days, alternated with IGF-1 LR3 because they compete for receptors. Not a Volume 1 core card.",
 		good_for: ["Magazine muscle-stack literacy"],
 		not_for: ["A gym-floor hypertrophy cycle from a chatbot"],
 		dosing: [{
 			label: "Magazine faculty (Walker)",
-			text: "SC on rest days (target site if localized growth is desired). No milligram figure in the magazine — not invented here.",
+			text: "SC on rest days (target site if localized growth is desired). No milligram figure in the magazine, not invented here.",
 			source: "mag-pep",
 			chapter: "Muscle Growth & Recovery Peptide Stacks",
-			pages: "37–38"
+			pages: "37 to 38"
 		}],
 		reconstitution: mag,
-		cycle: "With the 10–12 week stack; alternate with IGF-1 LR3 (do not same-day overlap per the article).",
+		cycle: "With the 10 to 12 week stack; alternate with IGF-1 LR3 (do not same-day overlap per the article).",
 		stacks_with: ["bpc-157", "igf-lr3"],
 		contraindications: [
 			"Pregnancy",
@@ -1943,7 +1943,7 @@ var magazinePeptides = [
 		],
 		monitoring: ["Clinician-directed"],
 		side_effects: ["Insufficient magazine AE table"],
-		citations: ["ISSCA Peptides Magazine pp.37–38"]
+		citations: ["ISSCA Peptides Magazine pp.37 to 38"]
 	},
 	{
 		id: "igf-lr3",
@@ -1961,13 +1961,13 @@ var magazinePeptides = [
 		not_for: ["A personal ‘post-workout pin’ from this chat"],
 		dosing: [{
 			label: "Magazine faculty (Walker)",
-			text: "SC after training, with protein/carbs. Cycle 3–6 weeks on, then 3–6 weeks off. No milligram figure in the magazine — not invented here.",
+			text: "SC after training, with protein/carbs. Cycle 3 to 6 weeks on, then 3 to 6 weeks off. No milligram figure in the magazine, not invented here.",
 			source: "mag-pep",
 			chapter: "Muscle Growth & Recovery Peptide Stacks",
-			pages: "37–38"
+			pages: "37 to 38"
 		}],
 		reconstitution: mag,
-		cycle: "3–6 weeks on max, then 3–6 weeks off (magazine).",
+		cycle: "3 to 6 weeks on max, then 3 to 6 weeks off (magazine).",
 		stacks_with: ["bpc-157", "peg-mgf"],
 		contraindications: [
 			"Pregnancy",
@@ -1976,13 +1976,13 @@ var magazinePeptides = [
 		],
 		monitoring: ["Glucose, edema, clinician-owned IGF talk"],
 		side_effects: ["Hypoglycemia risk is why this is not a chat protocol"],
-		citations: ["ISSCA Peptides Magazine pp.37–38"]
+		citations: ["ISSCA Peptides Magazine pp.37 to 38"]
 	},
 	{
 		id: "vip-peptide",
 		name: "VIP (vasoactive intestinal peptide)",
 		aliases: ["vasoactive intestinal peptide"],
-		class_name: "Neuropeptide — circulation / mucosal immunity (magazine immune stack)",
+		class_name: "Neuropeptide, circulation / mucosal immunity (magazine immune stack)",
 		desk: "adjunct",
 		regulatory: "Research. Magazine immune article only. This library does not use VIP for sexual coaching.",
 		what_it_is: "ISSCA magazine immune article lists VIP for blood flow, oxygenation, and tactical mucosal-immunity talk. Short-acting. Not ingested here as a sexual-health protocol.",
@@ -1990,7 +1990,7 @@ var magazinePeptides = [
 		not_for: ["Sexual coaching", "Dependency / all-day spraying"],
 		dosing: [{
 			label: "Magazine faculty (Moya immune stack)",
-			text: "50 mcg intranasal per nostril, up to 6×/day if needed; magazine says as-needed, avoid dependency, 1–6 sprays/day depending on use case.",
+			text: "50 mcg intranasal per nostril, up to 6×/day if needed; magazine says as-needed, avoid dependency, 1 to 6 sprays/day depending on use case.",
 			source: "mag-pep",
 			chapter: "Immune Optimization Peptide Stacks",
 			pages: "26"
@@ -2014,69 +2014,69 @@ var magazineStacks = [
 		name: "Magazine longevity stack (Lapeire)",
 		category: "longevity",
 		items: [
-			"Epitalon 5–10 mg SC daily × 10–20 days, 1–2×/year",
-			"BPC-157 400–600 mcg SC daily",
-			"TB-500 300 mcg–1 mg SC",
+			"Epitalon 5 to 10 mg SC daily × 10 to 20 days, 1 to 2×/year",
+			"BPC-157 400 to 600 mcg SC daily",
+			"TB-500 300 mcg to 1 mg SC",
 			"GHK-Cu daily injection or topical (magazine: both if accessible)",
-			"Tesamorelin 500–2,000 mcg SC daily (fasted) — Vol 1 arsenal also lists 2 mg nightly for VAT; print both",
-			"Ipamorelin 100–300 mcg SC daily (fasted)",
-			"Humanin 0.04 mg/kg (~3.2 mg SC for an 80 kg adult) — magazine faculty, not a Vol 1/2 table"
+			"Tesamorelin 500 to 2,000 mcg SC daily (fasted), Vol 1 arsenal also lists 2 mg nightly for VAT; print both",
+			"Ipamorelin 100 to 300 mcg SC daily (fasted)",
+			"Humanin 0.04 mg/kg (~3.2 mg SC for an 80 kg adult), magazine faculty, not a Vol 1/2 table"
 		],
-		duration: "10–20 day Epitalon core; other peptides daily in that window; 1–2× per year",
-		use_when: "Longevity / vitality questions after foundations (sleep, protein, zone-2). Faculty magazine, not a personal plan. Lifestyle first — ISSCA slide deck: do not sell peptides as magic.",
-		source: "ISSCA Peptides Magazine pp.7–10"
+		duration: "10 to 20 day Epitalon core; other peptides daily in that window; 1 to 2× per year",
+		use_when: "Longevity / vitality questions after foundations (sleep, protein, zone-2). Faculty magazine, not a personal plan. Lifestyle first, ISSCA slide deck: do not sell peptides as magic.",
+		source: "ISSCA Peptides Magazine pp.7 to 10"
 	},
 	{
 		id: "mag-neuro",
 		name: "Magazine neuro stack (Navarro)",
 		category: "longevity",
 		items: [
-			"N-Acetyl Selank 100–300 mcg SC or 750–1,000 mcg IN; 6 weeks on / 6 off",
-			"BPC-157 400–600 mcg SC",
-			"TB-500 300 mcg–1 mg SC",
+			"N-Acetyl Selank 100 to 300 mcg SC or 750 to 1,000 mcg IN; 6 weeks on / 6 off",
+			"BPC-157 400 to 600 mcg SC",
+			"TB-500 300 mcg to 1 mg SC",
 			"PE-22-28 400 mcg IN",
-			"FGL(L) 1–2 mg SC",
-			"Tesamorelin 500–2,000 mcg SC + Ipamorelin 100–300 mcg SC, fasted",
-			"Dihexa 10–15 mg oral or topical; magazine: 3×/week, start low (half-life 7–10 days)",
-			"Cerebrolysin 5–10 ml SC (215 mg/ml)"
+			"FGL(L) 1 to 2 mg SC",
+			"Tesamorelin 500 to 2,000 mcg SC + Ipamorelin 100 to 300 mcg SC, fasted",
+			"Dihexa 10 to 15 mg oral or topical; magazine: 3×/week, start low (half-life 7 to 10 days)",
+			"Cerebrolysin 5 to 10 ml SC (215 mg/ml)"
 		],
 		duration: "6 weeks on / 6 weeks off; morning preferred; GH peptides fasted",
-		use_when: "Brain fog, burnout, concussion-adjacent literacy — after emergency/TBI care is ruled out. Not a DIY Alzheimer’s protocol.",
-		source: "ISSCA Peptides Magazine pp.11–15"
+		use_when: "Brain fog, burnout, concussion-adjacent literacy, after emergency/TBI care is ruled out. Not a DIY Alzheimer’s protocol.",
+		source: "ISSCA Peptides Magazine pp.11 to 15"
 	},
 	{
 		id: "mag-beauty",
 		name: "Magazine beauty stack (Kushmiran)",
 		category: "longevity",
 		items: [
-			"Tesamorelin 500–2,000 mcg SC daily (fasted)",
-			"Ipamorelin 100–300 mcg SC daily (fasted); magazine 5 days on / 2 off × 10–12 weeks",
-			"GHK-Cu 1–2 mg SC daily, 6-week cycles, 3–4×/year + topical after shower / microneedling",
-			"PTD-DBM scalp spray 1–2×/week (0.001%)",
-			"BPC-157 300–600 mcg SC 3–5×/week",
-			"TB-4 300–1,000 mcg SC 3–5×/week; 10–12 weeks then 4–8 weeks off"
+			"Tesamorelin 500 to 2,000 mcg SC daily (fasted)",
+			"Ipamorelin 100 to 300 mcg SC daily (fasted); magazine 5 days on / 2 off × 10 to 12 weeks",
+			"GHK-Cu 1 to 2 mg SC daily, 6-week cycles, 3 to 4×/year + topical after shower / microneedling",
+			"PTD-DBM scalp spray 1 to 2×/week (0.001%)",
+			"BPC-157 300 to 600 mcg SC 3 to 5×/week",
+			"TB-4 300 to 1,000 mcg SC 3 to 5×/week; 10 to 12 weeks then 4 to 8 weeks off"
 		],
-		duration: "GH peptides 10–12 weeks (5 on / 2 off); GHK-Cu 6-week pulses; BPC/TB 10–12 weeks",
-		use_when: "Glow / tighter skin / hair-quality questions. Sequence foundations first. People do stack — a clinician combines them.",
-		source: "ISSCA Peptides Magazine pp.17–20"
+		duration: "GH peptides 10 to 12 weeks (5 on / 2 off); GHK-Cu 6-week pulses; BPC/TB 10 to 12 weeks",
+		use_when: "Glow / tighter skin / hair-quality questions. Sequence foundations first. People do stack, a clinician combines them.",
+		source: "ISSCA Peptides Magazine pp.17 to 20"
 	},
 	{
 		id: "mag-immune",
 		name: "Magazine immune reset (Moya)",
 		category: "immune",
 		items: [
-			"TA-1 1–1.5 mg SC every 3rd day (2 weeks to 3 months)",
-			"TB-4 300 mcg–1 mg SC daily (up to 12 weeks)",
-			"BPC-157 400–600 mcg SC daily (oral if GI-specific)",
-			"KPV 200–500 mcg SC or oral 1–2×/day",
-			"LL-37 100 mcg SC 1–2×/day for 4–6 weeks max — magazine: monitor closely, not forgiving",
-			"Humanin 0.04 mg/kg (3.2–4 mg SC) daily",
+			"TA-1 1 to 1.5 mg SC every 3rd day (2 weeks to 3 months)",
+			"TB-4 300 mcg to 1 mg SC daily (up to 12 weeks)",
+			"BPC-157 400 to 600 mcg SC daily (oral if GI-specific)",
+			"KPV 200 to 500 mcg SC or oral 1 to 2×/day",
+			"LL-37 100 mcg SC 1 to 2×/day for 4 to 6 weeks max, magazine: monitor closely, not forgiving",
+			"Humanin 0.04 mg/kg (3.2 to 4 mg SC) daily",
 			"ARA-290 4 mg SC daily",
-			"VIP 50 mcg IN per nostril as needed — not a sexual protocol in this library"
+			"VIP 50 mcg IN per nostril as needed, not a sexual protocol in this library"
 		],
-		duration: "Up to 12 weeks then 1 month off; LL-37 4–6 weeks max",
-		use_when: "Post-viral, autoimmune-adjacent, inflamed, run-down — magazine says this is medical-grade, not DIY. Stage it: BPC/KPV/TA-1 first, then Humanin/ARA-290.",
-		source: "ISSCA Peptides Magazine pp.23–27"
+		duration: "Up to 12 weeks then 1 month off; LL-37 4 to 6 weeks max",
+		use_when: "Post-viral, autoimmune-adjacent, inflamed, run-down, magazine says this is medical-grade, not DIY. Stage it: BPC/KPV/TA-1 first, then Humanin/ARA-290.",
+		source: "ISSCA Peptides Magazine pp.23 to 27"
 	},
 	{
 		id: "mag-muscle",
@@ -2084,28 +2084,28 @@ var magazineStacks = [
 		category: "injury",
 		items: [
 			"Morning fasted: GHRP-2 + Tesamorelin SC",
-			"Post-workout: IGF-1 LR3 SC (3–6 weeks on max) — milligrams not printed",
-			"Rest days: PEG-MGF SC — milligrams not printed; do not same-day overlap with IGF-1 LR3",
+			"Post-workout: IGF-1 LR3 SC (3 to 6 weeks on max), milligrams not printed",
+			"Rest days: PEG-MGF SC, milligrams not printed; do not same-day overlap with IGF-1 LR3",
 			"BPC-157 with nagging injury (can run longer)",
-			"DSIP SC 2–3 hours before bed — milligrams not printed",
-			"10–12 weeks on, 4–8 weeks off"
+			"DSIP SC 2 to 3 hours before bed, milligrams not printed",
+			"10 to 12 weeks on, 4 to 8 weeks off"
 		],
-		duration: "10–12 weeks on / 4–8 weeks off; IGF-1 3–6 weeks then off",
-		use_when: "Return-to-training, durability, sleep-plus-repair. Not a vanity ‘big cycle.’ Magazine did not print milligrams for IGF-1 LR3, PEG-MGF, or DSIP — do not invent them.",
-		source: "ISSCA Peptides Magazine pp.35–39"
+		duration: "10 to 12 weeks on / 4 to 8 weeks off; IGF-1 3 to 6 weeks then off",
+		use_when: "Return-to-training, durability, sleep-plus-repair. Not a vanity ‘big cycle.’ Magazine did not print milligrams for IGF-1 LR3, PEG-MGF, or DSIP, do not invent them.",
+		source: "ISSCA Peptides Magazine pp.35 to 39"
 	},
 	{
 		id: "mag-terrain",
 		name: "Magazine regenerative terrain (synergies issue)",
 		category: "mito",
 		items: [
-			"No single biologic is enough — terrain first (ISSCA founder letter)",
+			"No single biologic is enough, terrain first (ISSCA founder letter)",
 			"Sleep, protein, zone-2 remain Volume 2 mitochondrial foundations",
 			"Clinic adjuncts discussed: TPE, EBOO, HBOT, PEMF / red light / cryotherapy",
-			"NAD+ and glutathione IVs as mitochondrial support around cell therapy — no milligram drip recipe in this library",
+			"NAD+ and glutathione IVs as mitochondrial support around cell therapy, no milligram drip recipe in this library",
 			"Bioidentical hormones and methylation testing are clinician tools, not chat protocols"
 		],
-		duration: "Ongoing clinic architecture — not a peptide cycle",
+		duration: "Ongoing clinic architecture, not a peptide cycle",
 		use_when: "Someone asks for NAD drips, HBOT, ozone, or ‘the full regen stack.’ Sequence and refer; do not DIY extracorporeal procedures.",
 		source: "ISSCA Regenerative Synergies Magazine"
 	}

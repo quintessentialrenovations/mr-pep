@@ -1,8 +1,8 @@
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { i as SiteFooter, t as Button } from "./site-footer-BXPk4NRR.mjs";
-import { c as StackView, i as PeptideView } from "./library-cards-jRUQ7W6D.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/mito-CcrGGM98.js
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { i as SiteFooter, t as Button } from "./site-footer-B6lUeUrh.mjs";
+import { c as StackView, i as PeptideView } from "./library-cards-BemypTGW.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/mito-EDeNlpaa.js
 var import_jsx_runtime = require_jsx_runtime();
 function MitoPage() {
 	const peptides = kb.peptides.filter((p) => p.desk === "mito" || p.id === "tesamorelin-mito");
@@ -52,7 +52,7 @@ function MitoPage() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted",
-								children: "ISSCA Volume 2 treats mitochondrial support as a multiplier of repair, immune quieting, and endocrine preservation — not as a license to stack unlisted injectables. MOTS-c, SS-31, and humanin are research literacy. If a card has no ISSCA dose, Mr. Pep will say so instead of inventing milligrams."
+								children: "ISSCA Volume 2 treats mitochondrial support as a multiplier of repair, immune quieting, and endocrine preservation, not as a license to stack unlisted injectables. MOTS-c, SS-31, and humanin are research literacy. If a card has no ISSCA dose, Mr. Pep will say so instead of inventing milligrams."
 							})
 						]
 					}),
@@ -62,7 +62,7 @@ function MitoPage() {
 							{
 								n: "01",
 								t: "Quiet the noise",
-								d: "Longevity Class I — BPC-157 + KPV. No GH yet."
+								d: "Longevity Class I, BPC-157 + KPV. No GH yet."
 							},
 							{
 								n: "02",
@@ -72,7 +72,7 @@ function MitoPage() {
 							{
 								n: "03",
 								t: "Then signal",
-								d: "Class II–V only when foundations hold. Wash out. If gains vanish, you compensated."
+								d: "Class II-V only when foundations hold. Wash out. If gains vanish, you compensated."
 							}
 						].map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "rounded-xl bg-card p-5 text-center shadow-[var(--shadow-border)]",

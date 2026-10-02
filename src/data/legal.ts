@@ -6,7 +6,7 @@ export const LEGAL_SHORT =
 export const DISCLAIMER_POINTS = [
   {
     title: "Educational only",
-    body: "Mr. Pep compiles published ISSCA educational material (textbooks, and faculty magazines as extra context). It is not medical advice, a diagnosis, a prescription, or a treatment plan. Nothing here creates a clinician–patient relationship.",
+    body: "Mr. Pep compiles published ISSCA educational material (textbooks, and faculty magazines as extra context). It is not medical advice, a diagnosis, a prescription, or a treatment plan. Nothing here creates a clinician-patient relationship.",
   },
   {
     title: "Not affiliated",
@@ -14,11 +14,11 @@ export const DISCLAIMER_POINTS = [
   },
   {
     title: "No liability",
-    body: "You use this information at your own risk. The operator of Mr. Pep is not liable for any decision, purchase, injection, supplement, lab, or outcome that follows from reading or chatting here — including injury, illness, lost money, or regulatory trouble.",
+    body: "You use this information at your own risk. The operator of Mr. Pep is not liable for any decision, purchase, injection, supplement, lab, or outcome that follows from reading or chatting here, including injury, illness, lost money, or regulatory trouble.",
   },
   {
     title: "Books take precedence",
-    body: "ISSCA Volumes 1–2 are the primary source. Faculty magazines and slide decks are additional context only. If they disagree, the textbooks win. Common-practice ranges in those books are not instructions to self-administer.",
+    body: "ISSCA Volumes 1 to 2 are the primary source. Faculty magazines and slide decks are additional context only. If they disagree, the textbooks win. Common-practice ranges in those books are not instructions to self-administer.",
   },
   {
     title: "Approved vs research",
@@ -36,7 +36,7 @@ export const TERMS_SECTIONS: { title: string; body: string }[] = [
     body: "By entering this site, tapping that you are 18 or older, or using Mr. Pep (the chat, library, mitochondrial pages, or any related pages), you agree to these Terms of Use and the Disclaimers. If you do not agree, do not use the site.",
   },
   {
-    title: "2. Who we are — and who we are not",
+    title: "2. Who we are, and who we are not",
     body: "Mr. Pep is an educational information guide. It is not a medical practice, pharmacy, laboratory, or ISSCA office. It is not affiliated with ISSCA, BioPeptideX, any compounding pharmacy, any peptide brand, any faculty author named in ISSCA materials, or any clinician you may separately consult. Names, logos, and publication titles appear only to identify sources of educational data.",
   },
   {
@@ -53,7 +53,7 @@ export const TERMS_SECTIONS: { title: string; body: string }[] = [
   },
   {
     title: "6. No professional relationship",
-    body: "Use of Mr. Pep does not create a doctor–patient, pharmacist–patient, or attorney–client relationship with the operator or with ISSCA. A calendar or consult link, if present, is an invitation to speak with someone else. That third party has their own terms, licenses, and liability. We are not responsible for their advice or services.",
+    body: "Use of Mr. Pep does not create a doctor-patient, pharmacist-patient, or attorney-client relationship with the operator or with ISSCA. A calendar or consult link, if present, is an invitation to speak with someone else. That third party has their own terms, licenses, and liability. We are not responsible for their advice or services.",
   },
   {
     title: "7. Assumption of risk",
@@ -65,11 +65,11 @@ export const TERMS_SECTIONS: { title: string; body: string }[] = [
   },
   {
     title: "9. Limitation of liability",
-    body: "TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OPERATOR OF MR. PEP, AND ANY PEOPLE OR ENTITIES PROVIDING THIS GUIDE, ARE NOT LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY LOSS OF HEALTH, DATA, PROFITS, OR BUSINESS, ARISING FROM USE OF THE SITE OR RELIANCE ON ITS CONTENT — EVEN IF ADVISED OF THE POSSIBILITY. DIRECT DAMAGES, IF ANY ARE EVER FOUND NON-WAIVABLE, ARE LIMITED TO ZERO U.S. DOLLARS, BECAUSE THE SERVICE IS PROVIDED FREE FOR EDUCATION. SOME JURISDICTIONS DO NOT ALLOW CERTAIN LIMITATIONS; IN THOSE PLACES, LIABILITY IS LIMITED TO THE FULLEST EXTENT THE LAW ALLOWS.",
+    body: "TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OPERATOR OF MR. PEP, AND ANY PEOPLE OR ENTITIES PROVIDING THIS GUIDE, ARE NOT LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY LOSS OF HEALTH, DATA, PROFITS, OR BUSINESS, ARISING FROM USE OF THE SITE OR RELIANCE ON ITS CONTENT, EVEN IF ADVISED OF THE POSSIBILITY. DIRECT DAMAGES, IF ANY ARE EVER FOUND NON-WAIVABLE, ARE LIMITED TO ZERO U.S. DOLLARS, BECAUSE THE SERVICE IS PROVIDED FREE FOR EDUCATION. SOME JURISDICTIONS DO NOT ALLOW CERTAIN LIMITATIONS; IN THOSE PLACES, LIABILITY IS LIMITED TO THE FULLEST EXTENT THE LAW ALLOWS.",
   },
   {
     title: "10. Indemnity",
-    body: "You agree to indemnify and hold harmless the operator of Mr. Pep from claims, damages, losses, and expenses (including reasonable legal fees) arising from your use of the site, your violation of these terms, or any decision you make after reading or chatting here — including obtaining or using peptides, drugs, or supplements.",
+    body: "You agree to indemnify and hold harmless the operator of Mr. Pep from claims, damages, losses, and expenses (including reasonable legal fees) arising from your use of the site, your violation of these terms, or any decision you make after reading or chatting here, including obtaining or using peptides, drugs, or supplements.",
   },
   {
     title: "11. Intellectual property",

@@ -1,8 +1,8 @@
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { i as SiteFooter, t as Button } from "./site-footer-BXPk4NRR.mjs";
-import { c as StackView, i as PeptideView } from "./library-cards-jRUQ7W6D.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/protocols-D9xFcPtM.js
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { i as SiteFooter, t as Button } from "./site-footer-B6lUeUrh.mjs";
+import { c as StackView, i as PeptideView } from "./library-cards-BemypTGW.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/protocols-Ctrb3Fw6.js
 var import_jsx_runtime = require_jsx_runtime();
 var PEPTIDE_IDS = [
 	"glp1",
@@ -58,7 +58,7 @@ function ProtocolsPage() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted",
-								children: "GLP-1 receptor agonists changed the metabolic conversation by acting on appetite, gastric emptying, and glucose signaling — but they are approved drugs that follow their label under a clinician, not a lever to pull at home. The cards below explain what the books discuss around metabolic support and growth-hormone-axis signaling. If a card has no ISSCA dose, Mr. Pep will say so instead of inventing milligrams. Nothing here is a prescription and no doses are stated."
+								children: "GLP-1 receptor agonists changed the metabolic conversation by acting on appetite, gastric emptying, and glucose signaling, but they are approved drugs that follow their label under a clinician, not a lever to pull at home. The cards below explain what the books discuss around metabolic support and growth-hormone-axis signaling. If a card has no ISSCA dose, Mr. Pep will say so instead of inventing milligrams. Nothing here is a prescription and no doses are stated."
 							})
 						]
 					}),
@@ -73,7 +73,7 @@ function ProtocolsPage() {
 							{
 								n: "02",
 								t: "Label-bound signals",
-								d: "Approved GLP-1s follow the label. A clinician sets the plan, titration, and monitoring — not a card."
+								d: "Approved GLP-1s follow the label. A clinician sets the plan, titration, and monitoring, not a card."
 							},
 							{
 								n: "03",
@@ -107,27 +107,27 @@ function ProtocolsPage() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 								className: "mt-2 font-display text-xl font-semibold",
-								children: "A qualitative timeline — no doses, no promises."
+								children: "A qualitative timeline, no doses, no promises."
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "mt-2 text-sm text-muted",
-								children: "Individual response varies widely. This is a general, educational picture of how a clinician-managed metabolic plan often unfolds — not a schedule to self-administer."
+								children: "Individual response varies widely. This is a general, educational picture of how a clinician-managed metabolic plan often unfolds, not a schedule to self-administer."
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "mt-5 space-y-4",
 								children: [
 									{
-										w: "Week 1–2",
+										w: "Week 1 to 2",
 										t: "Settling in",
 										d: "Appetite signaling shifts and portions often feel smaller. Some notice mild nausea or fullness. Hydration, protein, and slower meals matter most here."
 									},
 									{
-										w: "Week 3–4",
+										w: "Week 3 to 4",
 										t: "Finding rhythm",
-										d: "Eating patterns start to feel more predictable. This is where lean-mass protection — protein and resistance training — earns its keep so weight loss isn't muscle loss."
+										d: "Eating patterns start to feel more predictable. This is where lean-mass protection, protein and resistance training, earns its keep so weight loss isn't muscle loss."
 									},
 									{
-										w: "Week 5–8",
+										w: "Week 5 to 8",
 										t: "Steady state",
 										d: "Habits and appetite tend to stabilize. Clinicians watch tolerance, energy, and body composition, adjusting the plan to the person rather than a template."
 									},
@@ -164,7 +164,7 @@ function ProtocolsPage() {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "rounded-lg bg-warn-bg px-4 py-3 text-center text-sm text-warn",
-						children: "Educational only — not a prescription and not medical advice. No specific doses are provided here. Approved GLP-1 medications follow their label; research peptides are not approved drugs. Not affiliated with ISSCA or any clinic. A licensed clinician decides what you actually use."
+						children: "Educational only, not a prescription and not medical advice. No specific doses are provided here. Approved GLP-1 medications follow their label; research peptides are not approved drugs. Not affiliated with ISSCA or any clinic. A licensed clinician decides what you actually use."
 					})
 				]
 			}),

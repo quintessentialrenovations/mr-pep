@@ -28,16 +28,16 @@ function MitoPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">Longevity multiplier</p>
           <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight">Mitochondria first. Peptides second.</h1>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted">
-            ISSCA Volume 2 treats mitochondrial support as a multiplier of repair, immune quieting, and endocrine preservation —
+            ISSCA Volume 2 treats mitochondrial support as a multiplier of repair, immune quieting, and endocrine preservation,
             not as a license to stack unlisted injectables. MOTS-c, SS-31, and humanin are research literacy. If a card has no
             ISSCA dose, Mr. Pep will say so instead of inventing milligrams.
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {[
-            { n: "01", t: "Quiet the noise", d: "Longevity Class I — BPC-157 + KPV. No GH yet." },
+            { n: "01", t: "Quiet the noise", d: "Longevity Class I, BPC-157 + KPV. No GH yet." },
             { n: "02", t: "Protect the engine", d: "Sleep, protein, zone-2 and lifting. NAD talk without an IV recipe." },
-            { n: "03", t: "Then signal", d: "Class II–V only when foundations hold. Wash out. If gains vanish, you compensated." },
+            { n: "03", t: "Then signal", d: "Class II-V only when foundations hold. Wash out. If gains vanish, you compensated." },
           ].map((s) => (
             <div key={s.n} className="rounded-xl bg-card p-5 text-center shadow-[var(--shadow-border)]">
               <p className="font-display text-2xl text-primary">{s.n}</p>

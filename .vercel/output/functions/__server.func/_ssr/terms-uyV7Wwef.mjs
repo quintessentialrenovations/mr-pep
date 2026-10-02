@@ -1,10 +1,10 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { a as TERMS_SECTIONS, i as SiteFooter, n as DISCLAIMER_POINTS, o as cn, r as LEGAL_EFFECTIVE, t as Button } from "./site-footer-BXPk4NRR.mjs";
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { a as TERMS_SECTIONS, i as SiteFooter, n as DISCLAIMER_POINTS, o as cn, r as LEGAL_EFFECTIVE, t as Button } from "./site-footer-B6lUeUrh.mjs";
 import { o as Scale } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/terms-CBckkGql.js
+//#region node_modules/.nitro/vite/services/ssr/assets/terms-uyV7Wwef.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var TABS = [

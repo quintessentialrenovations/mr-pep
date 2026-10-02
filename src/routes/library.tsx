@@ -37,7 +37,7 @@ function LibraryPage() {
       <main className="mx-auto grid max-w-6xl gap-4 px-4 py-6 lg:grid-cols-[340px_1fr]">
         <aside>
           <p className="mb-3 text-center text-sm leading-relaxed text-muted">
-            Skim what it does in plain language. Open a card for ranges, cycling, and cautions — not a shopping list.
+            Skim what it does in plain language. Open a card for ranges, cycling, and cautions, not a shopping list.
           </p>
           <div className="mb-3 flex flex-wrap justify-center gap-1">
             {TABS.map((t) => (

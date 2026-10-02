@@ -91,7 +91,7 @@ export type GoalGuide = {
   sequence: string;
   caution: string;
   source: string;
-  /** Asked in the same reply as the map — never instead of an answer. */
+  /** Asked in the same reply as the map, never instead of an answer. */
   clarify?: string[];
 };
 

@@ -36,7 +36,7 @@ function ProtocolsPage() {
           <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight">Metabolic & GLP-1 protocols.</h1>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted">
             GLP-1 receptor agonists changed the metabolic conversation by acting on appetite, gastric emptying, and glucose
-            signaling — but they are approved drugs that follow their label under a clinician, not a lever to pull at home.
+            signaling, but they are approved drugs that follow their label under a clinician, not a lever to pull at home.
             The cards below explain what the books discuss around metabolic support and growth-hormone-axis signaling. If a
             card has no ISSCA dose, Mr. Pep will say so instead of inventing milligrams. Nothing here is a prescription and no
             doses are stated.
@@ -45,7 +45,7 @@ function ProtocolsPage() {
         <div className="grid gap-4 md:grid-cols-3">
           {[
             { n: "01", t: "Foundations first", d: "Protein, sleep, resistance training and zone-2 carry the metabolic load before any signal." },
-            { n: "02", t: "Label-bound signals", d: "Approved GLP-1s follow the label. A clinician sets the plan, titration, and monitoring — not a card." },
+            { n: "02", t: "Label-bound signals", d: "Approved GLP-1s follow the label. A clinician sets the plan, titration, and monitoring, not a card." },
             { n: "03", t: "Preserve, don't chase", d: "Protect lean mass while weight moves. If gains vanish on a wash-out, foundations did the work." },
           ].map((s) => (
             <div key={s.n} className="rounded-xl bg-card p-5 text-center shadow-[var(--shadow-border)]">
@@ -57,25 +57,25 @@ function ProtocolsPage() {
         </div>
         <div className="rounded-xl bg-card p-6 shadow-[var(--shadow-border)]">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">What the first weeks look like</p>
-          <h2 className="mt-2 font-display text-xl font-semibold">A qualitative timeline — no doses, no promises.</h2>
+          <h2 className="mt-2 font-display text-xl font-semibold">A qualitative timeline, no doses, no promises.</h2>
           <p className="mt-2 text-sm text-muted">
             Individual response varies widely. This is a general, educational picture of how a clinician-managed metabolic
-            plan often unfolds — not a schedule to self-administer.
+            plan often unfolds, not a schedule to self-administer.
           </p>
           <div className="mt-5 space-y-4">
             {[
               {
-                w: "Week 1–2",
+                w: "Week 1 to 2",
                 t: "Settling in",
                 d: "Appetite signaling shifts and portions often feel smaller. Some notice mild nausea or fullness. Hydration, protein, and slower meals matter most here.",
               },
               {
-                w: "Week 3–4",
+                w: "Week 3 to 4",
                 t: "Finding rhythm",
-                d: "Eating patterns start to feel more predictable. This is where lean-mass protection — protein and resistance training — earns its keep so weight loss isn't muscle loss.",
+                d: "Eating patterns start to feel more predictable. This is where lean-mass protection, protein and resistance training, earns its keep so weight loss isn't muscle loss.",
               },
               {
-                w: "Week 5–8",
+                w: "Week 5 to 8",
                 t: "Steady state",
                 d: "Habits and appetite tend to stabilize. Clinicians watch tolerance, energy, and body composition, adjusting the plan to the person rather than a template.",
               },
@@ -108,7 +108,7 @@ function ProtocolsPage() {
           ))}
         </div>
         <div className="rounded-lg bg-warn-bg px-4 py-3 text-center text-sm text-warn">
-          Educational only — not a prescription and not medical advice. No specific doses are provided here. Approved GLP-1
+          Educational only, not a prescription and not medical advice. No specific doses are provided here. Approved GLP-1
           medications follow their label; research peptides are not approved drugs. Not affiliated with ISSCA or any clinic.
           A licensed clinician decides what you actually use.
         </div>

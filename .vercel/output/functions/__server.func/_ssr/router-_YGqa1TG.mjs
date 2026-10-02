@@ -3,8 +3,8 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { f as createRouter, g as createRootRoute, h as createFileRoute, l as Scripts, m as lazyRouteComponent, p as Outlet, u as HeadContent, v as useRouter, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-O-wemDdE.js
-var router_O_wemDdE_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-_YGqa1TG.js
+var router__YGqa1TG_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -41,8 +41,8 @@ function AppErrorComponent({ error }) {
 *
 *   <AuthProvider><Outlet /></AuthProvider>
 *
-* Better Auth's React client (`@/lib/auth/client`) needs NO context provider —
-* its `useSession()` works standalone — so this is a passthrough today. It's
+* Better Auth's React client (`@/lib/auth/client`) needs NO context provider,
+* its `useSession()` works standalone, so this is a passthrough today. It's
 * kept as the single, stable mount point for any future client-side providers
 * (e.g. a toast or theme provider) without churning the root shell.
 */
@@ -315,7 +315,7 @@ var Route$5 = createRootRoute({
 			},
 			{
 				name: "description",
-				content: "Educational peptide and mitochondrial desk grounded in ISSCA Volumes 1–2. Not a prescription."
+				content: "Educational peptide and mitochondrial desk grounded in ISSCA Volumes 1 to 2. Not a prescription."
 			}
 		],
 		links: [
@@ -362,15 +362,15 @@ var Route$5 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$4 = () => import("./routes-rkGjT_Ky.mjs");
+var $$splitComponentImporter$4 = () => import("./routes-B7GWQ33K.mjs");
 var Route$4 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$4, "component") });
-var $$splitComponentImporter$3 = () => import("./library-B23A7rSn.mjs");
+var $$splitComponentImporter$3 = () => import("./library-63dLQx0_.mjs");
 var Route$3 = createFileRoute("/library")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
-var $$splitComponentImporter$2 = () => import("./mito-CcrGGM98.mjs");
+var $$splitComponentImporter$2 = () => import("./mito-EDeNlpaa.mjs");
 var Route$2 = createFileRoute("/mito")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./protocols-D9xFcPtM.mjs");
+var $$splitComponentImporter$1 = () => import("./protocols-Ctrb3Fw6.mjs");
 var Route$1 = createFileRoute("/protocols")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./terms-CBckkGql.mjs");
+var $$splitComponentImporter = () => import("./terms-uyV7Wwef.mjs");
 var Route = createFileRoute("/terms")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var rootRouteChildren = {
 	IndexRoute: Route$4.update({
@@ -407,4 +407,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router_O_wemDdE_exports as t };
+export { getRouter, router__YGqa1TG_exports as t };

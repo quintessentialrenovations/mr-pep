@@ -2,14 +2,14 @@ import { i as __toESM } from "../_runtime.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { _ as Link, y as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TSS_SERVER_FUNCTION, r as getServerFnById, t as createServerFn } from "./ssr.mjs";
-import { t as kb } from "./kb-DMTCCrYb.mjs";
-import { i as askFromFeatured, t as FEATURED } from "./goals-JBdGIbH_.mjs";
-import { a as shouldClarify, i as retrieveAsk, r as matchGoals, t as composeClarify } from "./retrieve-lVfeK4DQ.mjs";
-import { i as SiteFooter, o as cn, t as Button } from "./site-footer-BXPk4NRR.mjs";
-import { n as CopyNote, o as RetrievedViews, t as Badge } from "./library-cards-jRUQ7W6D.mjs";
+import { t as kb } from "./kb-DDN-pANJ.mjs";
+import { i as askFromFeatured, t as FEATURED } from "./goals-Be778w73.mjs";
+import { a as shouldClarify, i as retrieveAsk, r as matchGoals, t as composeClarify } from "./retrieve-CvVceyui.mjs";
+import { i as SiteFooter, o as cn, t as Button } from "./site-footer-B6lUeUrh.mjs";
+import { n as CopyNote, o as RetrievedViews, t as Badge } from "./library-cards-BemypTGW.mjs";
 import { a as ScanFace, c as Moon, d as HeartPulse, f as FlaskConical, g as Bandage, h as Bone, i as Send, l as LoaderCircle, m as Calendar, o as Scale, p as ClipboardList, r as ShieldAlert, s as Salad, t as Zap, u as Library } from "../_libs/lucide-react.mjs";
 import { t as create } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-rkGjT_Ky.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-B7GWQ33K.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var createSsrRpc = (functionId) => {
@@ -207,7 +207,7 @@ var copy = {
 		titleB: "What questions do you have around health, longevity, peptides, mitochondrial support?",
 		lede: "Tap how you feel below, or type it in your words. We'll ask a couple of questions, then sequence what the books discuss, including mitochondrial support. A clinician decides what you actually use.",
 		status: "ISSCA-grounded",
-		banner: "Educational only — not a prescription. Not affiliated with ISSCA or any clinic. No liability. Approved GLP-1s follow the label. Research peptides are not approved drugs. A clinician decides.",
+		banner: "Educational only, not a prescription. Not affiliated with ISSCA or any clinic. No liability. Approved GLP-1s follow the label. Research peptides are not approved drugs. A clinician decides.",
 		ask: "Conversation",
 		ph: "I'm tired, my joints hurt, I want more energy…",
 		send: "Ask",
