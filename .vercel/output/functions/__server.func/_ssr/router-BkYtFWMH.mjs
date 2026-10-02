@@ -3,8 +3,8 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { _ as createFileRoute, b as useRouter, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRoute, x as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-_YGqa1TG.js
-var router__YGqa1TG_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BkYtFWMH.js
+var router_BkYtFWMH_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -298,7 +298,7 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-DGa0BErA.css";
+var styles_default = "/assets/styles-B8D-sEbm.css";
 var APP_NAME = "Mr. Pep";
 var Route$5 = createRootRoute({
 	head: () => ({
@@ -368,8 +368,14 @@ var $$splitComponentImporter$3 = () => import("./library-63dLQx0_.mjs");
 var Route$3 = createFileRoute("/library")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
 var $$splitComponentImporter$2 = () => import("./mito-EDeNlpaa.mjs");
 var Route$2 = createFileRoute("/mito")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./protocols-Ctrb3Fw6.mjs");
-var Route$1 = createFileRoute("/protocols")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
+var $$splitComponentImporter$1 = () => import("./protocols-DqiTJb4A.mjs");
+var Route$1 = createFileRoute("/protocols")({
+	head: () => ({ meta: [{ title: "Protocols - Mr. Pep" }, {
+		name: "description",
+		content: "Educational metabolic and GLP-1 protocol reference grounded in ISSCA Volumes 1-2, plus a browse of every compound. Not a prescription."
+	}] }),
+	component: lazyRouteComponent($$splitComponentImporter$1, "component")
+});
 var $$splitComponentImporter = () => import("./terms-uyV7Wwef.mjs");
 var Route = createFileRoute("/terms")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var rootRouteChildren = {
@@ -407,4 +413,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router__YGqa1TG_exports as t };
+export { getRouter, router_BkYtFWMH_exports as t };

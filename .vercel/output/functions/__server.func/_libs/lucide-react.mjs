@@ -132,6 +132,19 @@ var Bone = createLucideIcon("bone", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var BookOpen = createLucideIcon("book-open", [["path", {
+	d: "M12 7v14",
+	key: "1akyts"
+}], ["path", {
+	d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+	key: "ruj8y"
+}]]);
+/**
+* @license lucide-react v0.510.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Calendar = createLucideIcon("calendar", [
 	["path", {
 		d: "M8 2v4",
@@ -424,4 +437,4 @@ var Zap = createLucideIcon("zap", [["path", {
 	key: "1xq2db"
 }]]);
 //#endregion
-export { ScanFace as a, Moon as c, HeartPulse as d, FlaskConical as f, Bandage as g, Bone as h, Send as i, LoaderCircle as l, Calendar as m, TriangleAlert as n, Scale as o, ClipboardList as p, ShieldAlert as r, Salad as s, Zap as t, Library as u };
+export { Bandage as _, ScanFace as a, Moon as c, HeartPulse as d, FlaskConical as f, Bone as g, BookOpen as h, Send as i, LoaderCircle as l, Calendar as m, TriangleAlert as n, Scale as o, ClipboardList as p, ShieldAlert as r, Salad as s, Zap as t, Library as u };
